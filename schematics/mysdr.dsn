@@ -25,7 +25,20 @@ download a copy.-->
 <CHARSET>0</CHARSET>
 <FACENAME>Arial</FACENAME>
 </FONT>
-<STYLE id='3'><STYLE>0</STYLE>
+<FONT id='3'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
+<STYLE id='0'><STYLE>0</STYLE>
+<COLOR>000000</COLOR>
+<THICKNESS>1</THICKNESS>
+</STYLE>
+<STYLE id='3'><STYLE>2</STYLE>
 <COLOR>000000</COLOR>
 <THICKNESS>1</THICKNESS>
 </STYLE>
@@ -44,30 +57,34 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<RECTANGLE a='94,96' b='124,106' style='3' fill='0'/>
-<RECTANGLE a='82,56' b='132,86' style='3' fill='0'/>
-<RECTANGLE a='140,66' b='158,76' style='3' fill='0'/>
-<RECTANGLE a='48,64' b='74,78' style='3' fill='0'/>
-<RECTANGLE a='118,44' b='132,52' style='3' fill='0'/>
-<TEXT pos='96,102' direction='3' font='0' color='000000'>10/100/1000 Ethernet</TEXT>
-<TEXT pos='120,92' direction='3' font='0' color='000000'></TEXT>
-<TEXT pos='120,50' direction='3' font='0' color='000000'>Clocking</TEXT>
-<TEXT pos='142,72' direction='3' font='0' color='000000'>Dual ADC</TEXT>
-<TEXT pos='172,72' direction='3' font='0' color='000000'>Ettus DB Interface</TEXT>
-<TEXT pos='50,72' direction='3' font='0' color='000000'>OMAP L-138 SOM</TEXT>
-<TEXT pos='84,50' direction='3' font='0' color='000000'>EEPROM</TEXT>
-<TEXT pos='36,68' direction='3' font='0' color='000000'>USB</TEXT>
-<TEXT pos='36,76' direction='3' font='0' color='000000'>SATA</TEXT>
-<TEXT pos='130,102' direction='3' font='0' color='000000'>PoE</TEXT>
-<TEXT pos='144,102' direction='3' font='0' color='000000'>Power Supply</TEXT>
-<TEXT pos='104,72' direction='3' font='0' color='000000'>FPGA</TEXT>
-<RECTANGLE a='34,64' b='46,70' style='3' fill='0'/>
-<RECTANGLE a='34,72' b='46,78' style='3' fill='0'/>
-<RECTANGLE a='142,96' b='164,106' style='3' fill='0'/>
-<RECTANGLE a='128,98' b='138,104' style='3' fill='0'/>
-<TEXT pos='170,102' direction='3' font='0' color='000000'>External Power</TEXT>
-<RECTANGLE a='168,96' b='190,106' style='3' fill='0'/>
-<RECTANGLE a='168,66' b='196,76' style='3' fill='0'/>
-<RECTANGLE a='82,44' b='98,52' style='3' fill='0'/>
+<RECTANGLE a='94,96' b='124,106' style='0' fill='0'/>
+<RECTANGLE a='82,56' b='132,86' style='0' fill='0'/>
+<RECTANGLE a='140,58' b='158,68' style='0' fill='0'/>
+<RECTANGLE a='48,64' b='74,78' style='0' fill='0'/>
+<RECTANGLE a='118,44' b='132,52' style='0' fill='0'/>
+<TEXT pos='96,102' direction='3' font='3' color='000000'>10/100/1000 Ethernet</TEXT>
+<TEXT pos='120,92' direction='3' font='3' color='000000'></TEXT>
+<TEXT pos='120,50' direction='3' font='3' color='000000'>Clocking</TEXT>
+<TEXT pos='142,64' direction='3' font='3' color='000000'>Dual ADC</TEXT>
+<TEXT pos='172,72' direction='3' font='3' color='000000'>Ettus DB Interface</TEXT>
+<TEXT pos='50,72' direction='3' font='3' color='000000'>OMAP L-138 SOM</TEXT>
+<TEXT pos='84,50' direction='3' font='3' color='000000'>EEPROM</TEXT>
+<TEXT pos='36,68' direction='3' font='3' color='000000'>USB</TEXT>
+<TEXT pos='36,76' direction='3' font='3' color='000000'>SATA</TEXT>
+<TEXT pos='130,102' direction='3' font='3' color='000000'>PoE</TEXT>
+<TEXT pos='144,102' direction='3' font='3' color='000000'>Power Supply</TEXT>
+<TEXT pos='104,72' direction='3' font='3' color='000000'>FPGA</TEXT>
+<RECTANGLE a='34,64' b='46,70' style='0' fill='0'/>
+<RECTANGLE a='34,72' b='46,78' style='0' fill='0'/>
+<RECTANGLE a='142,96' b='164,106' style='0' fill='0'/>
+<RECTANGLE a='128,98' b='138,104' style='0' fill='0'/>
+<TEXT pos='170,102' direction='3' font='3' color='000000'>External Power</TEXT>
+<RECTANGLE a='168,96' b='190,106' style='0' fill='0'/>
+<RECTANGLE a='168,66' b='196,76' style='0' fill='0'/>
+<RECTANGLE a='82,44' b='98,52' style='0' fill='0'/>
+<RECTANGLE a='138,72' b='158,82' style='0' fill='0'/>
+<TEXT pos='142,78' direction='3' font='0' color='000000'>Dual DAC</TEXT>
+<RECTANGLE a='28,54' b='78,86' style='3' fill='0'/>
+<TEXT pos='28,54' direction='3' font='0' color='000000'>Optional</TEXT>
 </TinyCAD>
 </TinyCADSheets>
