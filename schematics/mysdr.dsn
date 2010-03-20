@@ -38,11 +38,15 @@ download a copy.-->
 <COLOR>000000</COLOR>
 <THICKNESS>1</THICKNESS>
 </STYLE>
+<STYLE id='2'><STYLE>0</STYLE>
+<COLOR>000000</COLOR>
+<THICKNESS>1</THICKNESS>
+</STYLE>
 <STYLE id='3'><STYLE>0</STYLE>
 <COLOR>000000</COLOR>
 <THICKNESS>1</THICKNESS>
 </STYLE>
-<STYLE id='5'><STYLE>0</STYLE>
+<STYLE id='4'><STYLE>0</STYLE>
 <COLOR>000000</COLOR>
 <THICKNESS>1</THICKNESS>
 </STYLE>
@@ -61,37 +65,43 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<RECTANGLE a='102,96' b='132,106' style='3' fill='0'/>
+<RECTANGLE a='102,96' b='132,106' style='2' fill='0'/>
 <RECTANGLE a='82,56' b='132,86' style='0' fill='0'/>
-<RECTANGLE a='138,58' b='164,68' style='3' fill='0'/>
-<RECTANGLE a='52,56' b='78,86' style='5' fill='0'/>
-<RECTANGLE a='118,44' b='132,52' style='0' fill='0'/>
+<RECTANGLE a='138,58' b='164,68' style='2' fill='0'/>
+<RECTANGLE a='52,56' b='78,86' style='3' fill='0'/>
+<RECTANGLE a='164,96' b='184,106' style='4' fill='0'/>
 <TEXT pos='106,100' direction='3' font='4' color='000000'>VSC8601 Gigabit</TEXT>
 <TEXT pos='120,92' direction='3' font='4' color='000000'></TEXT>
-<TEXT pos='120,50' direction='3' font='4' color='000000'>Clocking</TEXT>
+<TEXT pos='166,104' direction='3' font='4' color='000000'>25MHz TCXO</TEXT>
 <TEXT pos='142,62' direction='3' font='4' color='000000'>Analog Devices</TEXT>
-<TEXT pos='176,70' direction='3' font='4' color='000000'>Ettus DB Interface</TEXT>
+<TEXT pos='200,70' direction='3' font='4' color='000000'>Ettus DB Interface</TEXT>
 <TEXT pos='54,72' direction='3' font='4' color='000000'>Atmel SAM3U C1</TEXT>
 <TEXT pos='40,60' direction='3' font='4' color='000000'>USB</TEXT>
 <TEXT pos='38,68' direction='3' font='4' color='000000'>SD/MMC</TEXT>
 <TEXT pos='90,102' direction='3' font='4' color='000000'>PoE</TEXT>
 <TEXT pos='38,102' direction='3' font='4' color='000000'>Power Supply</TEXT>
 <TEXT pos='88,72' direction='3' font='4' color='000000'>Altera EP3C16/25/40 Q240 FPGA</TEXT>
-<RECTANGLE a='36,56' b='50,62' style='3' fill='0'/>
-<RECTANGLE a='36,64' b='50,70' style='3' fill='0'/>
-<RECTANGLE a='36,96' b='58,106' style='5' fill='0'/>
-<RECTANGLE a='88,98' b='98,104' style='5' fill='0'/>
+<RECTANGLE a='36,56' b='50,62' style='2' fill='0'/>
+<RECTANGLE a='36,64' b='50,70' style='2' fill='0'/>
+<RECTANGLE a='36,96' b='58,106' style='3' fill='0'/>
+<RECTANGLE a='88,98' b='98,104' style='3' fill='0'/>
 <TEXT pos='64,102' direction='3' font='4' color='000000'>External Power</TEXT>
-<RECTANGLE a='62,96' b='84,106' style='5' fill='0'/>
-<RECTANGLE a='172,64' b='200,74' style='0' fill='0'/>
-<RECTANGLE a='138,72' b='164,82' style='3' fill='0'/>
+<RECTANGLE a='62,96' b='84,106' style='3' fill='0'/>
+<RECTANGLE a='196,64' b='224,74' style='0' fill='0'/>
+<RECTANGLE a='138,72' b='164,82' style='2' fill='0'/>
 <TEXT pos='142,76' direction='3' font='3' color='000000'>Analog Devices</TEXT>
 <TEXT pos='108,104' direction='3' font='4' color='000000'>Ethernet PHY</TEXT>
 <TEXT pos='140,80' direction='3' font='3' color='000000'>AD9717 Dual DAC</TEXT>
 <TEXT pos='140,66' direction='3' font='3' color='000000'>AD9251 Dual ADC</TEXT>
 <TEXT pos='38,76' direction='3' font='4' color='000000'>UART0</TEXT>
 <TEXT pos='38,84' direction='3' font='4' color='000000'>UART1</TEXT>
-<RECTANGLE a='36,72' b='50,78' style='3' fill='0'/>
-<RECTANGLE a='36,80' b='50,86' style='3' fill='0'/>
+<RECTANGLE a='36,72' b='50,78' style='2' fill='0'/>
+<RECTANGLE a='36,80' b='50,86' style='2' fill='0'/>
+<RECTANGLE a='136,96' b='160,106' style='4' fill='0'/>
+<TEXT pos='138,100' direction='3' font='4' color='000000'>Si5338 Clock</TEXT>
+<TEXT pos='138,104' direction='3' font='4' color='000000'>Buffer/Generator</TEXT>
+<TEXT pos='166,100' direction='3' font='4' color='000000'>Fox 924B</TEXT>
+<RECTANGLE a='166,72' b='188,82' style='4' fill='0'/>
+<TEXT pos='168,78' direction='3' font='4' color='000000'>SKY73202 LPF</TEXT>
 </TinyCAD>
 </TinyCADSheets>
