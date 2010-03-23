@@ -631,6 +631,102 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
+<FONT id='1'><HEIGHT>-10</HEIGHT>
+<WIDTH>0</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
+<STYLE id='0'><STYLE>0</STYLE>
+<COLOR>000000</COLOR>
+<THICKNESS>1</THICKNESS>
+</STYLE>
+<FILL id='0'><INDEX>-1</INDEX>
+<COLOR>000000</COLOR>
+</FILL>
+<SYMBOLDEF id='1'><NAME type='0'>LT1085</NAME>
+<REF type='0'>U?</REF>
+<DESCRIPTION>LT1085 Linear Regulator</DESCRIPTION>
+<PPP>1</PPP>
+<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+<DEFAULT>5</DEFAULT>
+<FT>000002</FT>
+<VALUE></VALUE>
+<POS>0,0</POS>
+</FIELD>
+<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+<DEFAULT>5</DEFAULT>
+<FT>000002</FT>
+<VALUE></VALUE>
+<POS>0,0</POS>
+</FIELD>
+<FIELD><NAME>Package</NAME>
+<DEFAULT>DD-PAK</DEFAULT>
+<FT>000001</FT>
+<VALUE></VALUE>
+<POS>0,0</POS>
+</FIELD>
+<REF_POINT power='0' part='0' pos='88,60'/>
+<TinyCAD><RECTANGLE a='50,38' b='82,54' style='0' fill='0'/>
+<PIN pos='88,46' which='0' elec='0' direction='2' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'>OUT</PIN>
+<PIN pos='44,46' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'>IN</PIN>
+<PIN pos='66,60' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'>ADJ</PIN>
+</TinyCAD>
+</SYMBOLDEF>
+<SYMBOLDEF id='2'><NAME type='0'>LP3906</NAME>
+<REF type='0'>U?</REF>
+<DESCRIPTION>LP3906 Multiple Output Regulator</DESCRIPTION>
+<PPP>1</PPP>
+<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+<DEFAULT>5</DEFAULT>
+<FT>000002</FT>
+<VALUE></VALUE>
+<POS>0,0</POS>
+</FIELD>
+<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+<DEFAULT>5</DEFAULT>
+<FT>000002</FT>
+<VALUE></VALUE>
+<POS>0,0</POS>
+</FIELD>
+<FIELD><NAME>Package</NAME>
+<DEFAULT>24-LLP</DEFAULT>
+<FT>000001</FT>
+<VALUE></VALUE>
+<POS>0,0</POS>
+</FIELD>
+<REF_POINT power='0' part='0' pos='96,106'/>
+<TinyCAD><RECTANGLE a='52,38' b='90,100' style='0' fill='0'/>
+<PIN pos='46,50' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_pos='0' centre_name='0'>EN_T</PIN>
+<PIN pos='46,54' which='0' elec='0' direction='3' part='0' number='15' show='3' length='30' number_pos='0' centre_name='0'>ENLDO1</PIN>
+<PIN pos='46,58' which='0' elec='0' direction='3' part='0' number='16' show='3' length='30' number_pos='0' centre_name='0'>ENLDO2</PIN>
+<PIN pos='46,62' which='0' elec='0' direction='3' part='0' number='22' show='3' length='30' number_pos='0' centre_name='0'>ENSW1</PIN>
+<PIN pos='46,66' which='0' elec='0' direction='3' part='0' number='24' show='3' length='30' number_pos='0' centre_name='0'>ENSW2</PIN>
+<PIN pos='46,74' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_pos='0' centre_name='0'>SCL</PIN>
+<PIN pos='46,78' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_pos='0' centre_name='0'>SDA</PIN>
+<PIN pos='96,50' which='0' elec='0' direction='2' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>SW1</PIN>
+<PIN pos='96,54' which='0' elec='0' direction='2' part='0' number='11' show='3' length='30' number_pos='0' centre_name='0'>FB1</PIN>
+<PIN pos='96,62' which='0' elec='0' direction='2' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'>SW2</PIN>
+<PIN pos='96,66' which='0' elec='0' direction='2' part='0' number='21' show='3' length='30' number_pos='0' centre_name='0'>FB2</PIN>
+<PIN pos='96,74' which='0' elec='0' direction='2' part='0' number='14' show='3' length='30' number_pos='0' centre_name='0'>LDO1</PIN>
+<PIN pos='96,82' which='0' elec='0' direction='2' part='0' number='18' show='3' length='30' number_pos='0' centre_name='0'>LDO2</PIN>
+<PIN pos='64,106' which='0' elec='0' direction='0' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>GND_SW1</PIN>
+<PIN pos='68,106' which='0' elec='0' direction='0' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'>GND_SW2</PIN>
+<PIN pos='72,106' which='0' elec='0' direction='0' part='0' number='4' show='3' length='30' number_pos='0' centre_name='0'>GND_C</PIN>
+<PIN pos='76,106' which='0' elec='0' direction='0' part='0' number='17' show='3' length='30' number_pos='0' centre_name='0'>GND_L</PIN>
+<PIN pos='64,32' which='0' elec='0' direction='1' part='0' number='20' show='3' length='30' number_pos='0' centre_name='0'>VINLDO12</PIN>
+<PIN pos='68,32' which='0' elec='0' direction='1' part='0' number='19' show='3' length='30' number_pos='0' centre_name='0'>VINLDO2</PIN>
+<PIN pos='72,32' which='0' elec='0' direction='1' part='0' number='12' show='3' length='30' number_pos='0' centre_name='0'>AVDD</PIN>
+<PIN pos='76,32' which='0' elec='0' direction='1' part='0' number='13' show='3' length='30' number_pos='0' centre_name='0'>VINLDO1</PIN>
+<PIN pos='80,32' which='0' elec='0' direction='1' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'>VIN2</PIN>
+<PIN pos='84,32' which='0' elec='0' direction='1' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>VIN1</PIN>
+<PIN pos='46,86' which='0' elec='0' direction='3' part='0' number='23' show='3' length='30' number_pos='0' centre_name='0'>SYNC</PIN>
+<PIN pos='80,106' which='0' elec='0' direction='0' part='0' number='DAP' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+</TinyCAD>
+</SYMBOLDEF>
 <OPTIONS><GRID>1</GRID>
 <UNITS>0</UNITS>
 <COLOR_WIRE>FF0000</COLOR_WIRE>
@@ -643,6 +739,18 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
+<SYMBOL id='1' pos='272,136' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U5' show='1' pos='-9,-21.6'/>
+<FIELD type='0' description='Name' value='LT1085' show='1' pos='-13,-24'/>
+<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
+<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+<FIELD type='1' description='Package' value='DD-PAK' show='0' pos='1,-15.2'/>
+</SYMBOL>
+<SYMBOL id='2' pos='348,206' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='-43,-1.6'/>
+<FIELD type='0' description='Name' value='LP3906' show='1' pos='-43,-4'/>
+<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
+<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
+<FIELD type='1' description='Package' value='24-LLP' show='0' pos='1,-67.2'/>
+</SYMBOL>
 </TinyCAD>
 <TinyCAD><NAME>Clocking</NAME>
 <DETAILS><Size width='2970' height='2100'/>
@@ -1556,7 +1664,7 @@ download a copy.-->
 <FILL id='0'><INDEX>-1</INDEX>
 <COLOR>000000</COLOR>
 </FILL>
-<SYMBOLDEF id='2'><NAME type='0'>AD9717</NAME>
+<SYMBOLDEF id='1'><NAME type='0'>AD9717</NAME>
 <REF type='0'>U?</REF>
 <DESCRIPTION>Analog Devices AD9717 DAC</DESCRIPTION>
 <PPP>1</PPP>
@@ -1624,7 +1732,7 @@ download a copy.-->
 <PIN pos='78,146' which='0' elec='0' direction='0' part='0' number='HS' show='3' length='30' number_pos='0' centre_name='0'>PAD</PIN>
 </TinyCAD>
 </SYMBOLDEF>
-<SYMBOLDEF id='3'><NAME type='0'>SKY73202</NAME>
+<SYMBOLDEF id='2'><NAME type='0'>SKY73202</NAME>
 <REF type='0'>U?</REF>
 <DESCRIPTION>SkyWorks SKY73202 Low Pass Filter</DESCRIPTION>
 <PPP>1</PPP>
@@ -1695,13 +1803,13 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='2' pos='168,206' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='1' pos='168,206' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='AD9717' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='40-LFCSP' show='0' pos='1,-117.2'/>
 </SYMBOL>
-<SYMBOL id='3' pos='312,184' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-79.6'/>
+<SYMBOL id='2' pos='312,184' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-79.6'/>
 <FIELD type='0' description='Name' value='SKY73202' show='1' pos='1,-82'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
