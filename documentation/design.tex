@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+
+\title{Design Specification for mySDR}
+\author{Brian Padalino}
+\date{\today}
+\begin{document}
+    % Title page
+    \maketitle
+    \newpage
+    
+    % Table of Contents
+    \tableofcontents
+    \newpage
+    
+    % List of Tables
+    \listoftables
+    \newpage
+    
+    % List of Figures
+    \listoffigures
+    \newpage
+    
+    % Introduction
+    \include{intro}
+    
+    % Power supply
+    \include{power}
+    
+    % Clock distribution network
+    \include{clock}
+    
+    % ADC
+    \include{adc}
+    
+    % DAC
+    \include{dac}
+    
+    % SAM3U Microcontroller
+    \include{sam3u}
+    
+    % Gigabit Ethernet PHY
+    \include{gige}
+    
+    % FPGA
+    \include{fpga}
+    
+    % Appendix A
+    \include{appendix-a}
+
+\end{document}

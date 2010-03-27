@@ -1,0 +1,37 @@
+\section{Power Supply} %(fold)
+    
+    Input should range from 7.5v to 40v and is fed into a 5V LDO that can supply up to 3.5A of current.
+    This 5V source supplies the National Semiconductor DC/DC multi-output power supply which then supplies
+    the 3.3V, 2.5V, 1.8V and 1.2V outputs.
+    
+    The 3.3V and 1.2V outputs are from switching supplies and can supply up to 1.5A each.  The 2.5V and 1.8V
+    outputs are from LDO regulators which can supply 300mA each.  Refer to Table \ref{table:PowerSupplies} for 
+    the distribution and approximate current consumption for that power supply.
+    
+    \begin{table}[here,center]
+        \begin{center}
+            \begin{tabular}{|l|l|c|c|c|c|}
+                \hline
+                Component   & Reference & 1.2V  & 1.8V  & 2.5V  & 3.3V  \\ 
+                \hline \hline
+                EP3C        & U1        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+                VSC8601     & U2        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+                AD9251      & U3        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+                AD9717      & U4        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+                SKY73202    & U5        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+                Si5338      & U6        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+                SAM3U       & U7        & TBD   & TBD   & TBD   & TBD   \\ 
+                \hline
+            \end{tabular}
+            \caption{Power supply distribution and current consumption}
+            \label{table:PowerSupplies}
+        \end{center}
+    \end{table}
+    
+%(end)
