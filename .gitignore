@@ -1,0 +1,3 @@
+# ignore any backup or autosave files
+*.bak
+*.autosave
