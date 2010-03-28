@@ -738,7 +738,7 @@ download a copy.-->
 <PIN pos='80,106' which='0' elec='0' direction='0' part='0' number='DAP' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
 </TinyCAD>
 </SYMBOLDEF>
-<SYMBOLDEF id='9'><NAME type='0'>PJ-037BH</NAME>
+<SYMBOLDEF id='3'><NAME type='0'>PJ-037BH</NAME>
 <REF type='0'>J?</REF>
 <DESCRIPTION>DC Plug Center Conductor</DESCRIPTION>
 <PPP>1</PPP>
@@ -768,7 +768,7 @@ download a copy.-->
 <PIN pos='58,68' which='0' elec='0' direction='1' part='0' number='2' show='3' length='30' number_pos='0' centre_name='1'>GND</PIN>
 </TinyCAD>
 </SYMBOLDEF>
-<SYMBOLDEF id='12'><NAME type='1'>R0603</NAME>
+<SYMBOLDEF id='4'><NAME type='0'>R0603</NAME>
 <REF type='0'>R?</REF>
 <DESCRIPTION>Resistor</DESCRIPTION>
 <PPP>1</PPP>
@@ -822,7 +822,7 @@ download a copy.-->
 </POLYGON>
 </TinyCAD>
 </SYMBOLDEF>
-<SYMBOLDEF id='13'><NAME type='1'>C0603</NAME>
+<SYMBOLDEF id='5'><NAME type='0'>C0603</NAME>
 <REF type='0'>C?</REF>
 <DESCRIPTION>Electrolytic Capacitor</DESCRIPTION>
 <PPP>1</PPP>
@@ -892,7 +892,7 @@ download a copy.-->
 <FIELD type='1' description='Package' value='24-LLP' show='0' pos='1,-67.2'/>
 </SYMBOL>
 <WIRE a='150,124' b='158,124'/>
-<SYMBOL id='9' pos='148,142' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='J?' show='1' pos='-5,-25.6'/>
+<SYMBOL id='3' pos='148,142' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='J?' show='1' pos='-5,-25.6'/>
 <FIELD type='0' description='Name' value='PJ-037BH' show='1' pos='-5,-28'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -900,14 +900,14 @@ download a copy.-->
 </SYMBOL>
 <WIRE a='130,142' b='130,144'/>
 <WIRE a='130,144' b='150,144'/>
-<SYMBOL id='12' pos='216,144' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='R?' show='1' pos='1,-16'/>
+<SYMBOL id='4' pos='216,144' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='R?' show='1' pos='1,-16'/>
 <FIELD type='1' description='Name' value='R0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-11.2'/>
 <FIELD type='0' description='Value' value='121' show='1' pos='1,-13.6'/>
 </SYMBOL>
-<SYMBOL id='12' pos='216,166' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='R?' show='1' pos='1,-16'/>
+<SYMBOL id='4' pos='216,166' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='R?' show='1' pos='1,-16'/>
 <FIELD type='1' description='Name' value='R0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -949,21 +949,21 @@ download a copy.-->
 <WIRE a='358,206' b='362,206'/>
 <WIRE a='358,202' b='358,206'/>
 <WIRE a='354,206' b='358,206'/>
-<SYMBOL id='13' pos='154,138' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='154,138' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='10uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='228,162' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='228,162' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='25uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='240,148' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='240,148' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -977,49 +977,49 @@ download a copy.-->
 <POWER pos='236,118' which='0' direction='0'>5V</POWER>
 <WIRE a='236,124' b='236,138'/>
 <WIRE a='236,118' b='236,124'/>
-<SYMBOL id='13' pos='398,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='398,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='4.7uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='412,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='412,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='1uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='426,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='426,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='1uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='440,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='440,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='1uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='454,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='454,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='1uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='468,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='468,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='10uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='482,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='482,122' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -1085,14 +1085,14 @@ download a copy.-->
 <JUNCTION pos='450,126'/>
 <JUNCTION pos='464,126'/>
 <JUNCTION pos='478,126'/>
-<SYMBOL id='13' pos='416,182' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='416,182' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='0603' show='0' pos='1,-3.2'/>
 <FIELD type='0' description='Value' value='0.47uF' show='1' pos='1,-5.6'/>
 </SYMBOL>
-<SYMBOL id='13' pos='394,190' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
+<SYMBOL id='5' pos='394,190' part='0' rotate='1' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='C?' show='1' pos='1,-8'/>
 <FIELD type='1' description='Name' value='C0603' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -1548,25 +1548,25 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='1' pos='148,244' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<SYMBOL id='1' pos='148,244' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-127.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B1' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='2' pos='252,228' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-111.6'/>
+<SYMBOL id='2' pos='252,228' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-111.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B2' show='1' pos='1,-114'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-109.2'/>
 </SYMBOL>
-<SYMBOL id='3' pos='362,238' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='3' pos='362,238' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B3' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
 </SYMBOL>
-<SYMBOL id='4' pos='472,238' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='4' pos='472,238' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B4' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -1838,25 +1838,25 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='1' pos='142,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='1' pos='142,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B5' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
 </SYMBOL>
-<SYMBOL id='2' pos='236,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='2' pos='236,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B6' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
 </SYMBOL>
-<SYMBOL id='3' pos='334,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='3' pos='334,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B7' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
 </SYMBOL>
-<SYMBOL id='4' pos='454,258' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='4' pos='454,258' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='EP3C Q240 B8' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
@@ -2215,6 +2215,15 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
+<FONT id='0'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
 <WEIGHT>400</WEIGHT>
@@ -2433,17 +2442,306 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='1' pos='208,250' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='J?' show='1' pos='1,-123.6'/>
-<FIELD type='0' description='Name' value='PMC71436-2164' show='1' pos='1,-126'/>
+<SYMBOL id='1' pos='208,250' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='J?' show='1' pos='-11,-127.6'/>
+<FIELD type='0' description='Name' value='PMC71436-2164' show='1' pos='-17,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='PMC71436-2164' show='0' pos='1,-121.2'/>
 </SYMBOL>
-<SYMBOL id='1' pos='384,252' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='J?' show='1' pos='1,-123.6'/>
-<FIELD type='0' description='Name' value='PMC71436-2164' show='1' pos='1,-126'/>
+<SYMBOL id='1' pos='332,250' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='J?' show='1' pos='-11,-127.6'/>
+<FIELD type='0' description='Name' value='PMC71436-2164' show='1' pos='-17,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='PMC71436-2164' show='0' pos='1,-121.2'/>
 </SYMBOL>
+<TEXT pos='190,116' direction='3' font='0' color='000000'>RX Connector</TEXT>
+<TEXT pos='314,116' direction='3' font='0' color='000000'>TX Connector</TEXT>
+<WIRE a='260,124' b='312,124'/>
+<WIRE a='260,128' b='208,128'/>
+<WIRE a='188,124' b='186,124'/>
+<WIRE a='186,124' b='186,112'/>
+<WIRE a='260,112' b='336,112'/>
+<WIRE a='188,132' b='180,132'/>
+<WIRE a='180,132' b='180,128'/>
+<WIRE a='180,128' b='188,128'/>
+<WIRE a='188,136' b='176,136'/>
+<WIRE a='176,136' b='176,140'/>
+<WIRE a='176,140' b='188,140'/>
+<LABEL pos='176,144' direction='3' font='0' color='208000' style='1'>CLOCK_DB_P</LABEL>
+<LABEL pos='176,148' direction='3' font='0' color='208000' style='1'>CLOCK_DB_N</LABEL>
+<WIRE a='176,144' b='188,144'/>
+<WIRE a='176,148' b='188,148'/>
+<LABEL pos='176,152' direction='3' font='0' color='208000' style='1'>SCL</LABEL>
+<LABEL pos='176,156' direction='3' font='0' color='208000' style='3'>SDA</LABEL>
+<LABEL pos='176,180' direction='3' font='0' color='208000' style='1'>SCLK</LABEL>
+<LABEL pos='176,184' direction='3' font='0' color='208000' style='2'>SDO</LABEL>
+<LABEL pos='176,188' direction='3' font='0' color='208000' style='1'>SDI</LABEL>
+<LABEL pos='176,192' direction='3' font='0' color='208000' style='2'>SEN_RX</LABEL>
+<LABEL pos='176,220' direction='3' font='0' color='208000' style='1'>AUX_DAC_D</LABEL>
+<LABEL pos='176,224' direction='3' font='0' color='208000' style='1'>AUX_DAC_A</LABEL>
+<LABEL pos='176,228' direction='3' font='0' color='208000' style='1'>AUX_DAC_B</LABEL>
+<LABEL pos='176,232' direction='3' font='0' color='208000' style='1'>AUX_DAC_C</LABEL>
+<LABEL pos='176,236' direction='3' font='0' color='208000' style='1'>AUX_ADC_REF</LABEL>
+<LABEL pos='176,240' direction='3' font='0' color='208000' style='2'>AUX_ADC_A</LABEL>
+<LABEL pos='176,244' direction='3' font='0' color='208000' style='2'>AUX_ADC_B</LABEL>
+<WIRE a='176,220' b='188,220'/>
+<WIRE a='176,224' b='188,224'/>
+<WIRE a='176,228' b='188,228'/>
+<WIRE a='176,232' b='188,232'/>
+<WIRE a='176,236' b='188,236'/>
+<WIRE a='176,240' b='188,240'/>
+<WIRE a='176,244' b='188,244'/>
+<WIRE a='176,152' b='188,152'/>
+<WIRE a='176,156' b='188,156'/>
+<WIRE a='176,180' b='188,180'/>
+<WIRE a='176,184' b='188,184'/>
+<WIRE a='176,188' b='188,188'/>
+<WIRE a='176,192' b='188,192'/>
+<POWER pos='180,128' which='0' direction='0'>5V</POWER>
+<JUNCTION pos='180,128'/>
+<POWER pos='176,136' which='0' direction='0'>3.3V</POWER>
+<JUNCTION pos='176,136'/>
+<POWER pos='260,258' which='4' direction='1'></POWER>
+<WIRE a='184,254' b='184,248'/>
+<WIRE a='184,248' b='188,248'/>
+<LABEL pos='220,244' direction='2' font='0' color='208000' style='2'>VINA_P</LABEL>
+<LABEL pos='220,240' direction='2' font='0' color='208000' style='2'>VINA_N</LABEL>
+<LABEL pos='220,232' direction='2' font='0' color='208000' style='1'>VREF</LABEL>
+<LABEL pos='220,224' direction='2' font='0' color='208000' style='2'>VINB_N</LABEL>
+<LABEL pos='220,220' direction='2' font='0' color='208000' style='2'>VINB_P</LABEL>
+<WIRE a='220,220' b='208,220'/>
+<WIRE a='220,224' b='208,224'/>
+<WIRE a='220,232' b='208,232'/>
+<WIRE a='220,240' b='208,240'/>
+<WIRE a='220,244' b='208,244'/>
+<WIRE a='208,248' b='260,248'/>
+<WIRE a='260,248' b='260,236'/>
+<WIRE a='260,236' b='208,236'/>
+<WIRE a='260,236' b='260,228'/>
+<WIRE a='260,228' b='208,228'/>
+<WIRE a='260,216' b='208,216'/>
+<WIRE a='260,248' b='260,254'/>
+<WIRE a='260,254' b='184,254'/>
+<JUNCTION pos='184,254'/>
+<LABEL pos='220,192' direction='2' font='0' color='208000' style='3'>RX_IO_0</LABEL>
+<LABEL pos='220,188' direction='2' font='0' color='208000' style='3'>RX_IO_1</LABEL>
+<LABEL pos='220,184' direction='2' font='0' color='208000' style='3'>RX_IO_2</LABEL>
+<LABEL pos='220,180' direction='2' font='0' color='208000' style='3'>RX_IO_3</LABEL>
+<LABEL pos='220,176' direction='2' font='0' color='208000' style='3'>RX_IO_4</LABEL>
+<LABEL pos='220,172' direction='2' font='0' color='208000' style='3'>RX_IO_5</LABEL>
+<LABEL pos='220,168' direction='2' font='0' color='208000' style='3'>RX_IO_6</LABEL>
+<LABEL pos='220,164' direction='2' font='0' color='208000' style='3'>RX_IO_7</LABEL>
+<LABEL pos='220,160' direction='2' font='0' color='208000' style='3'>RX_IO_8</LABEL>
+<LABEL pos='220,156' direction='2' font='0' color='208000' style='3'>RX_IO_9</LABEL>
+<LABEL pos='220,152' direction='2' font='0' color='208000' style='3'>RX_IO_10</LABEL>
+<LABEL pos='220,148' direction='2' font='0' color='208000' style='3'>RX_IO_11</LABEL>
+<LABEL pos='220,144' direction='2' font='0' color='208000' style='3'>RX_IO_12</LABEL>
+<LABEL pos='220,140' direction='2' font='0' color='208000' style='3'>RX_IO_13</LABEL>
+<LABEL pos='220,136' direction='2' font='0' color='208000' style='3'>RX_IO_14</LABEL>
+<LABEL pos='220,132' direction='2' font='0' color='208000' style='3'>RX_IO_15</LABEL>
+<WIRE a='208,132' b='220,132'/>
+<WIRE a='220,136' b='208,136'/>
+<WIRE a='208,140' b='220,140'/>
+<WIRE a='220,144' b='208,144'/>
+<WIRE a='208,148' b='220,148'/>
+<WIRE a='220,152' b='208,152'/>
+<WIRE a='208,156' b='220,156'/>
+<WIRE a='220,160' b='208,160'/>
+<WIRE a='208,164' b='220,164'/>
+<WIRE a='220,168' b='208,168'/>
+<WIRE a='208,172' b='220,172'/>
+<WIRE a='220,176' b='208,176'/>
+<WIRE a='208,180' b='220,180'/>
+<WIRE a='220,184' b='208,184'/>
+<WIRE a='208,188' b='220,188'/>
+<WIRE a='220,192' b='208,192'/>
+<NOCONNECT pos='188,200'/>
+<NOCONNECT pos='208,200'/>
+<WIRE a='208,204' b='212,204'/>
+<WIRE a='212,204' b='212,196'/>
+<WIRE a='212,196' b='208,196'/>
+<JUNCTION pos='212,196'/>
+<WIRE a='212,196' b='260,196'/>
+<WIRE a='260,216' b='260,228'/>
+<WIRE a='208,208' b='216,208'/>
+<WIRE a='216,208' b='216,212'/>
+<WIRE a='216,212' b='208,212'/>
+<POWER pos='216,208' which='0' direction='0'>3.3V</POWER>
+<JUNCTION pos='216,208'/>
+<LABEL pos='176,176' direction='3' font='0' color='208000' style='1'>RESET_CODEC</LABEL>
+<POWER pos='158,164' which='0' direction='2'>3.3V</POWER>
+<WIRE a='158,164' b='188,164'/>
+<WIRE a='176,176' b='188,176'/>
+<WIRE a='184,196' b='148,196'/>
+<WIRE a='148,216' b='148,254'/>
+<WIRE a='148,254' b='184,254'/>
+<WIRE a='188,216' b='148,216'/>
+<WIRE a='188,204' b='184,204'/>
+<WIRE a='184,204' b='184,196'/>
+<JUNCTION pos='184,196'/>
+<WIRE a='188,196' b='184,196'/>
+<WIRE a='188,208' b='180,208'/>
+<WIRE a='180,208' b='180,212'/>
+<WIRE a='180,212' b='188,212'/>
+<POWER pos='180,208' which='0' direction='0'>3.3V</POWER>
+<JUNCTION pos='180,208'/>
+<LABEL pos='176,168' direction='3' font='0' color='208000' style='1'>RS232_TXD</LABEL>
+<LABEL pos='176,172' direction='3' font='0' color='208000' style='2'>RS232_RXD</LABEL>
+<WIRE a='176,168' b='188,168'/>
+<WIRE a='176,172' b='188,172'/>
+<JUNCTION pos='148,216'/>
+<LABEL pos='300,192' direction='3' font='0' color='208000' style='3'>TX_IO_0</LABEL>
+<LABEL pos='300,188' direction='3' font='0' color='208000' style='3'>TX_IO_1</LABEL>
+<LABEL pos='300,184' direction='3' font='0' color='208000' style='3'>TX_IO_2</LABEL>
+<LABEL pos='300,180' direction='3' font='0' color='208000' style='3'>TX_IO_3</LABEL>
+<LABEL pos='300,176' direction='3' font='0' color='208000' style='3'>TX_IO_4</LABEL>
+<LABEL pos='300,172' direction='3' font='0' color='208000' style='3'>TX_IO_5</LABEL>
+<LABEL pos='300,168' direction='3' font='0' color='208000' style='3'>TX_IO_6</LABEL>
+<LABEL pos='300,164' direction='3' font='0' color='208000' style='3'>TX_IO_7</LABEL>
+<LABEL pos='300,160' direction='3' font='0' color='208000' style='3'>TX_IO_8</LABEL>
+<LABEL pos='300,156' direction='3' font='0' color='208000' style='3'>TX_IO_9</LABEL>
+<LABEL pos='300,152' direction='3' font='0' color='208000' style='3'>TX_IO_10</LABEL>
+<LABEL pos='300,148' direction='3' font='0' color='208000' style='3'>TX_IO_11</LABEL>
+<LABEL pos='300,144' direction='3' font='0' color='208000' style='3'>TX_IO_12</LABEL>
+<LABEL pos='300,140' direction='3' font='0' color='208000' style='3'>TX_IO_13</LABEL>
+<LABEL pos='300,136' direction='3' font='0' color='208000' style='3'>TX_IO_14</LABEL>
+<LABEL pos='300,132' direction='3' font='0' color='208000' style='3'>TX_IO_15</LABEL>
+<WIRE a='312,128' b='260,128'/>
+<JUNCTION pos='260,128'/>
+<JUNCTION pos='260,124'/>
+<WIRE a='260,124' b='260,128'/>
+<WIRE a='208,124' b='260,124'/>
+<JUNCTION pos='260,124'/>
+<WIRE a='260,124' b='260,112'/>
+<JUNCTION pos='260,112'/>
+<WIRE a='186,112' b='260,112'/>
+<WIRE a='336,112' b='336,124'/>
+<WIRE a='336,124' b='332,124'/>
+<WIRE a='300,132' b='312,132'/>
+<WIRE a='300,136' b='312,136'/>
+<WIRE a='300,140' b='312,140'/>
+<WIRE a='300,144' b='312,144'/>
+<WIRE a='300,148' b='312,148'/>
+<WIRE a='300,152' b='312,152'/>
+<WIRE a='300,156' b='312,156'/>
+<WIRE a='300,160' b='312,160'/>
+<WIRE a='300,164' b='312,164'/>
+<WIRE a='300,168' b='312,168'/>
+<WIRE a='300,172' b='312,172'/>
+<WIRE a='300,176' b='312,176'/>
+<WIRE a='300,180' b='312,180'/>
+<WIRE a='300,184' b='312,184'/>
+<WIRE a='300,188' b='312,188'/>
+<WIRE a='300,192' b='312,192'/>
+<JUNCTION pos='260,216'/>
+<JUNCTION pos='260,236'/>
+<JUNCTION pos='260,228'/>
+<JUNCTION pos='260,248'/>
+<JUNCTION pos='260,254'/>
+<WIRE a='260,254' b='260,258'/>
+<JUNCTION pos='260,128'/>
+<WIRE a='260,196' b='260,216'/>
+<JUNCTION pos='260,196'/>
+<WIRE a='260,128' b='260,196'/>
+<NOCONNECT pos='312,200'/>
+<NOCONNECT pos='332,200'/>
+<WIRE a='308,196' b='260,196'/>
+<WIRE a='312,204' b='308,204'/>
+<WIRE a='308,204' b='308,196'/>
+<JUNCTION pos='308,196'/>
+<WIRE a='312,196' b='308,196'/>
+<WIRE a='312,212' b='304,212'/>
+<WIRE a='304,212' b='304,208'/>
+<WIRE a='304,208' b='312,208'/>
+<WIRE a='312,248' b='260,248'/>
+<WIRE a='332,132' b='340,132'/>
+<WIRE a='340,132' b='340,128'/>
+<WIRE a='340,128' b='332,128'/>
+<WIRE a='332,136' b='344,136'/>
+<WIRE a='344,136' b='344,140'/>
+<WIRE a='344,140' b='332,140'/>
+<POWER pos='340,128' which='0' direction='0'>5V</POWER>
+<JUNCTION pos='340,128'/>
+<POWER pos='344,136' which='0' direction='0'>3.3V</POWER>
+<JUNCTION pos='344,136'/>
+<LABEL pos='344,144' direction='2' font='0' color='208000' style='1'>CLOCK_DB_P</LABEL>
+<LABEL pos='344,148' direction='2' font='0' color='208000' style='1'>CLOCK_DB_N</LABEL>
+<LABEL pos='344,152' direction='2' font='0' color='208000' style='1'>SCL</LABEL>
+<LABEL pos='344,156' direction='2' font='0' color='208000' style='3'>SDA</LABEL>
+<LABEL pos='344,180' direction='2' font='0' color='208000' style='1'>SCLK</LABEL>
+<LABEL pos='344,176' direction='2' font='0' color='208000' style='1'>RESET_CODEC</LABEL>
+<LABEL pos='344,168' direction='2' font='0' color='208000' style='1'>RS232_TXD</LABEL>
+<LABEL pos='344,172' direction='2' font='0' color='208000' style='2'>RS232_RXD</LABEL>
+<LABEL pos='344,184' direction='2' font='0' color='208000' style='2'>SDO</LABEL>
+<LABEL pos='344,188' direction='2' font='0' color='208000' style='1'>SDI</LABEL>
+<LABEL pos='344,192' direction='2' font='0' color='208000' style='2'>SEN_RX</LABEL>
+<WIRE a='332,144' b='344,144'/>
+<WIRE a='332,148' b='344,148'/>
+<WIRE a='332,152' b='344,152'/>
+<WIRE a='332,156' b='344,156'/>
+<WIRE a='332,168' b='344,168'/>
+<WIRE a='344,172' b='332,172'/>
+<WIRE a='332,176' b='344,176'/>
+<WIRE a='332,180' b='344,180'/>
+<WIRE a='332,184' b='344,184'/>
+<WIRE a='332,188' b='344,188'/>
+<WIRE a='332,192' b='344,192'/>
+<WIRE a='332,204' b='338,204'/>
+<WIRE a='338,204' b='338,196'/>
+<WIRE a='338,196' b='332,196'/>
+<WIRE a='332,208' b='342,208'/>
+<WIRE a='342,208' b='342,212'/>
+<WIRE a='342,212' b='332,212'/>
+<WIRE a='312,216' b='260,216'/>
+<WIRE a='312,228' b='260,228'/>
+<WIRE a='312,236' b='260,236'/>
+<POWER pos='304,208' which='0' direction='0'>3.3V</POWER>
+<JUNCTION pos='304,208'/>
+<POWER pos='342,208' which='0' direction='0'>3.3V</POWER>
+<JUNCTION pos='342,208'/>
+<LABEL pos='344,220' direction='2' font='0' color='208000' style='1'>AUX_DAC_D</LABEL>
+<LABEL pos='344,224' direction='2' font='0' color='208000' style='1'>AUX_DAC_A</LABEL>
+<LABEL pos='344,228' direction='2' font='0' color='208000' style='1'>AUX_DAC_B</LABEL>
+<LABEL pos='344,232' direction='2' font='0' color='208000' style='1'>AUX_DAC_C</LABEL>
+<LABEL pos='344,236' direction='2' font='0' color='208000' style='1'>AUX_ADC_REF</LABEL>
+<LABEL pos='344,240' direction='2' font='0' color='208000' style='2'>AUX_ADC_A</LABEL>
+<LABEL pos='344,244' direction='2' font='0' color='208000' style='2'>AUX_ADC_B</LABEL>
+<WIRE a='332,248' b='336,248'/>
+<WIRE a='336,248' b='336,254'/>
+<WIRE a='332,244' b='344,244'/>
+<WIRE a='332,240' b='344,240'/>
+<WIRE a='332,236' b='344,236'/>
+<WIRE a='332,232' b='344,232'/>
+<WIRE a='332,228' b='344,228'/>
+<WIRE a='332,224' b='344,224'/>
+<WIRE a='332,220' b='344,220'/>
+<JUNCTION pos='338,196'/>
+<WIRE a='338,196' b='372,196'/>
+<WIRE a='336,254' b='260,254'/>
+<JUNCTION pos='336,254'/>
+<WIRE a='372,254' b='336,254'/>
+<WIRE a='332,160' b='372,160'/>
+<WIRE a='372,196' b='372,254'/>
+<JUNCTION pos='372,196'/>
+<WIRE a='372,164' b='372,196'/>
+<WIRE a='332,164' b='372,164'/>
+<JUNCTION pos='372,164'/>
+<WIRE a='372,160' b='372,164'/>
+<WIRE a='188,160' b='148,160'/>
+<WIRE a='148,196' b='148,216'/>
+<JUNCTION pos='148,196'/>
+<WIRE a='148,160' b='148,196'/>
+<LABEL pos='300,232' direction='3' font='0' color='208000' style='1'>REFIO</LABEL>
+<LABEL pos='300,244' direction='3' font='0' color='208000' style='1'>IOUTA_N</LABEL>
+<LABEL pos='300,240' direction='3' font='0' color='208000' style='1'>IOUTA_P</LABEL>
+<LABEL pos='300,224' direction='3' font='0' color='208000' style='1'>IOUTB_P</LABEL>
+<LABEL pos='300,220' direction='3' font='0' color='208000' style='1'>IOUTB_N</LABEL>
+<WIRE a='300,220' b='312,220'/>
+<WIRE a='300,224' b='312,224'/>
+<WIRE a='300,232' b='312,232'/>
+<WIRE a='300,240' b='312,240'/>
+<WIRE a='300,244' b='312,244'/>
+<TEXT pos='344,164' direction='3' font='0' color='000000'>TX I2C Address</TEXT>
+<TEXT pos='156,164' direction='3' font='0' color='000000'>RX I2C Address</TEXT>
 </TinyCAD>
 </TinyCADSheets>
