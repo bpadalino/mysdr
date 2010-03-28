@@ -1,3 +1,39 @@
 \section{Introduction} %(fold)
-    This document describes the idea behind the different sections of mysdr.
+\label{sec:intro}
+    mySDR is a new project to create a fully open source baseband modem for software defined radio.
+    The plan is to provide a range of performance options to pick and choose from such that the radio,
+    can be somewhat customized for the best ``bang for your buck''.
+    
+    The project will target \href{http://gnuradio.org}{GNU Radio} compatibility as well as
+    being a drop-in replacement for the USRP.
+    
+    As a baseband modem, mySDR has the following specifications:
+    
+    \begin{itemize}
+        \item \href{http://www.analog.com/en/analog-to-digital-converters/ad-converters/ad9251/products/product.html}{AD9251} Dual Channel 14-bit Analog to Digital Converter
+            \begin{itemize}
+                \item Full 700MHz Analog Input Bandwidth
+                \item Family compatible for 20/40/65/80 MHz sampling rates
+            \end{itemize}
+        \item \href{http://www.analog.com/en/digital-to-analog-converters/da-converters/ad9717/products/product.html}{AD9717} Dual Channel 125MHz Digital to Analog Converter
+            \begin{itemize}
+                \item Family compatible for 8-/10-/12-/14-bit rates
+            \end{itemize}
+        \item \href{http://www.altera.com/products/devices/cyclone3/overview/cy3-overview.html}{Altera Cyclone III} FPGA
+            \begin{itemize}
+                \item Up to 1,134 kbits of internal BRAM
+                \item Up to 126 18x18 dedicated multipliers
+                \item Up to 39,600 total logic elements
+            \end{itemize}
+        \item Flexible Clocking Solutions
+            \begin{itemize}
+                \item \href{http://www.foxonline.com/pdfs/fox924.pdf}{FOX924} 25MHz TCXO standard
+                \item Optional \href{http://www.foxonline.com/pdfs/FOX801BHCLF.pdf}{FOX801} 25MHz low phase-noise $\pm$2.5ppm VCTCXO
+                \item \href{http://www.silabs.com/products/clocksoscillators/anyrategeneratorsandbuffers/Pages/default.aspx}{Si5338} Clock buffer/generator for flexible RX/TX sample rates
+            \end{itemize}
+        \item \href{http://www.vitesse.com/products/product.php?number=VSC8601}{Vitesse VSC8601} 10/100/1000 Ethernet PHY
+        \item \href{http://www.atmel.com/products/AT91/sam3landing.asp}{Atmel SAM3U} USB 2.0 High-speed ARM Cortex-M3 microcontroller
+        \item Compatible with \href{http://www.ettus.com}{Ettus Research} RF daughterboards
+    \end{itemize}
+    
 %(end)

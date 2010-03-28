@@ -19,7 +19,7 @@ being a drop-in replacement for the USRP.
     * Up to 39,600 total logic elements
 * Flexible Clocking Solutions
     * [FOX924B](http://www.foxonline.com/pdfs/fox924.pdf "FOX924B PDF") 25MHz TCXO standard
-    * [FOX801BHCLF](http://www.foxonline.com/pdfs/FOX801BHCLF.pdf "FOX801BHCLF PDF") 25MHz ultra-low phase-noise &plusmn;2.5ppm VCTCXO option
+    * [FOX801BHCLF](http://www.foxonline.com/pdfs/FOX801BHCLF.pdf "FOX801BHCLF PDF") 25MHz low phase-noise &plusmn;2.5ppm VCTCXO option
     * [Si5338](http://www.silabs.com/products/clocksoscillators/anyrategeneratorsandbuffers/Pages/default.aspx "Si3558") Clock buffer/generator for flexible RX/TX sample rates
 * [Vitesse](http://www.vitesse.com/products/product.php?number=VSC8601 "VSC8601") 10/100/1000 Ethernet PHY
 * [Atmel SAM3U](http://www.atmel.com/products/AT91/sam3landing.asp "Atmel SAM3U") USB 2.0 High-speed ARM Cortex-M3 microcontroller

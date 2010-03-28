@@ -1,8 +1,33 @@
 \section{Clock Distribution} %(fold)
+\label{sec:clock}
+
+    Clocking is mainly supplied by a 25MHz FOX924B TCXO which has $\pm$2.5ppm frequency stability.
+    The TCXO feeds a Silicon Labs Si5338 clock buffer/generation chip.  There are four outputs
+    to this clock distribution chip which supply the following:
     
-    This section will describe the clock distribution and generation network.
+    \begin{itemize}
+        \item \hyperref[sec:adc]{RX ADC} Clock
+        \item \hyperref[sec:dac]{TX DAC} Clock
+        \item \hyperref[sec:db]{RF Daughterboard} Reference Clock
+        \item 20MHz Reference for \hyperref[sec:sky73202]{SKY73202 LPF}
+    \end{itemize}
     
+    The TCXO also supplies the main reference for the \hyperref[sec:gige]{Gigabit Ethernet PHY} chip.
+        
     \subsection{FOX801 High Precision VCTCXO} %(fold)
-        This subsection will describe the FOX801 high precision VCTCXO option.
+        There is an option to replace the relatively low cost FOX924B TCXO with a higher precision,
+        low phase-noise FOX801 reference.  This VCTCXO can be calibrated using a frequency counter
+        and adjusting the voltage on \texttt{TBD}.  The stability of this reference is the same
+        $\pm$2.5ppm as the FOX924B.
     %(end)
+    
+    \subsection{External Frequency References} %(fold)
+        In the case that either the FOX924B and FOX801 references are not good enough, an external
+        frequency reference can be supplied which feeds into a secondary input to the Si5338.
+        This input can then be used for generation of all the previously mentioned clock outputs.
+        The input can be either single-ended or differential and applied to the SMA connectors \texttt{TBD}
+        and \texttt{TBD}.  When in single-ended mode, terminate SMA connector to ground \texttt{TBD} 
+        through $0\Omega$.
+    %(end)
+    
 %(end)
