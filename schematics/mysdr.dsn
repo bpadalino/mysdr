@@ -617,6 +617,12 @@ download a copy.-->
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='64LQFP' show='0' pos='1,-139.2'/>
 </SYMBOL>
+<WIRE a='280,258' b='280,262'/>
+<WIRE a='280,262' b='286,262'/>
+<POWER pos='286,266' which='4' direction='1'></POWER>
+<WIRE a='286,262' b='286,258'/>
+<JUNCTION pos='286,262'/>
+<WIRE a='286,266' b='286,262'/>
 </TinyCAD>
 <TinyCAD><NAME>Power Supply</NAME>
 <DETAILS><Size width='2970' height='2100'/>
@@ -1282,6 +1288,14 @@ download a copy.-->
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='24-QFN' show='0' pos='1,-53.2'/>
 </SYMBOL>
+<POWER pos='238,160' which='4' direction='1'></POWER>
+<WIRE a='312,198' b='312,202'/>
+<WIRE a='314,202' b='316,202'/>
+<WIRE a='316,202' b='316,198'/>
+<POWER pos='314,206' which='4' direction='1'></POWER>
+<JUNCTION pos='314,202'/>
+<WIRE a='314,202' b='314,206'/>
+<WIRE a='312,202' b='314,202'/>
 </TinyCAD>
 <TinyCAD><NAME>FPGA (1-4)</NAME>
 <DETAILS><Size width='2970' height='2100'/>
@@ -1876,6 +1890,15 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
+<FONT id='0'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
 <WEIGHT>400</WEIGHT>
@@ -2011,6 +2034,91 @@ download a copy.-->
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='64-LFCSP' show='0' pos='1,-155.2'/>
 </SYMBOL>
+<BUS a='278,114' b='264,114'/>
+<BUS a='264,114' b='264,178'/>
+<BUSSLASH pos='264,118' direction='0'/>
+<BUSSLASH pos='264,122' direction='0'/>
+<BUSSLASH pos='264,126' direction='0'/>
+<BUSSLASH pos='264,130' direction='0'/>
+<BUSSLASH pos='264,134' direction='0'/>
+<BUSSLASH pos='264,138' direction='0'/>
+<BUSSLASH pos='264,142' direction='0'/>
+<BUSSLASH pos='264,146' direction='0'/>
+<BUSSLASH pos='264,150' direction='0'/>
+<BUSSLASH pos='264,154' direction='0'/>
+<BUSSLASH pos='264,158' direction='0'/>
+<BUSSLASH pos='264,162' direction='0'/>
+<BUSSLASH pos='264,166' direction='0'/>
+<BUSSLASH pos='264,170' direction='0'/>
+<BUSSLASH pos='264,174' direction='0'/>
+<BUSSLASH pos='264,178' direction='0'/>
+<BUSNAME pos='268,114' direction='3' font='0' color='208000'>RXADC</BUSNAME>
+<WIRE a='236,122' b='260,122'/>
+<WIRE a='236,126' b='260,126'/>
+<WIRE a='236,130' b='260,130'/>
+<WIRE a='236,134' b='260,134'/>
+<WIRE a='236,138' b='260,138'/>
+<WIRE a='236,142' b='260,142'/>
+<WIRE a='236,146' b='260,146'/>
+<WIRE a='236,150' b='260,150'/>
+<WIRE a='236,154' b='260,154'/>
+<WIRE a='236,158' b='260,158'/>
+<WIRE a='236,162' b='260,162'/>
+<WIRE a='236,166' b='260,166'/>
+<WIRE a='236,170' b='260,170'/>
+<WIRE a='236,174' b='260,174'/>
+<WIRE a='236,178' b='260,178'/>
+<WIRE a='236,182' b='260,182'/>
+<LABEL pos='256,178' direction='2' font='0' color='208000' style='0'>RXADC_D0</LABEL>
+<LABEL pos='256,174' direction='2' font='0' color='208000' style='0'>RXADC_D1</LABEL>
+<LABEL pos='256,170' direction='2' font='0' color='208000' style='0'>RXADC_D2</LABEL>
+<LABEL pos='256,166' direction='2' font='0' color='208000' style='0'>RXADC_D3</LABEL>
+<LABEL pos='256,162' direction='2' font='0' color='208000' style='0'>RXADC_D4</LABEL>
+<LABEL pos='256,158' direction='2' font='0' color='208000' style='0'>RXADC_D5</LABEL>
+<LABEL pos='256,154' direction='2' font='0' color='208000' style='0'>RXADC_D6</LABEL>
+<LABEL pos='256,150' direction='2' font='0' color='208000' style='0'>RXADC_D7</LABEL>
+<LABEL pos='256,146' direction='2' font='0' color='208000' style='0'>RXADC_D8</LABEL>
+<LABEL pos='256,142' direction='2' font='0' color='208000' style='0'>RXADC_D9</LABEL>
+<LABEL pos='256,138' direction='2' font='0' color='208000' style='0'>RXADC_D10</LABEL>
+<LABEL pos='256,134' direction='2' font='0' color='208000' style='0'>RXADC_D11</LABEL>
+<LABEL pos='256,130' direction='2' font='0' color='208000' style='0'>RXADC_D12</LABEL>
+<LABEL pos='256,126' direction='2' font='0' color='208000' style='0'>RXADC_D13</LABEL>
+<LABEL pos='256,122' direction='2' font='0' color='208000' style='0'>RXADC_OR</LABEL>
+<LABEL pos='256,182' direction='2' font='0' color='208000' style='0'>RXADC_CO</LABEL>
+<NOCONNECT pos='236,190'/>
+<NOCONNECT pos='236,194'/>
+<NOCONNECT pos='236,198'/>
+<NOCONNECT pos='236,202'/>
+<NOCONNECT pos='236,206'/>
+<NOCONNECT pos='236,210'/>
+<NOCONNECT pos='236,214'/>
+<NOCONNECT pos='236,218'/>
+<NOCONNECT pos='236,222'/>
+<NOCONNECT pos='236,226'/>
+<NOCONNECT pos='236,230'/>
+<NOCONNECT pos='236,234'/>
+<NOCONNECT pos='236,238'/>
+<NOCONNECT pos='236,242'/>
+<NOCONNECT pos='236,246'/>
+<NOCONNECT pos='236,250'/>
+<NOCONNECT pos='144,244'/>
+<NOCONNECT pos='144,248'/>
+<NOCONNECT pos='144,252'/>
+<NOCONNECT pos='144,256'/>
+<POWER pos='190,272' which='4' direction='1'></POWER>
+<WIRE a='190,268' b='190,272'/>
+<LABEL pos='132,124' direction='3' font='0' color='208000' style='1'>VINA_P</LABEL>
+<LABEL pos='132,130' direction='3' font='0' color='208000' style='1'>VINA_N</LABEL>
+<LABEL pos='132,172' direction='3' font='0' color='208000' style='1'>VINB_P</LABEL>
+<LABEL pos='132,166' direction='3' font='0' color='208000' style='1'>VINB_N</LABEL>
+<WIRE a='132,124' b='144,124'/>
+<WIRE a='144,130' b='132,130'/>
+<WIRE a='132,166' b='144,166'/>
+<WIRE a='144,172' b='132,172'/>
+<LABEL pos='132,184' direction='3' font='0' color='208000' style='1'>RXADC_CLK_P</LABEL>
+<LABEL pos='132,188' direction='3' font='0' color='208000' style='1'>RXADC_CLK_N</LABEL>
+<WIRE a='132,184' b='144,184'/>
+<WIRE a='132,188' b='144,188'/>
 </TinyCAD>
 <TinyCAD><NAME>DAC</NAME>
 <DETAILS><Size width='2970' height='2100'/>
@@ -2025,6 +2133,15 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
+<FONT id='0'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
 <WEIGHT>400</WEIGHT>
@@ -2189,18 +2306,113 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='1' pos='168,206' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
+<SYMBOL id='1' pos='184,194' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-119.6'/>
 <FIELD type='0' description='Name' value='AD9717' show='1' pos='1,-122'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='40-LFCSP' show='0' pos='1,-117.2'/>
 </SYMBOL>
-<SYMBOL id='2' pos='312,184' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-79.6'/>
+<SYMBOL id='2' pos='328,176' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-79.6'/>
 <FIELD type='0' description='Name' value='SKY73202' show='1' pos='1,-82'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='32-QFN' show='0' pos='1,-77.2'/>
 </SYMBOL>
+<WIRE a='130,194' b='130,200'/>
+<WIRE a='142,200' b='154,200'/>
+<WIRE a='154,200' b='154,194'/>
+<WIRE a='142,194' b='142,200'/>
+<WIRE a='130,200' b='142,200'/>
+<POWER pos='142,204' which='4' direction='1'></POWER>
+<WIRE a='142,200' b='142,204'/>
+<BUS a='50,78' b='66,78'/>
+<BUS a='66,78' b='66,134'/>
+<BUSNAME pos='50,78' direction='3' font='0' color='208000'>TXDAC</BUSNAME>
+<BUSSLASH pos='70,82' direction='1'/>
+<BUSSLASH pos='70,86' direction='1'/>
+<BUSSLASH pos='70,90' direction='1'/>
+<BUSSLASH pos='70,94' direction='1'/>
+<BUSSLASH pos='70,98' direction='1'/>
+<BUSSLASH pos='70,102' direction='1'/>
+<BUSSLASH pos='70,106' direction='1'/>
+<BUSSLASH pos='70,110' direction='1'/>
+<BUSSLASH pos='70,114' direction='1'/>
+<BUSSLASH pos='70,118' direction='1'/>
+<BUSSLASH pos='70,122' direction='1'/>
+<BUSSLASH pos='70,126' direction='1'/>
+<BUSSLASH pos='70,130' direction='1'/>
+<BUSSLASH pos='70,134' direction='1'/>
+<BUSSLASH pos='70,138' direction='1'/>
+<WIRE a='70,82' b='98,82'/>
+<WIRE a='70,86' b='98,86'/>
+<WIRE a='70,90' b='98,90'/>
+<WIRE a='70,94' b='98,94'/>
+<WIRE a='70,98' b='98,98'/>
+<WIRE a='70,102' b='98,102'/>
+<WIRE a='70,106' b='98,106'/>
+<WIRE a='70,110' b='98,110'/>
+<WIRE a='70,114' b='98,114'/>
+<WIRE a='70,118' b='98,118'/>
+<WIRE a='70,122' b='98,122'/>
+<WIRE a='70,126' b='98,126'/>
+<WIRE a='70,130' b='98,130'/>
+<WIRE a='70,134' b='98,134'/>
+<WIRE a='70,138' b='98,138'/>
+<LABEL pos='74,134' direction='3' font='0' color='208000' style='0'>TXDAC_D0</LABEL>
+<LABEL pos='74,130' direction='3' font='0' color='208000' style='0'>TXDAC_D1</LABEL>
+<LABEL pos='74,126' direction='3' font='0' color='208000' style='0'>TXDAC_D2</LABEL>
+<LABEL pos='74,122' direction='3' font='0' color='208000' style='0'>TXDAC_D3</LABEL>
+<LABEL pos='74,118' direction='3' font='0' color='208000' style='0'>TXDAC_D4</LABEL>
+<LABEL pos='74,114' direction='3' font='0' color='208000' style='0'>TXDAC_D5</LABEL>
+<LABEL pos='74,110' direction='3' font='0' color='208000' style='0'>TXDAC_D6</LABEL>
+<LABEL pos='74,106' direction='3' font='0' color='208000' style='0'>TXDAC_D7</LABEL>
+<LABEL pos='74,102' direction='3' font='0' color='208000' style='0'>TXDAC_D8</LABEL>
+<LABEL pos='74,98' direction='3' font='0' color='208000' style='0'>TXDAC_D9</LABEL>
+<LABEL pos='74,94' direction='3' font='0' color='208000' style='0'>TXDAC_D10</LABEL>
+<LABEL pos='74,90' direction='3' font='0' color='208000' style='0'>TXDAC_D11</LABEL>
+<LABEL pos='74,86' direction='3' font='0' color='208000' style='0'>TXDAC_D12</LABEL>
+<LABEL pos='74,82' direction='3' font='0' color='208000' style='0'>TXDAC_D13</LABEL>
+<LABEL pos='74,138' direction='3' font='0' color='208000' style='0'>TXDAC_CLK</LABEL>
+<LABEL pos='78,178' direction='3' font='0' color='208000' style='1'>TXDAC_CLK</LABEL>
+<WIRE a='78,178' b='98,178'/>
+<WIRE a='184,102' b='268,102'/>
+<WIRE a='184,114' b='228,114'/>
+<WIRE a='228,114' b='228,106'/>
+<WIRE a='228,106' b='268,106'/>
+<WIRE a='184,140' b='234,140'/>
+<WIRE a='234,140' b='234,114'/>
+<WIRE a='234,114' b='268,114'/>
+<WIRE a='184,152' b='240,152'/>
+<WIRE a='240,152' b='240,118'/>
+<WIRE a='240,118' b='268,118'/>
+<WIRE a='268,126' b='264,126'/>
+<WIRE a='264,142' b='264,146'/>
+<WIRE a='264,146' b='268,146'/>
+<WIRE a='268,142' b='264,142'/>
+<WIRE a='264,138' b='264,142'/>
+<WIRE a='268,138' b='264,138'/>
+<WIRE a='264,134' b='264,138'/>
+<WIRE a='268,134' b='264,134'/>
+<WIRE a='264,130' b='264,134'/>
+<WIRE a='268,130' b='264,130'/>
+<WIRE a='264,126' b='264,130'/>
+<WIRE a='294,176' b='294,180'/>
+<WIRE a='302,180' b='306,180'/>
+<WIRE a='306,180' b='306,176'/>
+<WIRE a='298,176' b='298,180'/>
+<WIRE a='294,180' b='298,180'/>
+<WIRE a='302,176' b='302,180'/>
+<WIRE a='298,180' b='302,180'/>
+<POWER pos='306,184' which='4' direction='1'></POWER>
+<WIRE a='306,180' b='306,184'/>
+<JUNCTION pos='142,200'/>
+<JUNCTION pos='264,130'/>
+<JUNCTION pos='264,134'/>
+<JUNCTION pos='264,138'/>
+<JUNCTION pos='264,142'/>
+<JUNCTION pos='298,180'/>
+<JUNCTION pos='302,180'/>
+<JUNCTION pos='306,180'/>
 </TinyCAD>
 <TinyCAD><NAME>Ettus DB Interface</NAME>
 <DETAILS><Size width='2970' height='2100'/>
@@ -2226,6 +2438,15 @@ download a copy.-->
 </FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
+<FONT id='3'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
 <WEIGHT>400</WEIGHT>
 <ITALIC>0</ITALIC>
 <UNDERLINE>0</UNDERLINE>
@@ -2454,36 +2675,34 @@ download a copy.-->
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='PMC71436-2164' show='0' pos='1,-121.2'/>
 </SYMBOL>
-<TEXT pos='190,116' direction='3' font='0' color='000000'>RX Connector</TEXT>
-<TEXT pos='314,116' direction='3' font='0' color='000000'>TX Connector</TEXT>
-<WIRE a='260,124' b='312,124'/>
-<WIRE a='260,128' b='208,128'/>
+<TEXT pos='190,116' direction='3' font='3' color='000000'>RX Connector</TEXT>
+<TEXT pos='314,116' direction='3' font='3' color='000000'>TX Connector</TEXT>
 <WIRE a='188,124' b='186,124'/>
 <WIRE a='186,124' b='186,112'/>
-<WIRE a='260,112' b='336,112'/>
+<WIRE a='186,112' b='336,112'/>
 <WIRE a='188,132' b='180,132'/>
 <WIRE a='180,132' b='180,128'/>
 <WIRE a='180,128' b='188,128'/>
 <WIRE a='188,136' b='176,136'/>
 <WIRE a='176,136' b='176,140'/>
 <WIRE a='176,140' b='188,140'/>
-<LABEL pos='176,144' direction='3' font='0' color='208000' style='1'>CLOCK_DB_P</LABEL>
-<LABEL pos='176,148' direction='3' font='0' color='208000' style='1'>CLOCK_DB_N</LABEL>
+<LABEL pos='176,144' direction='3' font='3' color='208000' style='1'>CLOCK_DB_P</LABEL>
+<LABEL pos='176,148' direction='3' font='3' color='208000' style='1'>CLOCK_DB_N</LABEL>
 <WIRE a='176,144' b='188,144'/>
 <WIRE a='176,148' b='188,148'/>
-<LABEL pos='176,152' direction='3' font='0' color='208000' style='1'>SCL</LABEL>
-<LABEL pos='176,156' direction='3' font='0' color='208000' style='3'>SDA</LABEL>
-<LABEL pos='176,180' direction='3' font='0' color='208000' style='1'>SCLK</LABEL>
-<LABEL pos='176,184' direction='3' font='0' color='208000' style='2'>SDO</LABEL>
-<LABEL pos='176,188' direction='3' font='0' color='208000' style='1'>SDI</LABEL>
-<LABEL pos='176,192' direction='3' font='0' color='208000' style='2'>SEN_RX</LABEL>
-<LABEL pos='176,220' direction='3' font='0' color='208000' style='1'>AUX_DAC_D</LABEL>
-<LABEL pos='176,224' direction='3' font='0' color='208000' style='1'>AUX_DAC_A</LABEL>
-<LABEL pos='176,228' direction='3' font='0' color='208000' style='1'>AUX_DAC_B</LABEL>
-<LABEL pos='176,232' direction='3' font='0' color='208000' style='1'>AUX_DAC_C</LABEL>
-<LABEL pos='176,236' direction='3' font='0' color='208000' style='1'>AUX_ADC_REF</LABEL>
-<LABEL pos='176,240' direction='3' font='0' color='208000' style='2'>AUX_ADC_A</LABEL>
-<LABEL pos='176,244' direction='3' font='0' color='208000' style='2'>AUX_ADC_B</LABEL>
+<LABEL pos='176,152' direction='3' font='3' color='208000' style='1'>SCL</LABEL>
+<LABEL pos='176,156' direction='3' font='3' color='208000' style='3'>SDA</LABEL>
+<LABEL pos='176,180' direction='3' font='3' color='208000' style='1'>SCLK</LABEL>
+<LABEL pos='176,184' direction='3' font='3' color='208000' style='2'>SDO</LABEL>
+<LABEL pos='176,188' direction='3' font='3' color='208000' style='1'>SDI</LABEL>
+<LABEL pos='176,192' direction='3' font='3' color='208000' style='2'>SEN_RX</LABEL>
+<LABEL pos='176,220' direction='3' font='3' color='208000' style='1'>AUX_DAC_D</LABEL>
+<LABEL pos='176,224' direction='3' font='3' color='208000' style='1'>AUX_DAC_A</LABEL>
+<LABEL pos='176,228' direction='3' font='3' color='208000' style='1'>AUX_DAC_B</LABEL>
+<LABEL pos='176,232' direction='3' font='3' color='208000' style='1'>AUX_DAC_C</LABEL>
+<LABEL pos='176,236' direction='3' font='3' color='208000' style='1'>AUX_ADC_REF</LABEL>
+<LABEL pos='176,240' direction='3' font='3' color='208000' style='2'>AUX_ADC_A</LABEL>
+<LABEL pos='176,244' direction='3' font='3' color='208000' style='2'>AUX_ADC_B</LABEL>
 <WIRE a='176,220' b='188,220'/>
 <WIRE a='176,224' b='188,224'/>
 <WIRE a='176,228' b='188,228'/>
@@ -2504,11 +2723,11 @@ download a copy.-->
 <POWER pos='260,258' which='4' direction='1'></POWER>
 <WIRE a='184,254' b='184,248'/>
 <WIRE a='184,248' b='188,248'/>
-<LABEL pos='220,244' direction='2' font='0' color='208000' style='2'>VINA_P</LABEL>
-<LABEL pos='220,240' direction='2' font='0' color='208000' style='2'>VINA_N</LABEL>
-<LABEL pos='220,232' direction='2' font='0' color='208000' style='1'>VREF</LABEL>
-<LABEL pos='220,224' direction='2' font='0' color='208000' style='2'>VINB_N</LABEL>
-<LABEL pos='220,220' direction='2' font='0' color='208000' style='2'>VINB_P</LABEL>
+<LABEL pos='220,244' direction='2' font='3' color='208000' style='2'>VINA_P</LABEL>
+<LABEL pos='220,240' direction='2' font='3' color='208000' style='2'>VINA_N</LABEL>
+<LABEL pos='220,232' direction='2' font='3' color='208000' style='1'>VREF</LABEL>
+<LABEL pos='220,224' direction='2' font='3' color='208000' style='2'>VINB_N</LABEL>
+<LABEL pos='220,220' direction='2' font='3' color='208000' style='2'>VINB_P</LABEL>
 <WIRE a='220,220' b='208,220'/>
 <WIRE a='220,224' b='208,224'/>
 <WIRE a='220,232' b='208,232'/>
@@ -2523,38 +2742,6 @@ download a copy.-->
 <WIRE a='260,248' b='260,254'/>
 <WIRE a='260,254' b='184,254'/>
 <JUNCTION pos='184,254'/>
-<LABEL pos='220,192' direction='2' font='0' color='208000' style='3'>RX_IO_0</LABEL>
-<LABEL pos='220,188' direction='2' font='0' color='208000' style='3'>RX_IO_1</LABEL>
-<LABEL pos='220,184' direction='2' font='0' color='208000' style='3'>RX_IO_2</LABEL>
-<LABEL pos='220,180' direction='2' font='0' color='208000' style='3'>RX_IO_3</LABEL>
-<LABEL pos='220,176' direction='2' font='0' color='208000' style='3'>RX_IO_4</LABEL>
-<LABEL pos='220,172' direction='2' font='0' color='208000' style='3'>RX_IO_5</LABEL>
-<LABEL pos='220,168' direction='2' font='0' color='208000' style='3'>RX_IO_6</LABEL>
-<LABEL pos='220,164' direction='2' font='0' color='208000' style='3'>RX_IO_7</LABEL>
-<LABEL pos='220,160' direction='2' font='0' color='208000' style='3'>RX_IO_8</LABEL>
-<LABEL pos='220,156' direction='2' font='0' color='208000' style='3'>RX_IO_9</LABEL>
-<LABEL pos='220,152' direction='2' font='0' color='208000' style='3'>RX_IO_10</LABEL>
-<LABEL pos='220,148' direction='2' font='0' color='208000' style='3'>RX_IO_11</LABEL>
-<LABEL pos='220,144' direction='2' font='0' color='208000' style='3'>RX_IO_12</LABEL>
-<LABEL pos='220,140' direction='2' font='0' color='208000' style='3'>RX_IO_13</LABEL>
-<LABEL pos='220,136' direction='2' font='0' color='208000' style='3'>RX_IO_14</LABEL>
-<LABEL pos='220,132' direction='2' font='0' color='208000' style='3'>RX_IO_15</LABEL>
-<WIRE a='208,132' b='220,132'/>
-<WIRE a='220,136' b='208,136'/>
-<WIRE a='208,140' b='220,140'/>
-<WIRE a='220,144' b='208,144'/>
-<WIRE a='208,148' b='220,148'/>
-<WIRE a='220,152' b='208,152'/>
-<WIRE a='208,156' b='220,156'/>
-<WIRE a='220,160' b='208,160'/>
-<WIRE a='208,164' b='220,164'/>
-<WIRE a='220,168' b='208,168'/>
-<WIRE a='208,172' b='220,172'/>
-<WIRE a='220,176' b='208,176'/>
-<WIRE a='208,180' b='220,180'/>
-<WIRE a='220,184' b='208,184'/>
-<WIRE a='208,188' b='220,188'/>
-<WIRE a='220,192' b='208,192'/>
 <NOCONNECT pos='188,200'/>
 <NOCONNECT pos='208,200'/>
 <WIRE a='208,204' b='212,204'/>
@@ -2568,7 +2755,7 @@ download a copy.-->
 <WIRE a='216,212' b='208,212'/>
 <POWER pos='216,208' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='216,208'/>
-<LABEL pos='176,176' direction='3' font='0' color='208000' style='1'>RESET_CODEC</LABEL>
+<LABEL pos='176,176' direction='3' font='3' color='208000' style='1'>RESET_CODEC</LABEL>
 <POWER pos='158,164' which='0' direction='2'>3.3V</POWER>
 <WIRE a='158,164' b='188,164'/>
 <WIRE a='176,176' b='188,176'/>
@@ -2585,64 +2772,21 @@ download a copy.-->
 <WIRE a='180,212' b='188,212'/>
 <POWER pos='180,208' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='180,208'/>
-<LABEL pos='176,168' direction='3' font='0' color='208000' style='1'>RS232_TXD</LABEL>
-<LABEL pos='176,172' direction='3' font='0' color='208000' style='2'>RS232_RXD</LABEL>
+<LABEL pos='176,168' direction='3' font='3' color='208000' style='1'>RS232_TXD</LABEL>
+<LABEL pos='176,172' direction='3' font='3' color='208000' style='2'>RS232_RXD</LABEL>
 <WIRE a='176,168' b='188,168'/>
 <WIRE a='176,172' b='188,172'/>
 <JUNCTION pos='148,216'/>
-<LABEL pos='300,192' direction='3' font='0' color='208000' style='3'>TX_IO_0</LABEL>
-<LABEL pos='300,188' direction='3' font='0' color='208000' style='3'>TX_IO_1</LABEL>
-<LABEL pos='300,184' direction='3' font='0' color='208000' style='3'>TX_IO_2</LABEL>
-<LABEL pos='300,180' direction='3' font='0' color='208000' style='3'>TX_IO_3</LABEL>
-<LABEL pos='300,176' direction='3' font='0' color='208000' style='3'>TX_IO_4</LABEL>
-<LABEL pos='300,172' direction='3' font='0' color='208000' style='3'>TX_IO_5</LABEL>
-<LABEL pos='300,168' direction='3' font='0' color='208000' style='3'>TX_IO_6</LABEL>
-<LABEL pos='300,164' direction='3' font='0' color='208000' style='3'>TX_IO_7</LABEL>
-<LABEL pos='300,160' direction='3' font='0' color='208000' style='3'>TX_IO_8</LABEL>
-<LABEL pos='300,156' direction='3' font='0' color='208000' style='3'>TX_IO_9</LABEL>
-<LABEL pos='300,152' direction='3' font='0' color='208000' style='3'>TX_IO_10</LABEL>
-<LABEL pos='300,148' direction='3' font='0' color='208000' style='3'>TX_IO_11</LABEL>
-<LABEL pos='300,144' direction='3' font='0' color='208000' style='3'>TX_IO_12</LABEL>
-<LABEL pos='300,140' direction='3' font='0' color='208000' style='3'>TX_IO_13</LABEL>
-<LABEL pos='300,136' direction='3' font='0' color='208000' style='3'>TX_IO_14</LABEL>
-<LABEL pos='300,132' direction='3' font='0' color='208000' style='3'>TX_IO_15</LABEL>
-<WIRE a='312,128' b='260,128'/>
-<JUNCTION pos='260,128'/>
-<JUNCTION pos='260,124'/>
-<WIRE a='260,124' b='260,128'/>
-<WIRE a='208,124' b='260,124'/>
-<JUNCTION pos='260,124'/>
-<WIRE a='260,124' b='260,112'/>
-<JUNCTION pos='260,112'/>
-<WIRE a='186,112' b='260,112'/>
 <WIRE a='336,112' b='336,124'/>
 <WIRE a='336,124' b='332,124'/>
-<WIRE a='300,132' b='312,132'/>
-<WIRE a='300,136' b='312,136'/>
-<WIRE a='300,140' b='312,140'/>
-<WIRE a='300,144' b='312,144'/>
-<WIRE a='300,148' b='312,148'/>
-<WIRE a='300,152' b='312,152'/>
-<WIRE a='300,156' b='312,156'/>
-<WIRE a='300,160' b='312,160'/>
-<WIRE a='300,164' b='312,164'/>
-<WIRE a='300,168' b='312,168'/>
-<WIRE a='300,172' b='312,172'/>
-<WIRE a='300,176' b='312,176'/>
-<WIRE a='300,180' b='312,180'/>
-<WIRE a='300,184' b='312,184'/>
-<WIRE a='300,188' b='312,188'/>
-<WIRE a='300,192' b='312,192'/>
 <JUNCTION pos='260,216'/>
 <JUNCTION pos='260,236'/>
 <JUNCTION pos='260,228'/>
 <JUNCTION pos='260,248'/>
 <JUNCTION pos='260,254'/>
 <WIRE a='260,254' b='260,258'/>
-<JUNCTION pos='260,128'/>
 <WIRE a='260,196' b='260,216'/>
 <JUNCTION pos='260,196'/>
-<WIRE a='260,128' b='260,196'/>
 <NOCONNECT pos='312,200'/>
 <NOCONNECT pos='332,200'/>
 <WIRE a='308,196' b='260,196'/>
@@ -2664,17 +2808,17 @@ download a copy.-->
 <JUNCTION pos='340,128'/>
 <POWER pos='344,136' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='344,136'/>
-<LABEL pos='344,144' direction='2' font='0' color='208000' style='1'>CLOCK_DB_P</LABEL>
-<LABEL pos='344,148' direction='2' font='0' color='208000' style='1'>CLOCK_DB_N</LABEL>
-<LABEL pos='344,152' direction='2' font='0' color='208000' style='1'>SCL</LABEL>
-<LABEL pos='344,156' direction='2' font='0' color='208000' style='3'>SDA</LABEL>
-<LABEL pos='344,180' direction='2' font='0' color='208000' style='1'>SCLK</LABEL>
-<LABEL pos='344,176' direction='2' font='0' color='208000' style='1'>RESET_CODEC</LABEL>
-<LABEL pos='344,168' direction='2' font='0' color='208000' style='1'>RS232_TXD</LABEL>
-<LABEL pos='344,172' direction='2' font='0' color='208000' style='2'>RS232_RXD</LABEL>
-<LABEL pos='344,184' direction='2' font='0' color='208000' style='2'>SDO</LABEL>
-<LABEL pos='344,188' direction='2' font='0' color='208000' style='1'>SDI</LABEL>
-<LABEL pos='344,192' direction='2' font='0' color='208000' style='2'>SEN_RX</LABEL>
+<LABEL pos='344,144' direction='2' font='3' color='208000' style='1'>CLOCK_DB_P</LABEL>
+<LABEL pos='344,148' direction='2' font='3' color='208000' style='1'>CLOCK_DB_N</LABEL>
+<LABEL pos='344,152' direction='2' font='3' color='208000' style='1'>SCL</LABEL>
+<LABEL pos='344,156' direction='2' font='3' color='208000' style='3'>SDA</LABEL>
+<LABEL pos='344,180' direction='2' font='3' color='208000' style='1'>SCLK</LABEL>
+<LABEL pos='344,176' direction='2' font='3' color='208000' style='1'>RESET_CODEC</LABEL>
+<LABEL pos='344,168' direction='2' font='3' color='208000' style='1'>RS232_TXD</LABEL>
+<LABEL pos='344,172' direction='2' font='3' color='208000' style='2'>RS232_RXD</LABEL>
+<LABEL pos='344,184' direction='2' font='3' color='208000' style='2'>SDO</LABEL>
+<LABEL pos='344,188' direction='2' font='3' color='208000' style='1'>SDI</LABEL>
+<LABEL pos='344,192' direction='2' font='3' color='208000' style='2'>SEN_RX</LABEL>
 <WIRE a='332,144' b='344,144'/>
 <WIRE a='332,148' b='344,148'/>
 <WIRE a='332,152' b='344,152'/>
@@ -2699,13 +2843,13 @@ download a copy.-->
 <JUNCTION pos='304,208'/>
 <POWER pos='342,208' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='342,208'/>
-<LABEL pos='344,220' direction='2' font='0' color='208000' style='1'>AUX_DAC_D</LABEL>
-<LABEL pos='344,224' direction='2' font='0' color='208000' style='1'>AUX_DAC_A</LABEL>
-<LABEL pos='344,228' direction='2' font='0' color='208000' style='1'>AUX_DAC_B</LABEL>
-<LABEL pos='344,232' direction='2' font='0' color='208000' style='1'>AUX_DAC_C</LABEL>
-<LABEL pos='344,236' direction='2' font='0' color='208000' style='1'>AUX_ADC_REF</LABEL>
-<LABEL pos='344,240' direction='2' font='0' color='208000' style='2'>AUX_ADC_A</LABEL>
-<LABEL pos='344,244' direction='2' font='0' color='208000' style='2'>AUX_ADC_B</LABEL>
+<LABEL pos='344,220' direction='2' font='3' color='208000' style='1'>AUX_DAC_D</LABEL>
+<LABEL pos='344,224' direction='2' font='3' color='208000' style='1'>AUX_DAC_A</LABEL>
+<LABEL pos='344,228' direction='2' font='3' color='208000' style='1'>AUX_DAC_B</LABEL>
+<LABEL pos='344,232' direction='2' font='3' color='208000' style='1'>AUX_DAC_C</LABEL>
+<LABEL pos='344,236' direction='2' font='3' color='208000' style='1'>AUX_ADC_REF</LABEL>
+<LABEL pos='344,240' direction='2' font='3' color='208000' style='2'>AUX_ADC_A</LABEL>
+<LABEL pos='344,244' direction='2' font='3' color='208000' style='2'>AUX_ADC_B</LABEL>
 <WIRE a='332,248' b='336,248'/>
 <WIRE a='336,248' b='336,254'/>
 <WIRE a='332,244' b='344,244'/>
@@ -2731,17 +2875,133 @@ download a copy.-->
 <WIRE a='148,196' b='148,216'/>
 <JUNCTION pos='148,196'/>
 <WIRE a='148,160' b='148,196'/>
-<LABEL pos='300,232' direction='3' font='0' color='208000' style='1'>REFIO</LABEL>
-<LABEL pos='300,244' direction='3' font='0' color='208000' style='1'>IOUTA_N</LABEL>
-<LABEL pos='300,240' direction='3' font='0' color='208000' style='1'>IOUTA_P</LABEL>
-<LABEL pos='300,224' direction='3' font='0' color='208000' style='1'>IOUTB_P</LABEL>
-<LABEL pos='300,220' direction='3' font='0' color='208000' style='1'>IOUTB_N</LABEL>
+<LABEL pos='300,232' direction='3' font='3' color='208000' style='1'>REFIO</LABEL>
+<LABEL pos='300,244' direction='3' font='3' color='208000' style='1'>IOUTA_N</LABEL>
+<LABEL pos='300,240' direction='3' font='3' color='208000' style='1'>IOUTA_P</LABEL>
+<LABEL pos='300,224' direction='3' font='3' color='208000' style='1'>IOUTB_P</LABEL>
+<LABEL pos='300,220' direction='3' font='3' color='208000' style='1'>IOUTB_N</LABEL>
 <WIRE a='300,220' b='312,220'/>
 <WIRE a='300,224' b='312,224'/>
 <WIRE a='300,232' b='312,232'/>
 <WIRE a='300,240' b='312,240'/>
 <WIRE a='300,244' b='312,244'/>
-<TEXT pos='344,164' direction='3' font='0' color='000000'>TX I2C Address</TEXT>
-<TEXT pos='156,164' direction='3' font='0' color='000000'>RX I2C Address</TEXT>
+<TEXT pos='344,164' direction='3' font='3' color='000000'>TX I2C Address</TEXT>
+<TEXT pos='156,164' direction='3' font='3' color='000000'>RX I2C Address</TEXT>
+<BUS a='274,128' b='286,128'/>
+<BUS a='286,128' b='286,188'/>
+<BUSNAME pos='274,128' direction='3' font='0' color='208000'>TX_IO</BUSNAME>
+<BUSSLASH pos='290,136' direction='1'/>
+<BUSSLASH pos='290,140' direction='1'/>
+<BUSSLASH pos='290,144' direction='1'/>
+<BUSSLASH pos='290,148' direction='1'/>
+<BUSSLASH pos='290,152' direction='1'/>
+<BUSSLASH pos='290,156' direction='1'/>
+<BUSSLASH pos='290,160' direction='1'/>
+<BUSSLASH pos='290,164' direction='1'/>
+<BUSSLASH pos='290,168' direction='1'/>
+<BUSSLASH pos='290,172' direction='1'/>
+<BUSSLASH pos='290,176' direction='1'/>
+<BUSSLASH pos='290,180' direction='1'/>
+<BUSSLASH pos='290,184' direction='1'/>
+<BUSSLASH pos='290,188' direction='1'/>
+<BUSSLASH pos='290,192' direction='1'/>
+<WIRE a='312,124' b='308,124'/>
+<WIRE a='312,128' b='308,128'/>
+<WIRE a='308,124' b='308,120'/>
+<JUNCTION pos='308,124'/>
+<WIRE a='308,128' b='308,124'/>
+<BUSSLASH pos='290,132' direction='1'/>
+<WIRE a='208,124' b='212,124'/>
+<WIRE a='260,120' b='308,120'/>
+<WIRE a='208,128' b='212,128'/>
+<WIRE a='212,124' b='212,120'/>
+<JUNCTION pos='212,124'/>
+<WIRE a='212,128' b='212,124'/>
+<WIRE a='260,196' b='260,120'/>
+<JUNCTION pos='260,120'/>
+<WIRE a='212,120' b='260,120'/>
+<WIRE a='290,132' b='312,132'/>
+<WIRE a='290,136' b='312,136'/>
+<WIRE a='290,140' b='312,140'/>
+<WIRE a='290,144' b='312,144'/>
+<WIRE a='290,148' b='312,148'/>
+<WIRE a='290,152' b='312,152'/>
+<WIRE a='290,156' b='312,156'/>
+<WIRE a='290,160' b='312,160'/>
+<WIRE a='290,164' b='312,164'/>
+<WIRE a='290,168' b='312,168'/>
+<WIRE a='290,172' b='312,172'/>
+<WIRE a='290,176' b='312,176'/>
+<WIRE a='290,180' b='312,180'/>
+<WIRE a='290,184' b='312,184'/>
+<WIRE a='290,188' b='312,188'/>
+<WIRE a='290,192' b='312,192'/>
+<LABEL pos='294,192' direction='3' font='3' color='208000' style='0'>TX_IO_0</LABEL>
+<LABEL pos='294,188' direction='3' font='3' color='208000' style='0'>TX_IO_1</LABEL>
+<LABEL pos='294,184' direction='3' font='3' color='208000' style='0'>TX_IO_2</LABEL>
+<LABEL pos='294,180' direction='3' font='3' color='208000' style='0'>TX_IO_3</LABEL>
+<LABEL pos='294,176' direction='3' font='3' color='208000' style='0'>TX_IO_4</LABEL>
+<LABEL pos='294,172' direction='3' font='3' color='208000' style='0'>TX_IO_5</LABEL>
+<LABEL pos='294,168' direction='3' font='3' color='208000' style='0'>TX_IO_6</LABEL>
+<LABEL pos='294,164' direction='3' font='3' color='208000' style='0'>TX_IO_7</LABEL>
+<LABEL pos='294,160' direction='3' font='3' color='208000' style='0'>TX_IO_8</LABEL>
+<LABEL pos='294,156' direction='3' font='3' color='208000' style='0'>TX_IO_9</LABEL>
+<LABEL pos='294,152' direction='3' font='3' color='208000' style='0'>TX_IO_10</LABEL>
+<LABEL pos='294,148' direction='3' font='3' color='208000' style='0'>TX_IO_11</LABEL>
+<LABEL pos='294,144' direction='3' font='3' color='208000' style='0'>TX_IO_12</LABEL>
+<LABEL pos='294,140' direction='3' font='3' color='208000' style='0'>TX_IO_13</LABEL>
+<LABEL pos='294,136' direction='3' font='3' color='208000' style='0'>TX_IO_14</LABEL>
+<LABEL pos='294,132' direction='3' font='3' color='208000' style='0'>TX_IO_15</LABEL>
+<BUS a='246,128' b='234,128'/>
+<BUS a='234,128' b='234,188'/>
+<BUSNAME pos='234,128' direction='3' font='0' color='208000'>RX_IO</BUSNAME>
+<BUSSLASH pos='234,128' direction='0'/>
+<BUSSLASH pos='234,132' direction='0'/>
+<BUSSLASH pos='234,136' direction='0'/>
+<BUSSLASH pos='234,140' direction='0'/>
+<BUSSLASH pos='234,144' direction='0'/>
+<BUSSLASH pos='234,148' direction='0'/>
+<BUSSLASH pos='234,152' direction='0'/>
+<BUSSLASH pos='234,156' direction='0'/>
+<BUSSLASH pos='234,160' direction='0'/>
+<BUSSLASH pos='234,164' direction='0'/>
+<BUSSLASH pos='234,168' direction='0'/>
+<BUSSLASH pos='234,172' direction='0'/>
+<BUSSLASH pos='234,176' direction='0'/>
+<BUSSLASH pos='234,180' direction='0'/>
+<BUSSLASH pos='234,184' direction='0'/>
+<BUSSLASH pos='234,188' direction='0'/>
+<WIRE a='208,192' b='230,192'/>
+<WIRE a='208,188' b='230,188'/>
+<WIRE a='208,184' b='230,184'/>
+<WIRE a='208,180' b='230,180'/>
+<WIRE a='208,176' b='230,176'/>
+<WIRE a='208,172' b='230,172'/>
+<WIRE a='208,168' b='230,168'/>
+<WIRE a='208,164' b='230,164'/>
+<WIRE a='208,160' b='230,160'/>
+<WIRE a='208,156' b='230,156'/>
+<WIRE a='208,152' b='230,152'/>
+<WIRE a='208,148' b='230,148'/>
+<WIRE a='208,144' b='230,144'/>
+<WIRE a='208,140' b='230,140'/>
+<WIRE a='208,136' b='230,136'/>
+<WIRE a='208,132' b='230,132'/>
+<LABEL pos='226,192' direction='2' font='3' color='208000' style='0'>RX_IO_0</LABEL>
+<LABEL pos='226,188' direction='2' font='3' color='208000' style='0'>RX_IO_1</LABEL>
+<LABEL pos='226,184' direction='2' font='3' color='208000' style='0'>RX_IO_2</LABEL>
+<LABEL pos='226,180' direction='2' font='3' color='208000' style='0'>RX_IO_3</LABEL>
+<LABEL pos='226,176' direction='2' font='3' color='208000' style='0'>RX_IO_4</LABEL>
+<LABEL pos='226,172' direction='2' font='3' color='208000' style='0'>RX_IO_5</LABEL>
+<LABEL pos='226,168' direction='2' font='3' color='208000' style='0'>RX_IO_6</LABEL>
+<LABEL pos='226,164' direction='2' font='3' color='208000' style='0'>RX_IO_7</LABEL>
+<LABEL pos='226,160' direction='2' font='3' color='208000' style='0'>RX_IO_8</LABEL>
+<LABEL pos='226,156' direction='2' font='3' color='208000' style='0'>RX_IO_9</LABEL>
+<LABEL pos='226,152' direction='2' font='3' color='208000' style='0'>RX_IO_10</LABEL>
+<LABEL pos='226,148' direction='2' font='3' color='208000' style='0'>RX_IO_11</LABEL>
+<LABEL pos='226,144' direction='2' font='3' color='208000' style='0'>RX_IO_12</LABEL>
+<LABEL pos='226,140' direction='2' font='3' color='208000' style='0'>RX_IO_13</LABEL>
+<LABEL pos='226,136' direction='2' font='3' color='208000' style='0'>RX_IO_14</LABEL>
+<LABEL pos='226,132' direction='2' font='3' color='208000' style='0'>RX_IO_15</LABEL>
 </TinyCAD>
 </TinyCADSheets>
