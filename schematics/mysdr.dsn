@@ -1326,10 +1326,10 @@ download a copy.-->
 <FILL id='0'><INDEX>-1</INDEX>
 <COLOR>000000</COLOR>
 </FILL>
-<SYMBOLDEF id='1'><NAME type='0'>EP3C Q240 B1</NAME>
+<SYMBOLDEF id='5'><NAME type='0'>EP3C-Q240</NAME>
 <REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 1</DESCRIPTION>
-<PPP>1</PPP>
+<DESCRIPTION>Altera EP3C Q240</DESCRIPTION>
+<PPP>8</PPP>
 <FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
 <DEFAULT>5</DEFAULT>
 <FT>000002</FT>
@@ -1348,207 +1348,267 @@ download a copy.-->
 <VALUE></VALUE>
 <POS>0,0</POS>
 </FIELD>
-<REF_POINT power='0' part='0' pos='50,146'/>
-<TinyCAD><RECTANGLE a='24,14' b='50,146' style='0' fill='0'/>
-<PIN pos='18,18' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL3</PIN>
-<PIN pos='18,22' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'>GNDA3</PIN>
-<PIN pos='18,26' which='0' elec='0' direction='3' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'>VCCA3</PIN>
-<PIN pos='18,30' which='0' elec='0' direction='3' part='0' number='4' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='18,34' which='0' elec='0' direction='3' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,38' which='0' elec='0' direction='3' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,42' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>VCCIO1</PIN>
-<PIN pos='18,46' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='18,50' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,54' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='18,58' which='0' elec='0' direction='3' part='0' number='11' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='18,62' which='0' elec='0' direction='3' part='0' number='12' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA1</PIN>
-<PIN pos='18,66' which='0' elec='0' direction='3' part='0' number='13' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,70' which='0' elec='0' direction='3' part='0' number='14' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,74' which='0' elec='0' direction='3' part='0' number='15' show='3' length='30' number_pos='0' centre_name='0'>VCCIO1</PIN>
-<PIN pos='18,78' which='0' elec='0' direction='3' part='0' number='16' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='18,82' which='0' elec='0' direction='3' part='0' number='17' show='3' length='30' number_pos='0' centre_name='0'>nSTATUS</PIN>
-<PIN pos='18,86' which='0' elec='0' direction='3' part='0' number='18' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,90' which='0' elec='0' direction='3' part='0' number='19' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='18,94' which='0' elec='0' direction='3' part='0' number='20' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='18,98' which='0' elec='0' direction='3' part='0' number='21' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,102' which='0' elec='0' direction='3' part='0' number='22' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='18,106' which='0' elec='0' direction='3' part='0' number='23' show='3' length='30' number_pos='0' centre_name='0'>DCLK</PIN>
-<PIN pos='18,110' which='0' elec='0' direction='3' part='0' number='24' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA0</PIN>
-<PIN pos='18,114' which='0' elec='0' direction='3' part='0' number='25' show='3' length='30' number_pos='0' centre_name='0'>nCONFIG</PIN>
-<PIN pos='18,118' which='0' elec='0' direction='3' part='0' number='26' show='3' length='30' number_pos='0' centre_name='0'>TDI</PIN>
-<PIN pos='18,122' which='0' elec='0' direction='3' part='0' number='27' show='3' length='30' number_pos='0' centre_name='0'>TCK</PIN>
-<PIN pos='18,126' which='0' elec='0' direction='3' part='0' number='28' show='3' length='30' number_pos='0' centre_name='0'>TMS</PIN>
-<PIN pos='18,130' which='0' elec='0' direction='3' part='0' number='29' show='3' length='30' number_pos='0' centre_name='0'>TDO</PIN>
-<PIN pos='18,134' which='0' elec='0' direction='3' part='0' number='30' show='3' length='30' number_pos='0' centre_name='0'>nCE</PIN>
-<PIN pos='18,138' which='0' elec='0' direction='3' part='0' number='31' show='3' length='30' number_pos='0' centre_name='0'>CLK0</PIN>
-<PIN pos='18,142' which='0' elec='0' direction='3' part='0' number='32' show='3' length='30' number_pos='0' centre_name='0'>CLK1</PIN>
+<REF_POINT power='0' part='0' pos='96,182'/>
+<REF_POINT power='0' part='1' pos='102,154'/>
+<REF_POINT power='0' part='2' pos='100,164'/>
+<REF_POINT power='0' part='3' pos='130,164'/>
+<TinyCADSheets><TinyCAD><RECTANGLE a='70,50' b='96,182' style='0' fill='0'/>
+<PIN pos='64,54' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL3</PIN>
+<PIN pos='64,58' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'>GNDA3</PIN>
+<PIN pos='64,62' which='0' elec='0' direction='3' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'>VCCA3</PIN>
+<PIN pos='64,66' which='0' elec='0' direction='3' part='0' number='4' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='64,70' which='0' elec='0' direction='3' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,74' which='0' elec='0' direction='3' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,78' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>VCCIO1</PIN>
+<PIN pos='64,82' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,86' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,90' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='64,94' which='0' elec='0' direction='3' part='0' number='11' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,98' which='0' elec='0' direction='3' part='0' number='12' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA1</PIN>
+<PIN pos='64,102' which='0' elec='0' direction='3' part='0' number='13' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,106' which='0' elec='0' direction='3' part='0' number='14' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,110' which='0' elec='0' direction='3' part='0' number='15' show='3' length='30' number_pos='0' centre_name='0'>VCCIO1</PIN>
+<PIN pos='64,114' which='0' elec='0' direction='3' part='0' number='16' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,118' which='0' elec='0' direction='3' part='0' number='17' show='3' length='30' number_pos='0' centre_name='0'>nSTATUS</PIN>
+<PIN pos='64,122' which='0' elec='0' direction='3' part='0' number='18' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,126' which='0' elec='0' direction='3' part='0' number='19' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='64,130' which='0' elec='0' direction='3' part='0' number='20' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,134' which='0' elec='0' direction='3' part='0' number='21' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,138' which='0' elec='0' direction='3' part='0' number='22' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,142' which='0' elec='0' direction='3' part='0' number='23' show='3' length='30' number_pos='0' centre_name='0'>DCLK</PIN>
+<PIN pos='64,146' which='0' elec='0' direction='3' part='0' number='24' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA0</PIN>
+<PIN pos='64,150' which='0' elec='0' direction='3' part='0' number='25' show='3' length='30' number_pos='0' centre_name='0'>nCONFIG</PIN>
+<PIN pos='64,154' which='0' elec='0' direction='3' part='0' number='26' show='3' length='30' number_pos='0' centre_name='0'>TDI</PIN>
+<PIN pos='64,158' which='0' elec='0' direction='3' part='0' number='27' show='3' length='30' number_pos='0' centre_name='0'>TCK</PIN>
+<PIN pos='64,162' which='0' elec='0' direction='3' part='0' number='28' show='3' length='30' number_pos='0' centre_name='0'>TMS</PIN>
+<PIN pos='64,166' which='0' elec='0' direction='3' part='0' number='29' show='3' length='30' number_pos='0' centre_name='0'>TDO</PIN>
+<PIN pos='64,170' which='0' elec='0' direction='3' part='0' number='30' show='3' length='30' number_pos='0' centre_name='0'>nCE</PIN>
+<PIN pos='64,174' which='0' elec='0' direction='3' part='0' number='31' show='3' length='30' number_pos='0' centre_name='0'>CLK0</PIN>
+<PIN pos='64,178' which='0' elec='0' direction='3' part='0' number='32' show='3' length='30' number_pos='0' centre_name='0'>CLK1</PIN>
 </TinyCAD>
-</SYMBOLDEF>
-<SYMBOLDEF id='2'><NAME type='0'>EP3C Q240 B2</NAME>
-<REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 2</DESCRIPTION>
-<PPP>1</PPP>
-<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>Package</NAME>
-<DEFAULT>240-PQFP</DEFAULT>
-<FT>000001</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<REF_POINT power='0' part='0' pos='58,140'/>
-<TinyCAD><RECTANGLE a='32,24' b='58,140' style='0' fill='0'/>
-<PIN pos='26,28' which='0' elec='0' direction='3' part='0' number='33' show='3' length='30' number_pos='0' centre_name='0'>CLK2</PIN>
-<PIN pos='26,32' which='0' elec='0' direction='3' part='0' number='34' show='3' length='30' number_pos='0' centre_name='0'>CLK3</PIN>
-<PIN pos='26,36' which='0' elec='0' direction='3' part='0' number='35' show='3' length='30' number_pos='0' centre_name='0'>VCCIO2</PIN>
-<PIN pos='26,40' which='0' elec='0' direction='3' part='0' number='36' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='26,44' which='0' elec='0' direction='3' part='0' number='37' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,48' which='0' elec='0' direction='3' part='0' number='38' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,52' which='0' elec='0' direction='3' part='0' number='39' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,56' which='0' elec='0' direction='3' part='0' number='40' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='26,60' which='0' elec='0' direction='3' part='0' number='41' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,64' which='0' elec='0' direction='3' part='0' number='42' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='26,68' which='0' elec='0' direction='3' part='0' number='43' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,72' which='0' elec='0' direction='3' part='0' number='44' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,76' which='0' elec='0' direction='3' part='0' number='45' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,80' which='0' elec='0' direction='3' part='0' number='46' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,84' which='0' elec='0' direction='3' part='0' number='47' show='3' length='30' number_pos='0' centre_name='0'>VCCIO2</PIN>
-<PIN pos='26,88' which='0' elec='0' direction='3' part='0' number='48' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='26,92' which='0' elec='0' direction='3' part='0' number='49' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,96' which='0' elec='0' direction='3' part='0' number='50' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,100' which='0' elec='0' direction='3' part='0' number='51' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,104' which='0' elec='0' direction='3' part='0' number='52' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,108' which='0' elec='0' direction='3' part='0' number='53' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='26,112' which='0' elec='0' direction='3' part='0' number='54' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='26,116' which='0' elec='0' direction='3' part='0' number='55' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,120' which='0' elec='0' direction='3' part='0' number='56' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,124' which='0' elec='0' direction='3' part='0' number='57' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='26,128' which='0' elec='0' direction='3' part='0' number='58' show='3' length='30' number_pos='0' centre_name='0'>VCCA1</PIN>
-<PIN pos='26,132' which='0' elec='0' direction='3' part='0' number='59' show='3' length='30' number_pos='0' centre_name='0'>GNDA1</PIN>
-<PIN pos='26,136' which='0' elec='0' direction='3' part='0' number='60' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL1</PIN>
+<TinyCAD><RECTANGLE a='76,38' b='102,154' style='0' fill='0'/>
+<PIN pos='70,42' which='0' elec='0' direction='3' part='0' number='33' show='3' length='30' number_pos='0' centre_name='0'>CLK2</PIN>
+<PIN pos='70,46' which='0' elec='0' direction='3' part='0' number='34' show='3' length='30' number_pos='0' centre_name='0'>CLK3</PIN>
+<PIN pos='70,50' which='0' elec='0' direction='3' part='0' number='35' show='3' length='30' number_pos='0' centre_name='0'>VCCIO2</PIN>
+<PIN pos='70,54' which='0' elec='0' direction='3' part='0' number='36' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,58' which='0' elec='0' direction='3' part='0' number='37' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,62' which='0' elec='0' direction='3' part='0' number='38' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,66' which='0' elec='0' direction='3' part='0' number='39' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,70' which='0' elec='0' direction='3' part='0' number='40' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='70,74' which='0' elec='0' direction='3' part='0' number='41' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,78' which='0' elec='0' direction='3' part='0' number='42' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,82' which='0' elec='0' direction='3' part='0' number='43' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,86' which='0' elec='0' direction='3' part='0' number='44' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,90' which='0' elec='0' direction='3' part='0' number='45' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,94' which='0' elec='0' direction='3' part='0' number='46' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,98' which='0' elec='0' direction='3' part='0' number='47' show='3' length='30' number_pos='0' centre_name='0'>VCCIO2</PIN>
+<PIN pos='70,102' which='0' elec='0' direction='3' part='0' number='48' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,106' which='0' elec='0' direction='3' part='0' number='49' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,110' which='0' elec='0' direction='3' part='0' number='50' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,114' which='0' elec='0' direction='3' part='0' number='51' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,118' which='0' elec='0' direction='3' part='0' number='52' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,122' which='0' elec='0' direction='3' part='0' number='53' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='70,126' which='0' elec='0' direction='3' part='0' number='54' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,130' which='0' elec='0' direction='3' part='0' number='55' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,134' which='0' elec='0' direction='3' part='0' number='56' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,138' which='0' elec='0' direction='3' part='0' number='57' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,142' which='0' elec='0' direction='3' part='0' number='58' show='3' length='30' number_pos='0' centre_name='0'>VCCA1</PIN>
+<PIN pos='70,146' which='0' elec='0' direction='3' part='0' number='59' show='3' length='30' number_pos='0' centre_name='0'>GNDA1</PIN>
+<PIN pos='70,150' which='0' elec='0' direction='3' part='0' number='60' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL1</PIN>
 </TinyCAD>
-</SYMBOLDEF>
-<SYMBOLDEF id='3'><NAME type='0'>EP3C Q240 B3</NAME>
-<REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 3</DESCRIPTION>
-<PPP>1</PPP>
-<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>Package</NAME>
-<DEFAULT>240-PQFP</DEFAULT>
-<FT>000001</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<REF_POINT power='0' part='0' pos='76,144'/>
-<TinyCAD><RECTANGLE a='50,20' b='76,144' style='0' fill='0'/>
-<PIN pos='44,24' which='0' elec='0' direction='3' part='0' number='61' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,28' which='0' elec='0' direction='3' part='0' number='62' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,32' which='0' elec='0' direction='3' part='0' number='63' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,36' which='0' elec='0' direction='3' part='0' number='64' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,40' which='0' elec='0' direction='3' part='0' number='65' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,44' which='0' elec='0' direction='3' part='0' number='66' show='3' length='30' number_pos='0' centre_name='0'>VCCIO3</PIN>
-<PIN pos='44,48' which='0' elec='0' direction='3' part='0' number='67' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,52' which='0' elec='0' direction='3' part='0' number='68' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,56' which='0' elec='0' direction='3' part='0' number='69' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,60' which='0' elec='0' direction='3' part='0' number='70' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,64' which='0' elec='0' direction='3' part='0' number='71' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,68' which='0' elec='0' direction='3' part='0' number='72' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,72' which='0' elec='0' direction='3' part='0' number='73' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,76' which='0' elec='0' direction='3' part='0' number='74' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,80' which='0' elec='0' direction='3' part='0' number='75' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,84' which='0' elec='0' direction='3' part='0' number='76' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,88' which='0' elec='0' direction='3' part='0' number='77' show='3' length='30' number_pos='0' centre_name='0'>VCCIO3</PIN>
-<PIN pos='44,92' which='0' elec='0' direction='3' part='0' number='78' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,96' which='0' elec='0' direction='3' part='0' number='79' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,100' which='0' elec='0' direction='3' part='0' number='80' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,104' which='0' elec='0' direction='3' part='0' number='81' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,108' which='0' elec='0' direction='3' part='0' number='82' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,112' which='0' elec='0' direction='3' part='0' number='83' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,116' which='0' elec='0' direction='3' part='0' number='84' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,120' which='0' elec='0' direction='3' part='0' number='85' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,124' which='0' elec='0' direction='3' part='0' number='86' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,128' which='0' elec='0' direction='3' part='0' number='87' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,132' which='0' elec='0' direction='3' part='0' number='88' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,136' which='0' elec='0' direction='3' part='0' number='89' show='3' length='30' number_pos='0' centre_name='0'>CLK15</PIN>
-<PIN pos='44,140' which='0' elec='0' direction='3' part='0' number='90' show='3' length='30' number_pos='0' centre_name='0'>CLK14</PIN>
+<TinyCAD><RECTANGLE a='74,40' b='100,164' style='0' fill='0'/>
+<PIN pos='68,44' which='0' elec='0' direction='3' part='0' number='61' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,48' which='0' elec='0' direction='3' part='0' number='62' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,52' which='0' elec='0' direction='3' part='0' number='63' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,56' which='0' elec='0' direction='3' part='0' number='64' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,60' which='0' elec='0' direction='3' part='0' number='65' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,64' which='0' elec='0' direction='3' part='0' number='66' show='3' length='30' number_pos='0' centre_name='0'>VCCIO3</PIN>
+<PIN pos='68,68' which='0' elec='0' direction='3' part='0' number='67' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,72' which='0' elec='0' direction='3' part='0' number='68' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,76' which='0' elec='0' direction='3' part='0' number='69' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,80' which='0' elec='0' direction='3' part='0' number='70' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,84' which='0' elec='0' direction='3' part='0' number='71' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,88' which='0' elec='0' direction='3' part='0' number='72' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,92' which='0' elec='0' direction='3' part='0' number='73' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,96' which='0' elec='0' direction='3' part='0' number='74' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,100' which='0' elec='0' direction='3' part='0' number='75' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,104' which='0' elec='0' direction='3' part='0' number='76' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,108' which='0' elec='0' direction='3' part='0' number='77' show='3' length='30' number_pos='0' centre_name='0'>VCCIO3</PIN>
+<PIN pos='68,112' which='0' elec='0' direction='3' part='0' number='78' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,116' which='0' elec='0' direction='3' part='0' number='79' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,120' which='0' elec='0' direction='3' part='0' number='80' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,124' which='0' elec='0' direction='3' part='0' number='81' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,128' which='0' elec='0' direction='3' part='0' number='82' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,132' which='0' elec='0' direction='3' part='0' number='83' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,136' which='0' elec='0' direction='3' part='0' number='84' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,140' which='0' elec='0' direction='3' part='0' number='85' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,144' which='0' elec='0' direction='3' part='0' number='86' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,148' which='0' elec='0' direction='3' part='0' number='87' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,152' which='0' elec='0' direction='3' part='0' number='88' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,156' which='0' elec='0' direction='3' part='0' number='89' show='3' length='30' number_pos='0' centre_name='0'>CLK15</PIN>
+<PIN pos='68,160' which='0' elec='0' direction='3' part='0' number='90' show='3' length='30' number_pos='0' centre_name='0'>CLK14</PIN>
 </TinyCAD>
-</SYMBOLDEF>
-<SYMBOLDEF id='4'><NAME type='0'>EP3C Q240 B4</NAME>
-<REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 4</DESCRIPTION>
-<PPP>1</PPP>
-<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>Package</NAME>
-<DEFAULT>240-PQFP</DEFAULT>
-<FT>000001</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<REF_POINT power='0' part='0' pos='76,144'/>
-<TinyCAD><RECTANGLE a='50,20' b='76,144' style='0' fill='0'/>
-<PIN pos='44,24' which='0' elec='0' direction='3' part='0' number='91' show='3' length='30' number_pos='0' centre_name='0'>CLK13</PIN>
-<PIN pos='44,28' which='0' elec='0' direction='3' part='0' number='92' show='3' length='30' number_pos='0' centre_name='0'>CLK12</PIN>
-<PIN pos='44,32' which='0' elec='0' direction='3' part='0' number='93' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,36' which='0' elec='0' direction='3' part='0' number='94' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,40' which='0' elec='0' direction='3' part='0' number='95' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,44' which='0' elec='0' direction='3' part='0' number='96' show='3' length='30' number_pos='0' centre_name='0'>VCCIO4</PIN>
-<PIN pos='44,48' which='0' elec='0' direction='3' part='0' number='97' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,52' which='0' elec='0' direction='3' part='0' number='98' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,56' which='0' elec='0' direction='3' part='0' number='99' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,60' which='0' elec='0' direction='3' part='0' number='100' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,64' which='0' elec='0' direction='3' part='0' number='101' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,68' which='0' elec='0' direction='3' part='0' number='102' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,72' which='0' elec='0' direction='3' part='0' number='103' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,76' which='0' elec='0' direction='3' part='0' number='104' show='3' length='30' number_pos='0' centre_name='0'>VCCIO4</PIN>
-<PIN pos='44,80' which='0' elec='0' direction='3' part='0' number='105' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,84' which='0' elec='0' direction='3' part='0' number='106' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,88' which='0' elec='0' direction='3' part='0' number='107' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,92' which='0' elec='0' direction='3' part='0' number='108' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,96' which='0' elec='0' direction='3' part='0' number='109' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,100' which='0' elec='0' direction='3' part='0' number='110' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,104' which='0' elec='0' direction='3' part='0' number='111' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,108' which='0' elec='0' direction='3' part='0' number='112' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,112' which='0' elec='0' direction='3' part='0' number='113' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,116' which='0' elec='0' direction='3' part='0' number='114' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,120' which='0' elec='0' direction='3' part='0' number='115' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,124' which='0' elec='0' direction='3' part='0' number='116' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,128' which='0' elec='0' direction='3' part='0' number='117' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,132' which='0' elec='0' direction='3' part='0' number='118' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,136' which='0' elec='0' direction='3' part='0' number='119' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,140' which='0' elec='0' direction='3' part='0' number='120' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<TinyCAD><RECTANGLE a='104,40' b='130,164' style='0' fill='0'/>
+<PIN pos='98,44' which='0' elec='0' direction='3' part='0' number='91' show='3' length='30' number_pos='0' centre_name='0'>CLK13</PIN>
+<PIN pos='98,48' which='0' elec='0' direction='3' part='0' number='92' show='3' length='30' number_pos='0' centre_name='0'>CLK12</PIN>
+<PIN pos='98,52' which='0' elec='0' direction='3' part='0' number='93' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,56' which='0' elec='0' direction='3' part='0' number='94' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,60' which='0' elec='0' direction='3' part='0' number='95' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,64' which='0' elec='0' direction='3' part='0' number='96' show='3' length='30' number_pos='0' centre_name='0'>VCCIO4</PIN>
+<PIN pos='98,68' which='0' elec='0' direction='3' part='0' number='97' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,72' which='0' elec='0' direction='3' part='0' number='98' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,76' which='0' elec='0' direction='3' part='0' number='99' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,80' which='0' elec='0' direction='3' part='0' number='100' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,84' which='0' elec='0' direction='3' part='0' number='101' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,88' which='0' elec='0' direction='3' part='0' number='102' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,92' which='0' elec='0' direction='3' part='0' number='103' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,96' which='0' elec='0' direction='3' part='0' number='104' show='3' length='30' number_pos='0' centre_name='0'>VCCIO4</PIN>
+<PIN pos='98,100' which='0' elec='0' direction='3' part='0' number='105' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,104' which='0' elec='0' direction='3' part='0' number='106' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,108' which='0' elec='0' direction='3' part='0' number='107' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,112' which='0' elec='0' direction='3' part='0' number='108' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,116' which='0' elec='0' direction='3' part='0' number='109' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,120' which='0' elec='0' direction='3' part='0' number='110' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,124' which='0' elec='0' direction='3' part='0' number='111' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,128' which='0' elec='0' direction='3' part='0' number='112' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,132' which='0' elec='0' direction='3' part='0' number='113' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,136' which='0' elec='0' direction='3' part='0' number='114' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,140' which='0' elec='0' direction='3' part='0' number='115' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,144' which='0' elec='0' direction='3' part='0' number='116' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,148' which='0' elec='0' direction='3' part='0' number='117' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,152' which='0' elec='0' direction='3' part='0' number='118' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,156' which='0' elec='0' direction='3' part='0' number='119' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,160' which='0' elec='0' direction='3' part='0' number='120' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
 </TinyCAD>
+<TinyCAD><RECTANGLE a='106,38' b='132,162' style='0' fill='0'/>
+<PIN pos='100,42' which='0' elec='0' direction='3' part='0' number='121' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL4</PIN>
+<PIN pos='100,46' which='0' elec='0' direction='3' part='0' number='122' show='3' length='30' number_pos='0' centre_name='0'>GNDA4</PIN>
+<PIN pos='100,50' which='0' elec='0' direction='3' part='0' number='123' show='3' length='30' number_pos='0' centre_name='0'>VCCA4</PIN>
+<PIN pos='100,54' which='0' elec='0' direction='3' part='0' number='124' show='3' length='30' number_pos='0' centre_name='0'>VCCIO5</PIN>
+<PIN pos='100,58' which='0' elec='0' direction='3' part='0' number='125' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,62' which='0' elec='0' direction='3' part='0' number='126' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,66' which='0' elec='0' direction='3' part='0' number='127' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,70' which='0' elec='0' direction='3' part='0' number='128' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,74' which='0' elec='0' direction='3' part='0' number='129' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,78' which='0' elec='0' direction='3' part='0' number='130' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,82' which='0' elec='0' direction='3' part='0' number='131' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,86' which='0' elec='0' direction='3' part='0' number='132' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,90' which='0' elec='0' direction='3' part='0' number='133' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,94' which='0' elec='0' direction='3' part='0' number='134' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,98' which='0' elec='0' direction='3' part='0' number='135' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,102' which='0' elec='0' direction='3' part='0' number='136' show='3' length='30' number_pos='0' centre_name='0'>VCCIO5</PIN>
+<PIN pos='100,106' which='0' elec='0' direction='3' part='0' number='137' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,110' which='0' elec='0' direction='3' part='0' number='138' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,114' which='0' elec='0' direction='3' part='0' number='139' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,118' which='0' elec='0' direction='3' part='0' number='140' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,122' which='0' elec='0' direction='3' part='0' number='141' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,126' which='0' elec='0' direction='3' part='0' number='142' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,130' which='0' elec='0' direction='3' part='0' number='143' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,134' which='0' elec='0' direction='3' part='0' number='144' show='3' length='30' number_pos='0' centre_name='0'>IO/DEV_OE</PIN>
+<PIN pos='100,138' which='0' elec='0' direction='3' part='0' number='145' show='3' length='30' number_pos='0' centre_name='0'>IO/DEV_CLRn</PIN>
+<PIN pos='100,142' which='0' elec='0' direction='3' part='0' number='146' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,146' which='0' elec='0' direction='3' part='0' number='147' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,150' which='0' elec='0' direction='3' part='0' number='148' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,154' which='0' elec='0' direction='3' part='0' number='149' show='3' length='30' number_pos='0' centre_name='0'>CLK7</PIN>
+<PIN pos='100,158' which='0' elec='0' direction='3' part='0' number='150' show='3' length='30' number_pos='0' centre_name='0'>CLK6</PIN>
+</TinyCAD>
+<TinyCAD><RECTANGLE a='106,48' b='132,172' style='0' fill='0'/>
+<PIN pos='100,52' which='0' elec='0' direction='3' part='0' number='151' show='3' length='30' number_pos='0' centre_name='0'>CLK5</PIN>
+<PIN pos='100,56' which='0' elec='0' direction='3' part='0' number='152' show='3' length='30' number_pos='0' centre_name='0'>CLK4</PIN>
+<PIN pos='100,60' which='0' elec='0' direction='3' part='0' number='153' show='3' length='30' number_pos='0' centre_name='0'>CONF_DONE</PIN>
+<PIN pos='100,64' which='0' elec='0' direction='3' part='0' number='154' show='3' length='30' number_pos='0' centre_name='0'>VCCIO6</PIN>
+<PIN pos='100,68' which='0' elec='0' direction='3' part='0' number='155' show='3' length='30' number_pos='0' centre_name='0'>MSEL0</PIN>
+<PIN pos='100,72' which='0' elec='0' direction='3' part='0' number='156' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,76' which='0' elec='0' direction='3' part='0' number='157' show='3' length='30' number_pos='0' centre_name='0'>MSEL1</PIN>
+<PIN pos='100,80' which='0' elec='0' direction='3' part='0' number='158' show='3' length='30' number_pos='0' centre_name='0'>MSEL2</PIN>
+<PIN pos='100,84' which='0' elec='0' direction='3' part='0' number='159' show='3' length='30' number_pos='0' centre_name='0'>IO/INIT_DONE</PIN>
+<PIN pos='100,88' which='0' elec='0' direction='3' part='0' number='160' show='3' length='30' number_pos='0' centre_name='0'>IO/CRC_ERROR</PIN>
+<PIN pos='100,92' which='0' elec='0' direction='3' part='0' number='161' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,96' which='0' elec='0' direction='3' part='0' number='162' show='3' length='30' number_pos='0' centre_name='0'>IO/nCEO</PIN>
+<PIN pos='100,100' which='0' elec='0' direction='3' part='0' number='163' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,104' which='0' elec='0' direction='3' part='0' number='164' show='3' length='30' number_pos='0' centre_name='0'>IO/CLKUSR</PIN>
+<PIN pos='100,108' which='0' elec='0' direction='3' part='0' number='165' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,112' which='0' elec='0' direction='3' part='0' number='166' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,116' which='0' elec='0' direction='3' part='0' number='167' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,120' which='0' elec='0' direction='3' part='0' number='168' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,124' which='0' elec='0' direction='3' part='0' number='169' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,128' which='0' elec='0' direction='3' part='0' number='170' show='3' length='30' number_pos='0' centre_name='0'>VCCIO6</PIN>
+<PIN pos='100,132' which='0' elec='0' direction='3' part='0' number='171' show='3' length='30' number_pos='0' centre_name='0'>IO/nWE</PIN>
+<PIN pos='100,136' which='0' elec='0' direction='3' part='0' number='172' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,140' which='0' elec='0' direction='3' part='0' number='173' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,144' which='0' elec='0' direction='3' part='0' number='174' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,148' which='0' elec='0' direction='3' part='0' number='175' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,152' which='0' elec='0' direction='3' part='0' number='176' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,156' which='0' elec='0' direction='3' part='0' number='177' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,160' which='0' elec='0' direction='3' part='0' number='178' show='3' length='30' number_pos='0' centre_name='0'>VCCA2</PIN>
+<PIN pos='100,164' which='0' elec='0' direction='3' part='0' number='179' show='3' length='30' number_pos='0' centre_name='0'>GNDA2</PIN>
+<PIN pos='100,168' which='0' elec='0' direction='3' part='0' number='180' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL2</PIN>
+</TinyCAD>
+<TinyCAD><RECTANGLE a='82,36' b='108,160' style='0' fill='0'/>
+<PIN pos='76,40' which='0' elec='0' direction='3' part='0' number='181' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,44' which='0' elec='0' direction='3' part='0' number='182' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,48' which='0' elec='0' direction='3' part='0' number='183' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,52' which='0' elec='0' direction='3' part='0' number='184' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,56' which='0' elec='0' direction='3' part='0' number='185' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,60' which='0' elec='0' direction='3' part='0' number='186' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,64' which='0' elec='0' direction='3' part='0' number='187' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,68' which='0' elec='0' direction='3' part='0' number='188' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,72' which='0' elec='0' direction='3' part='0' number='189' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,76' which='0' elec='0' direction='3' part='0' number='190' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,80' which='0' elec='0' direction='3' part='0' number='191' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,84' which='0' elec='0' direction='3' part='0' number='192' show='3' length='30' number_pos='0' centre_name='0'>VCCIO7</PIN>
+<PIN pos='76,88' which='0' elec='0' direction='3' part='0' number='193' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,92' which='0' elec='0' direction='3' part='0' number='194' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,96' which='0' elec='0' direction='3' part='0' number='195' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,100' which='0' elec='0' direction='3' part='0' number='196' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,104' which='0' elec='0' direction='3' part='0' number='197' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,108' which='0' elec='0' direction='3' part='0' number='198' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,112' which='0' elec='0' direction='3' part='0' number='199' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,116' which='0' elec='0' direction='3' part='0' number='200' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,120' which='0' elec='0' direction='3' part='0' number='201' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,124' which='0' elec='0' direction='3' part='0' number='202' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,128' which='0' elec='0' direction='3' part='0' number='203' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,132' which='0' elec='0' direction='3' part='0' number='204' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,136' which='0' elec='0' direction='3' part='0' number='205' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,140' which='0' elec='0' direction='3' part='0' number='206' show='3' length='30' number_pos='0' centre_name='0'>VCCIO7</PIN>
+<PIN pos='76,144' which='0' elec='0' direction='3' part='0' number='207' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,148' which='0' elec='0' direction='3' part='0' number='208' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,152' which='0' elec='0' direction='3' part='0' number='209' show='3' length='30' number_pos='0' centre_name='0'>CLK8</PIN>
+<PIN pos='76,156' which='0' elec='0' direction='3' part='0' number='210' show='3' length='30' number_pos='0' centre_name='0'>CLK9</PIN>
+</TinyCAD>
+<TinyCAD><RECTANGLE a='102,46' b='128,170' style='0' fill='0'/>
+<PIN pos='96,50' which='0' elec='0' direction='3' part='0' number='211' show='3' length='30' number_pos='0' centre_name='0'>CLK10</PIN>
+<PIN pos='96,54' which='0' elec='0' direction='3' part='0' number='212' show='3' length='30' number_pos='0' centre_name='0'>CLK11</PIN>
+<PIN pos='96,58' which='0' elec='0' direction='3' part='0' number='213' show='3' length='30' number_pos='0' centre_name='0'>VCCIO8</PIN>
+<PIN pos='96,62' which='0' elec='0' direction='3' part='0' number='214' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,66' which='0' elec='0' direction='3' part='0' number='215' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,70' which='0' elec='0' direction='3' part='0' number='216' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,74' which='0' elec='0' direction='3' part='0' number='217' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,78' which='0' elec='0' direction='3' part='0' number='218' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA2</PIN>
+<PIN pos='96,82' which='0' elec='0' direction='3' part='0' number='219' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA3</PIN>
+<PIN pos='96,86' which='0' elec='0' direction='3' part='0' number='220' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,90' which='0' elec='0' direction='3' part='0' number='221' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA4</PIN>
+<PIN pos='96,94' which='0' elec='0' direction='3' part='0' number='222' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,98' which='0' elec='0' direction='3' part='0' number='223' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,102' which='0' elec='0' direction='3' part='0' number='224' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,106' which='0' elec='0' direction='3' part='0' number='225' show='3' length='30' number_pos='0' centre_name='0'>VCCIO8</PIN>
+<PIN pos='96,110' which='0' elec='0' direction='3' part='0' number='226' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA5</PIN>
+<PIN pos='96,114' which='0' elec='0' direction='3' part='0' number='227' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,118' which='0' elec='0' direction='3' part='0' number='228' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,122' which='0' elec='0' direction='3' part='0' number='229' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,126' which='0' elec='0' direction='3' part='0' number='230' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,130' which='0' elec='0' direction='3' part='0' number='231' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA6</PIN>
+<PIN pos='96,134' which='0' elec='0' direction='3' part='0' number='232' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA7</PIN>
+<PIN pos='96,138' which='0' elec='0' direction='3' part='0' number='233' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,142' which='0' elec='0' direction='3' part='0' number='234' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,146' which='0' elec='0' direction='3' part='0' number='235' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,150' which='0' elec='0' direction='3' part='0' number='236' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,154' which='0' elec='0' direction='3' part='0' number='237' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,158' which='0' elec='0' direction='3' part='0' number='238' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,162' which='0' elec='0' direction='3' part='0' number='239' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,166' which='0' elec='0' direction='3' part='0' number='240' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+</TinyCAD>
+</TinyCADSheets>
 </SYMBOLDEF>
 <OPTIONS><GRID>1</GRID>
 <UNITS>0</UNITS>
@@ -1562,29 +1622,29 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='1' pos='148,244' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-127.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B1' show='1' pos='1,-130'/>
+<SYMBOL id='5' pos='140,256' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='2' pos='252,228' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-111.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B2' show='1' pos='1,-114'/>
+<SYMBOL id='5' pos='218,256' part='1' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-109.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='3' pos='362,238' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B3' show='1' pos='1,-122'/>
+<SYMBOL id='5' pos='286,258' part='2' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='4' pos='472,238' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B4' show='1' pos='1,-122'/>
+<SYMBOL id='5' pos='376,258' part='3' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
 </TinyCAD>
 <TinyCAD><NAME>FPGA (5-8)</NAME>
@@ -1616,10 +1676,10 @@ download a copy.-->
 <FILL id='0'><INDEX>-1</INDEX>
 <COLOR>000000</COLOR>
 </FILL>
-<SYMBOLDEF id='1'><NAME type='0'>EP3C Q240 B5</NAME>
+<SYMBOLDEF id='5'><NAME type='0'>EP3C-Q240</NAME>
 <REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 5</DESCRIPTION>
-<PPP>1</PPP>
+<DESCRIPTION>Altera EP3C Q240</DESCRIPTION>
+<PPP>8</PPP>
 <FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
 <DEFAULT>5</DEFAULT>
 <FT>000002</FT>
@@ -1638,207 +1698,268 @@ download a copy.-->
 <VALUE></VALUE>
 <POS>0,0</POS>
 </FIELD>
-<REF_POINT power='0' part='0' pos='84,138'/>
-<TinyCAD><RECTANGLE a='58,14' b='84,138' style='0' fill='0'/>
-<PIN pos='52,18' which='0' elec='0' direction='3' part='0' number='121' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL4</PIN>
-<PIN pos='52,22' which='0' elec='0' direction='3' part='0' number='122' show='3' length='30' number_pos='0' centre_name='0'>GNDA4</PIN>
-<PIN pos='52,26' which='0' elec='0' direction='3' part='0' number='123' show='3' length='30' number_pos='0' centre_name='0'>VCCA4</PIN>
-<PIN pos='52,30' which='0' elec='0' direction='3' part='0' number='124' show='3' length='30' number_pos='0' centre_name='0'>VCCIO5</PIN>
-<PIN pos='52,34' which='0' elec='0' direction='3' part='0' number='125' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='52,38' which='0' elec='0' direction='3' part='0' number='126' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,42' which='0' elec='0' direction='3' part='0' number='127' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,46' which='0' elec='0' direction='3' part='0' number='128' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,50' which='0' elec='0' direction='3' part='0' number='129' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='52,54' which='0' elec='0' direction='3' part='0' number='130' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='52,58' which='0' elec='0' direction='3' part='0' number='131' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,62' which='0' elec='0' direction='3' part='0' number='132' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,66' which='0' elec='0' direction='3' part='0' number='133' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,70' which='0' elec='0' direction='3' part='0' number='134' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,74' which='0' elec='0' direction='3' part='0' number='135' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,78' which='0' elec='0' direction='3' part='0' number='136' show='3' length='30' number_pos='0' centre_name='0'>VCCIO5</PIN>
-<PIN pos='52,82' which='0' elec='0' direction='3' part='0' number='137' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,86' which='0' elec='0' direction='3' part='0' number='138' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='52,90' which='0' elec='0' direction='3' part='0' number='139' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,94' which='0' elec='0' direction='3' part='0' number='140' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='52,98' which='0' elec='0' direction='3' part='0' number='141' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='52,102' which='0' elec='0' direction='3' part='0' number='142' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,106' which='0' elec='0' direction='3' part='0' number='143' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,110' which='0' elec='0' direction='3' part='0' number='144' show='3' length='30' number_pos='0' centre_name='0'>IO/DEV_OE</PIN>
-<PIN pos='52,114' which='0' elec='0' direction='3' part='0' number='145' show='3' length='30' number_pos='0' centre_name='0'>IO/DEV_CLRn</PIN>
-<PIN pos='52,118' which='0' elec='0' direction='3' part='0' number='146' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='52,122' which='0' elec='0' direction='3' part='0' number='147' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='52,126' which='0' elec='0' direction='3' part='0' number='148' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='52,130' which='0' elec='0' direction='3' part='0' number='149' show='3' length='30' number_pos='0' centre_name='0'>CLK7</PIN>
-<PIN pos='52,134' which='0' elec='0' direction='3' part='0' number='150' show='3' length='30' number_pos='0' centre_name='0'>CLK6</PIN>
+<REF_POINT power='0' part='0' pos='96,182'/>
+<REF_POINT power='0' part='4' pos='132,162'/>
+<REF_POINT power='0' part='5' pos='132,172'/>
+<REF_POINT power='0' part='6' pos='108,160'/>
+<REF_POINT power='0' part='7' pos='128,170'/>
+<TinyCADSheets><TinyCAD><RECTANGLE a='70,50' b='96,182' style='0' fill='0'/>
+<PIN pos='64,54' which='0' elec='0' direction='3' part='0' number='1' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL3</PIN>
+<PIN pos='64,58' which='0' elec='0' direction='3' part='0' number='2' show='3' length='30' number_pos='0' centre_name='0'>GNDA3</PIN>
+<PIN pos='64,62' which='0' elec='0' direction='3' part='0' number='3' show='3' length='30' number_pos='0' centre_name='0'>VCCA3</PIN>
+<PIN pos='64,66' which='0' elec='0' direction='3' part='0' number='4' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='64,70' which='0' elec='0' direction='3' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,74' which='0' elec='0' direction='3' part='0' number='6' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,78' which='0' elec='0' direction='3' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>VCCIO1</PIN>
+<PIN pos='64,82' which='0' elec='0' direction='3' part='0' number='8' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,86' which='0' elec='0' direction='3' part='0' number='9' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,90' which='0' elec='0' direction='3' part='0' number='10' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='64,94' which='0' elec='0' direction='3' part='0' number='11' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,98' which='0' elec='0' direction='3' part='0' number='12' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA1</PIN>
+<PIN pos='64,102' which='0' elec='0' direction='3' part='0' number='13' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,106' which='0' elec='0' direction='3' part='0' number='14' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,110' which='0' elec='0' direction='3' part='0' number='15' show='3' length='30' number_pos='0' centre_name='0'>VCCIO1</PIN>
+<PIN pos='64,114' which='0' elec='0' direction='3' part='0' number='16' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,118' which='0' elec='0' direction='3' part='0' number='17' show='3' length='30' number_pos='0' centre_name='0'>nSTATUS</PIN>
+<PIN pos='64,122' which='0' elec='0' direction='3' part='0' number='18' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,126' which='0' elec='0' direction='3' part='0' number='19' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='64,130' which='0' elec='0' direction='3' part='0' number='20' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='64,134' which='0' elec='0' direction='3' part='0' number='21' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,138' which='0' elec='0' direction='3' part='0' number='22' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='64,142' which='0' elec='0' direction='3' part='0' number='23' show='3' length='30' number_pos='0' centre_name='0'>DCLK</PIN>
+<PIN pos='64,146' which='0' elec='0' direction='3' part='0' number='24' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA0</PIN>
+<PIN pos='64,150' which='0' elec='0' direction='3' part='0' number='25' show='3' length='30' number_pos='0' centre_name='0'>nCONFIG</PIN>
+<PIN pos='64,154' which='0' elec='0' direction='3' part='0' number='26' show='3' length='30' number_pos='0' centre_name='0'>TDI</PIN>
+<PIN pos='64,158' which='0' elec='0' direction='3' part='0' number='27' show='3' length='30' number_pos='0' centre_name='0'>TCK</PIN>
+<PIN pos='64,162' which='0' elec='0' direction='3' part='0' number='28' show='3' length='30' number_pos='0' centre_name='0'>TMS</PIN>
+<PIN pos='64,166' which='0' elec='0' direction='3' part='0' number='29' show='3' length='30' number_pos='0' centre_name='0'>TDO</PIN>
+<PIN pos='64,170' which='0' elec='0' direction='3' part='0' number='30' show='3' length='30' number_pos='0' centre_name='0'>nCE</PIN>
+<PIN pos='64,174' which='0' elec='0' direction='3' part='0' number='31' show='3' length='30' number_pos='0' centre_name='0'>CLK0</PIN>
+<PIN pos='64,178' which='0' elec='0' direction='3' part='0' number='32' show='3' length='30' number_pos='0' centre_name='0'>CLK1</PIN>
 </TinyCAD>
-</SYMBOLDEF>
-<SYMBOLDEF id='2'><NAME type='0'>EP3C Q240 B6</NAME>
-<REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 6</DESCRIPTION>
-<PPP>1</PPP>
-<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>Package</NAME>
-<DEFAULT>240-PQFP</DEFAULT>
-<FT>000001</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<REF_POINT power='0' part='0' pos='82,144'/>
-<TinyCAD><RECTANGLE a='56,20' b='82,144' style='0' fill='0'/>
-<PIN pos='50,24' which='0' elec='0' direction='3' part='0' number='151' show='3' length='30' number_pos='0' centre_name='0'>CLK5</PIN>
-<PIN pos='50,28' which='0' elec='0' direction='3' part='0' number='152' show='3' length='30' number_pos='0' centre_name='0'>CLK4</PIN>
-<PIN pos='50,32' which='0' elec='0' direction='3' part='0' number='153' show='3' length='30' number_pos='0' centre_name='0'>CONF_DONE</PIN>
-<PIN pos='50,36' which='0' elec='0' direction='3' part='0' number='154' show='3' length='30' number_pos='0' centre_name='0'>VCCIO6</PIN>
-<PIN pos='50,40' which='0' elec='0' direction='3' part='0' number='155' show='3' length='30' number_pos='0' centre_name='0'>MSEL0</PIN>
-<PIN pos='50,44' which='0' elec='0' direction='3' part='0' number='156' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,48' which='0' elec='0' direction='3' part='0' number='157' show='3' length='30' number_pos='0' centre_name='0'>MSEL1</PIN>
-<PIN pos='50,52' which='0' elec='0' direction='3' part='0' number='158' show='3' length='30' number_pos='0' centre_name='0'>MSEL2</PIN>
-<PIN pos='50,56' which='0' elec='0' direction='3' part='0' number='159' show='3' length='30' number_pos='0' centre_name='0'>IO/INIT_DONE</PIN>
-<PIN pos='50,60' which='0' elec='0' direction='3' part='0' number='160' show='3' length='30' number_pos='0' centre_name='0'>IO/CRC_ERROR</PIN>
-<PIN pos='50,64' which='0' elec='0' direction='3' part='0' number='161' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,68' which='0' elec='0' direction='3' part='0' number='162' show='3' length='30' number_pos='0' centre_name='0'>IO/nCEO</PIN>
-<PIN pos='50,72' which='0' elec='0' direction='3' part='0' number='163' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,76' which='0' elec='0' direction='3' part='0' number='164' show='3' length='30' number_pos='0' centre_name='0'>IO/CLKUSR</PIN>
-<PIN pos='50,80' which='0' elec='0' direction='3' part='0' number='165' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,84' which='0' elec='0' direction='3' part='0' number='166' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,88' which='0' elec='0' direction='3' part='0' number='167' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,92' which='0' elec='0' direction='3' part='0' number='168' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,96' which='0' elec='0' direction='3' part='0' number='169' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,100' which='0' elec='0' direction='3' part='0' number='170' show='3' length='30' number_pos='0' centre_name='0'>VCCIO6</PIN>
-<PIN pos='50,104' which='0' elec='0' direction='3' part='0' number='171' show='3' length='30' number_pos='0' centre_name='0'>IO/nWE</PIN>
-<PIN pos='50,108' which='0' elec='0' direction='3' part='0' number='172' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,112' which='0' elec='0' direction='3' part='0' number='173' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,116' which='0' elec='0' direction='3' part='0' number='174' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,120' which='0' elec='0' direction='3' part='0' number='175' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,124' which='0' elec='0' direction='3' part='0' number='176' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,128' which='0' elec='0' direction='3' part='0' number='177' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,132' which='0' elec='0' direction='3' part='0' number='178' show='3' length='30' number_pos='0' centre_name='0'>VCCA2</PIN>
-<PIN pos='50,136' which='0' elec='0' direction='3' part='0' number='179' show='3' length='30' number_pos='0' centre_name='0'>GNDA2</PIN>
-<PIN pos='50,140' which='0' elec='0' direction='3' part='0' number='180' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL2</PIN>
+<TinyCAD><RECTANGLE a='76,38' b='102,154' style='0' fill='0'/>
+<PIN pos='70,42' which='0' elec='0' direction='3' part='0' number='33' show='3' length='30' number_pos='0' centre_name='0'>CLK2</PIN>
+<PIN pos='70,46' which='0' elec='0' direction='3' part='0' number='34' show='3' length='30' number_pos='0' centre_name='0'>CLK3</PIN>
+<PIN pos='70,50' which='0' elec='0' direction='3' part='0' number='35' show='3' length='30' number_pos='0' centre_name='0'>VCCIO2</PIN>
+<PIN pos='70,54' which='0' elec='0' direction='3' part='0' number='36' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,58' which='0' elec='0' direction='3' part='0' number='37' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,62' which='0' elec='0' direction='3' part='0' number='38' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,66' which='0' elec='0' direction='3' part='0' number='39' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,70' which='0' elec='0' direction='3' part='0' number='40' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='70,74' which='0' elec='0' direction='3' part='0' number='41' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,78' which='0' elec='0' direction='3' part='0' number='42' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,82' which='0' elec='0' direction='3' part='0' number='43' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,86' which='0' elec='0' direction='3' part='0' number='44' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,90' which='0' elec='0' direction='3' part='0' number='45' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,94' which='0' elec='0' direction='3' part='0' number='46' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,98' which='0' elec='0' direction='3' part='0' number='47' show='3' length='30' number_pos='0' centre_name='0'>VCCIO2</PIN>
+<PIN pos='70,102' which='0' elec='0' direction='3' part='0' number='48' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,106' which='0' elec='0' direction='3' part='0' number='49' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,110' which='0' elec='0' direction='3' part='0' number='50' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,114' which='0' elec='0' direction='3' part='0' number='51' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,118' which='0' elec='0' direction='3' part='0' number='52' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,122' which='0' elec='0' direction='3' part='0' number='53' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='70,126' which='0' elec='0' direction='3' part='0' number='54' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='70,130' which='0' elec='0' direction='3' part='0' number='55' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,134' which='0' elec='0' direction='3' part='0' number='56' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,138' which='0' elec='0' direction='3' part='0' number='57' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='70,142' which='0' elec='0' direction='3' part='0' number='58' show='3' length='30' number_pos='0' centre_name='0'>VCCA1</PIN>
+<PIN pos='70,146' which='0' elec='0' direction='3' part='0' number='59' show='3' length='30' number_pos='0' centre_name='0'>GNDA1</PIN>
+<PIN pos='70,150' which='0' elec='0' direction='3' part='0' number='60' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL1</PIN>
 </TinyCAD>
-</SYMBOLDEF>
-<SYMBOLDEF id='3'><NAME type='0'>EP3C Q240 B7</NAME>
-<REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 7</DESCRIPTION>
-<PPP>1</PPP>
-<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>Package</NAME>
-<DEFAULT>240-PQFP</DEFAULT>
-<FT>000001</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<REF_POINT power='0' part='0' pos='76,140'/>
-<TinyCAD><RECTANGLE a='50,16' b='76,140' style='0' fill='0'/>
-<PIN pos='44,20' which='0' elec='0' direction='3' part='0' number='181' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,24' which='0' elec='0' direction='3' part='0' number='182' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,28' which='0' elec='0' direction='3' part='0' number='183' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,32' which='0' elec='0' direction='3' part='0' number='184' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,36' which='0' elec='0' direction='3' part='0' number='185' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,40' which='0' elec='0' direction='3' part='0' number='186' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,44' which='0' elec='0' direction='3' part='0' number='187' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,48' which='0' elec='0' direction='3' part='0' number='188' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,52' which='0' elec='0' direction='3' part='0' number='189' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,56' which='0' elec='0' direction='3' part='0' number='190' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,60' which='0' elec='0' direction='3' part='0' number='191' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,64' which='0' elec='0' direction='3' part='0' number='192' show='3' length='30' number_pos='0' centre_name='0'>VCCIO7</PIN>
-<PIN pos='44,68' which='0' elec='0' direction='3' part='0' number='193' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,72' which='0' elec='0' direction='3' part='0' number='194' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,76' which='0' elec='0' direction='3' part='0' number='195' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,80' which='0' elec='0' direction='3' part='0' number='196' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,84' which='0' elec='0' direction='3' part='0' number='197' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,88' which='0' elec='0' direction='3' part='0' number='198' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,92' which='0' elec='0' direction='3' part='0' number='199' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,96' which='0' elec='0' direction='3' part='0' number='200' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,100' which='0' elec='0' direction='3' part='0' number='201' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,104' which='0' elec='0' direction='3' part='0' number='202' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,108' which='0' elec='0' direction='3' part='0' number='203' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,112' which='0' elec='0' direction='3' part='0' number='204' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='44,116' which='0' elec='0' direction='3' part='0' number='205' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,120' which='0' elec='0' direction='3' part='0' number='206' show='3' length='30' number_pos='0' centre_name='0'>VCCIO7</PIN>
-<PIN pos='44,124' which='0' elec='0' direction='3' part='0' number='207' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='44,128' which='0' elec='0' direction='3' part='0' number='208' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='44,132' which='0' elec='0' direction='3' part='0' number='209' show='3' length='30' number_pos='0' centre_name='0'>CLK8</PIN>
-<PIN pos='44,136' which='0' elec='0' direction='3' part='0' number='210' show='3' length='30' number_pos='0' centre_name='0'>CLK9</PIN>
+<TinyCAD><RECTANGLE a='74,40' b='100,164' style='0' fill='0'/>
+<PIN pos='68,44' which='0' elec='0' direction='3' part='0' number='61' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,48' which='0' elec='0' direction='3' part='0' number='62' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,52' which='0' elec='0' direction='3' part='0' number='63' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,56' which='0' elec='0' direction='3' part='0' number='64' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,60' which='0' elec='0' direction='3' part='0' number='65' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,64' which='0' elec='0' direction='3' part='0' number='66' show='3' length='30' number_pos='0' centre_name='0'>VCCIO3</PIN>
+<PIN pos='68,68' which='0' elec='0' direction='3' part='0' number='67' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,72' which='0' elec='0' direction='3' part='0' number='68' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,76' which='0' elec='0' direction='3' part='0' number='69' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,80' which='0' elec='0' direction='3' part='0' number='70' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,84' which='0' elec='0' direction='3' part='0' number='71' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,88' which='0' elec='0' direction='3' part='0' number='72' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,92' which='0' elec='0' direction='3' part='0' number='73' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,96' which='0' elec='0' direction='3' part='0' number='74' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,100' which='0' elec='0' direction='3' part='0' number='75' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,104' which='0' elec='0' direction='3' part='0' number='76' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,108' which='0' elec='0' direction='3' part='0' number='77' show='3' length='30' number_pos='0' centre_name='0'>VCCIO3</PIN>
+<PIN pos='68,112' which='0' elec='0' direction='3' part='0' number='78' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,116' which='0' elec='0' direction='3' part='0' number='79' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,120' which='0' elec='0' direction='3' part='0' number='80' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,124' which='0' elec='0' direction='3' part='0' number='81' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,128' which='0' elec='0' direction='3' part='0' number='82' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,132' which='0' elec='0' direction='3' part='0' number='83' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,136' which='0' elec='0' direction='3' part='0' number='84' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,140' which='0' elec='0' direction='3' part='0' number='85' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='68,144' which='0' elec='0' direction='3' part='0' number='86' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='68,148' which='0' elec='0' direction='3' part='0' number='87' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,152' which='0' elec='0' direction='3' part='0' number='88' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='68,156' which='0' elec='0' direction='3' part='0' number='89' show='3' length='30' number_pos='0' centre_name='0'>CLK15</PIN>
+<PIN pos='68,160' which='0' elec='0' direction='3' part='0' number='90' show='3' length='30' number_pos='0' centre_name='0'>CLK14</PIN>
 </TinyCAD>
-</SYMBOLDEF>
-<SYMBOLDEF id='4'><NAME type='0'>EP3C Q240 B8</NAME>
-<REF type='0'>U?</REF>
-<DESCRIPTION>Altera EP3C Q240 Bank 8</DESCRIPTION>
-<PPP>1</PPP>
-<FIELD><NAME>$$SPICE_PROLOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>$$SPICE_EPILOG_PRIORITY</NAME>
-<DEFAULT>5</DEFAULT>
-<FT>000002</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<FIELD><NAME>Package</NAME>
-<DEFAULT>240-PQFP</DEFAULT>
-<FT>000001</FT>
-<VALUE></VALUE>
-<POS>0,0</POS>
-</FIELD>
-<REF_POINT power='0' part='0' pos='82,142'/>
-<TinyCAD><RECTANGLE a='56,18' b='82,142' style='0' fill='0'/>
-<PIN pos='50,22' which='0' elec='0' direction='3' part='0' number='211' show='3' length='30' number_pos='0' centre_name='0'>CLK10</PIN>
-<PIN pos='50,26' which='0' elec='0' direction='3' part='0' number='212' show='3' length='30' number_pos='0' centre_name='0'>CLK11</PIN>
-<PIN pos='50,30' which='0' elec='0' direction='3' part='0' number='213' show='3' length='30' number_pos='0' centre_name='0'>VCCIO8</PIN>
-<PIN pos='50,34' which='0' elec='0' direction='3' part='0' number='214' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,38' which='0' elec='0' direction='3' part='0' number='215' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,42' which='0' elec='0' direction='3' part='0' number='216' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,46' which='0' elec='0' direction='3' part='0' number='217' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,50' which='0' elec='0' direction='3' part='0' number='218' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA2</PIN>
-<PIN pos='50,54' which='0' elec='0' direction='3' part='0' number='219' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA3</PIN>
-<PIN pos='50,58' which='0' elec='0' direction='3' part='0' number='220' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,62' which='0' elec='0' direction='3' part='0' number='221' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA4</PIN>
-<PIN pos='50,66' which='0' elec='0' direction='3' part='0' number='222' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,70' which='0' elec='0' direction='3' part='0' number='223' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,74' which='0' elec='0' direction='3' part='0' number='224' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,78' which='0' elec='0' direction='3' part='0' number='225' show='3' length='30' number_pos='0' centre_name='0'>VCCIO8</PIN>
-<PIN pos='50,82' which='0' elec='0' direction='3' part='0' number='226' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA5</PIN>
-<PIN pos='50,86' which='0' elec='0' direction='3' part='0' number='227' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,90' which='0' elec='0' direction='3' part='0' number='228' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,94' which='0' elec='0' direction='3' part='0' number='229' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,98' which='0' elec='0' direction='3' part='0' number='230' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,102' which='0' elec='0' direction='3' part='0' number='231' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA6</PIN>
-<PIN pos='50,106' which='0' elec='0' direction='3' part='0' number='232' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA7</PIN>
-<PIN pos='50,110' which='0' elec='0' direction='3' part='0' number='233' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,114' which='0' elec='0' direction='3' part='0' number='234' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,118' which='0' elec='0' direction='3' part='0' number='235' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,122' which='0' elec='0' direction='3' part='0' number='236' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,126' which='0' elec='0' direction='3' part='0' number='237' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
-<PIN pos='50,130' which='0' elec='0' direction='3' part='0' number='238' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
-<PIN pos='50,134' which='0' elec='0' direction='3' part='0' number='239' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
-<PIN pos='50,138' which='0' elec='0' direction='3' part='0' number='240' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<TinyCAD><RECTANGLE a='104,40' b='130,164' style='0' fill='0'/>
+<PIN pos='98,44' which='0' elec='0' direction='3' part='0' number='91' show='3' length='30' number_pos='0' centre_name='0'>CLK13</PIN>
+<PIN pos='98,48' which='0' elec='0' direction='3' part='0' number='92' show='3' length='30' number_pos='0' centre_name='0'>CLK12</PIN>
+<PIN pos='98,52' which='0' elec='0' direction='3' part='0' number='93' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,56' which='0' elec='0' direction='3' part='0' number='94' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,60' which='0' elec='0' direction='3' part='0' number='95' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,64' which='0' elec='0' direction='3' part='0' number='96' show='3' length='30' number_pos='0' centre_name='0'>VCCIO4</PIN>
+<PIN pos='98,68' which='0' elec='0' direction='3' part='0' number='97' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,72' which='0' elec='0' direction='3' part='0' number='98' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,76' which='0' elec='0' direction='3' part='0' number='99' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,80' which='0' elec='0' direction='3' part='0' number='100' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,84' which='0' elec='0' direction='3' part='0' number='101' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,88' which='0' elec='0' direction='3' part='0' number='102' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,92' which='0' elec='0' direction='3' part='0' number='103' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,96' which='0' elec='0' direction='3' part='0' number='104' show='3' length='30' number_pos='0' centre_name='0'>VCCIO4</PIN>
+<PIN pos='98,100' which='0' elec='0' direction='3' part='0' number='105' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,104' which='0' elec='0' direction='3' part='0' number='106' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,108' which='0' elec='0' direction='3' part='0' number='107' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,112' which='0' elec='0' direction='3' part='0' number='108' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,116' which='0' elec='0' direction='3' part='0' number='109' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,120' which='0' elec='0' direction='3' part='0' number='110' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,124' which='0' elec='0' direction='3' part='0' number='111' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,128' which='0' elec='0' direction='3' part='0' number='112' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,132' which='0' elec='0' direction='3' part='0' number='113' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,136' which='0' elec='0' direction='3' part='0' number='114' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,140' which='0' elec='0' direction='3' part='0' number='115' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,144' which='0' elec='0' direction='3' part='0' number='116' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='98,148' which='0' elec='0' direction='3' part='0' number='117' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,152' which='0' elec='0' direction='3' part='0' number='118' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='98,156' which='0' elec='0' direction='3' part='0' number='119' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='98,160' which='0' elec='0' direction='3' part='0' number='120' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
 </TinyCAD>
+<TinyCAD><RECTANGLE a='106,38' b='132,162' style='0' fill='0'/>
+<PIN pos='100,42' which='0' elec='0' direction='3' part='0' number='121' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL4</PIN>
+<PIN pos='100,46' which='0' elec='0' direction='3' part='0' number='122' show='3' length='30' number_pos='0' centre_name='0'>GNDA4</PIN>
+<PIN pos='100,50' which='0' elec='0' direction='3' part='0' number='123' show='3' length='30' number_pos='0' centre_name='0'>VCCA4</PIN>
+<PIN pos='100,54' which='0' elec='0' direction='3' part='0' number='124' show='3' length='30' number_pos='0' centre_name='0'>VCCIO5</PIN>
+<PIN pos='100,58' which='0' elec='0' direction='3' part='0' number='125' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,62' which='0' elec='0' direction='3' part='0' number='126' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,66' which='0' elec='0' direction='3' part='0' number='127' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,70' which='0' elec='0' direction='3' part='0' number='128' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,74' which='0' elec='0' direction='3' part='0' number='129' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,78' which='0' elec='0' direction='3' part='0' number='130' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,82' which='0' elec='0' direction='3' part='0' number='131' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,86' which='0' elec='0' direction='3' part='0' number='132' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,90' which='0' elec='0' direction='3' part='0' number='133' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,94' which='0' elec='0' direction='3' part='0' number='134' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,98' which='0' elec='0' direction='3' part='0' number='135' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,102' which='0' elec='0' direction='3' part='0' number='136' show='3' length='30' number_pos='0' centre_name='0'>VCCIO5</PIN>
+<PIN pos='100,106' which='0' elec='0' direction='3' part='0' number='137' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,110' which='0' elec='0' direction='3' part='0' number='138' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,114' which='0' elec='0' direction='3' part='0' number='139' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,118' which='0' elec='0' direction='3' part='0' number='140' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,122' which='0' elec='0' direction='3' part='0' number='141' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,126' which='0' elec='0' direction='3' part='0' number='142' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,130' which='0' elec='0' direction='3' part='0' number='143' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,134' which='0' elec='0' direction='3' part='0' number='144' show='3' length='30' number_pos='0' centre_name='0'>IO/DEV_OE</PIN>
+<PIN pos='100,138' which='0' elec='0' direction='3' part='0' number='145' show='3' length='30' number_pos='0' centre_name='0'>IO/DEV_CLRn</PIN>
+<PIN pos='100,142' which='0' elec='0' direction='3' part='0' number='146' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,146' which='0' elec='0' direction='3' part='0' number='147' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,150' which='0' elec='0' direction='3' part='0' number='148' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,154' which='0' elec='0' direction='3' part='0' number='149' show='3' length='30' number_pos='0' centre_name='0'>CLK7</PIN>
+<PIN pos='100,158' which='0' elec='0' direction='3' part='0' number='150' show='3' length='30' number_pos='0' centre_name='0'>CLK6</PIN>
+</TinyCAD>
+<TinyCAD><RECTANGLE a='106,48' b='132,172' style='0' fill='0'/>
+<PIN pos='100,52' which='0' elec='0' direction='3' part='0' number='151' show='3' length='30' number_pos='0' centre_name='0'>CLK5</PIN>
+<PIN pos='100,56' which='0' elec='0' direction='3' part='0' number='152' show='3' length='30' number_pos='0' centre_name='0'>CLK4</PIN>
+<PIN pos='100,60' which='0' elec='0' direction='3' part='0' number='153' show='3' length='30' number_pos='0' centre_name='0'>CONF_DONE</PIN>
+<PIN pos='100,64' which='0' elec='0' direction='3' part='0' number='154' show='3' length='30' number_pos='0' centre_name='0'>VCCIO6</PIN>
+<PIN pos='100,68' which='0' elec='0' direction='3' part='0' number='155' show='3' length='30' number_pos='0' centre_name='0'>MSEL0</PIN>
+<PIN pos='100,72' which='0' elec='0' direction='3' part='0' number='156' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,76' which='0' elec='0' direction='3' part='0' number='157' show='3' length='30' number_pos='0' centre_name='0'>MSEL1</PIN>
+<PIN pos='100,80' which='0' elec='0' direction='3' part='0' number='158' show='3' length='30' number_pos='0' centre_name='0'>MSEL2</PIN>
+<PIN pos='100,84' which='0' elec='0' direction='3' part='0' number='159' show='3' length='30' number_pos='0' centre_name='0'>IO/INIT_DONE</PIN>
+<PIN pos='100,88' which='0' elec='0' direction='3' part='0' number='160' show='3' length='30' number_pos='0' centre_name='0'>IO/CRC_ERROR</PIN>
+<PIN pos='100,92' which='0' elec='0' direction='3' part='0' number='161' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,96' which='0' elec='0' direction='3' part='0' number='162' show='3' length='30' number_pos='0' centre_name='0'>IO/nCEO</PIN>
+<PIN pos='100,100' which='0' elec='0' direction='3' part='0' number='163' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,104' which='0' elec='0' direction='3' part='0' number='164' show='3' length='30' number_pos='0' centre_name='0'>IO/CLKUSR</PIN>
+<PIN pos='100,108' which='0' elec='0' direction='3' part='0' number='165' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,112' which='0' elec='0' direction='3' part='0' number='166' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,116' which='0' elec='0' direction='3' part='0' number='167' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,120' which='0' elec='0' direction='3' part='0' number='168' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,124' which='0' elec='0' direction='3' part='0' number='169' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,128' which='0' elec='0' direction='3' part='0' number='170' show='3' length='30' number_pos='0' centre_name='0'>VCCIO6</PIN>
+<PIN pos='100,132' which='0' elec='0' direction='3' part='0' number='171' show='3' length='30' number_pos='0' centre_name='0'>IO/nWE</PIN>
+<PIN pos='100,136' which='0' elec='0' direction='3' part='0' number='172' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,140' which='0' elec='0' direction='3' part='0' number='173' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,144' which='0' elec='0' direction='3' part='0' number='174' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='100,148' which='0' elec='0' direction='3' part='0' number='175' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='100,152' which='0' elec='0' direction='3' part='0' number='176' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,156' which='0' elec='0' direction='3' part='0' number='177' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='100,160' which='0' elec='0' direction='3' part='0' number='178' show='3' length='30' number_pos='0' centre_name='0'>VCCA2</PIN>
+<PIN pos='100,164' which='0' elec='0' direction='3' part='0' number='179' show='3' length='30' number_pos='0' centre_name='0'>GNDA2</PIN>
+<PIN pos='100,168' which='0' elec='0' direction='3' part='0' number='180' show='3' length='30' number_pos='0' centre_name='0'>VCCD_PLL2</PIN>
+</TinyCAD>
+<TinyCAD><RECTANGLE a='82,36' b='108,160' style='0' fill='0'/>
+<PIN pos='76,40' which='0' elec='0' direction='3' part='0' number='181' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,44' which='0' elec='0' direction='3' part='0' number='182' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,48' which='0' elec='0' direction='3' part='0' number='183' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,52' which='0' elec='0' direction='3' part='0' number='184' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,56' which='0' elec='0' direction='3' part='0' number='185' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,60' which='0' elec='0' direction='3' part='0' number='186' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,64' which='0' elec='0' direction='3' part='0' number='187' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,68' which='0' elec='0' direction='3' part='0' number='188' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,72' which='0' elec='0' direction='3' part='0' number='189' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,76' which='0' elec='0' direction='3' part='0' number='190' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,80' which='0' elec='0' direction='3' part='0' number='191' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,84' which='0' elec='0' direction='3' part='0' number='192' show='3' length='30' number_pos='0' centre_name='0'>VCCIO7</PIN>
+<PIN pos='76,88' which='0' elec='0' direction='3' part='0' number='193' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,92' which='0' elec='0' direction='3' part='0' number='194' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,96' which='0' elec='0' direction='3' part='0' number='195' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,100' which='0' elec='0' direction='3' part='0' number='196' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,104' which='0' elec='0' direction='3' part='0' number='197' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,108' which='0' elec='0' direction='3' part='0' number='198' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,112' which='0' elec='0' direction='3' part='0' number='199' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,116' which='0' elec='0' direction='3' part='0' number='200' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,120' which='0' elec='0' direction='3' part='0' number='201' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,124' which='0' elec='0' direction='3' part='0' number='202' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,128' which='0' elec='0' direction='3' part='0' number='203' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,132' which='0' elec='0' direction='3' part='0' number='204' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='76,136' which='0' elec='0' direction='3' part='0' number='205' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,140' which='0' elec='0' direction='3' part='0' number='206' show='3' length='30' number_pos='0' centre_name='0'>VCCIO7</PIN>
+<PIN pos='76,144' which='0' elec='0' direction='3' part='0' number='207' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='76,148' which='0' elec='0' direction='3' part='0' number='208' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='76,152' which='0' elec='0' direction='3' part='0' number='209' show='3' length='30' number_pos='0' centre_name='0'>CLK8</PIN>
+<PIN pos='76,156' which='0' elec='0' direction='3' part='0' number='210' show='3' length='30' number_pos='0' centre_name='0'>CLK9</PIN>
+</TinyCAD>
+<TinyCAD><RECTANGLE a='102,46' b='128,170' style='0' fill='0'/>
+<PIN pos='96,50' which='0' elec='0' direction='3' part='0' number='211' show='3' length='30' number_pos='0' centre_name='0'>CLK10</PIN>
+<PIN pos='96,54' which='0' elec='0' direction='3' part='0' number='212' show='3' length='30' number_pos='0' centre_name='0'>CLK11</PIN>
+<PIN pos='96,58' which='0' elec='0' direction='3' part='0' number='213' show='3' length='30' number_pos='0' centre_name='0'>VCCIO8</PIN>
+<PIN pos='96,62' which='0' elec='0' direction='3' part='0' number='214' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,66' which='0' elec='0' direction='3' part='0' number='215' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,70' which='0' elec='0' direction='3' part='0' number='216' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,74' which='0' elec='0' direction='3' part='0' number='217' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,78' which='0' elec='0' direction='3' part='0' number='218' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA2</PIN>
+<PIN pos='96,82' which='0' elec='0' direction='3' part='0' number='219' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA3</PIN>
+<PIN pos='96,86' which='0' elec='0' direction='3' part='0' number='220' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,90' which='0' elec='0' direction='3' part='0' number='221' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA4</PIN>
+<PIN pos='96,94' which='0' elec='0' direction='3' part='0' number='222' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,98' which='0' elec='0' direction='3' part='0' number='223' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,102' which='0' elec='0' direction='3' part='0' number='224' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,106' which='0' elec='0' direction='3' part='0' number='225' show='3' length='30' number_pos='0' centre_name='0'>VCCIO8</PIN>
+<PIN pos='96,110' which='0' elec='0' direction='3' part='0' number='226' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA5</PIN>
+<PIN pos='96,114' which='0' elec='0' direction='3' part='0' number='227' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,118' which='0' elec='0' direction='3' part='0' number='228' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,122' which='0' elec='0' direction='3' part='0' number='229' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,126' which='0' elec='0' direction='3' part='0' number='230' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,130' which='0' elec='0' direction='3' part='0' number='231' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA6</PIN>
+<PIN pos='96,134' which='0' elec='0' direction='3' part='0' number='232' show='3' length='30' number_pos='0' centre_name='0'>IO/DATA7</PIN>
+<PIN pos='96,138' which='0' elec='0' direction='3' part='0' number='233' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,142' which='0' elec='0' direction='3' part='0' number='234' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,146' which='0' elec='0' direction='3' part='0' number='235' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,150' which='0' elec='0' direction='3' part='0' number='236' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,154' which='0' elec='0' direction='3' part='0' number='237' show='3' length='30' number_pos='0' centre_name='0'>VCCINT</PIN>
+<PIN pos='96,158' which='0' elec='0' direction='3' part='0' number='238' show='3' length='30' number_pos='0' centre_name='0'>GND</PIN>
+<PIN pos='96,162' which='0' elec='0' direction='3' part='0' number='239' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+<PIN pos='96,166' which='0' elec='0' direction='3' part='0' number='240' show='3' length='30' number_pos='0' centre_name='0'>IO</PIN>
+</TinyCAD>
+</TinyCADSheets>
 </SYMBOLDEF>
 <OPTIONS><GRID>1</GRID>
 <UNITS>0</UNITS>
@@ -1852,29 +1973,29 @@ download a copy.-->
 <COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
 <COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
 </OPTIONS>
-<SYMBOL id='1' pos='142,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B5' show='1' pos='1,-122'/>
+<SYMBOL id='5' pos='144,254' part='4' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='2' pos='236,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B6' show='1' pos='1,-122'/>
+<SYMBOL id='5' pos='258,252' part='5' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='3' pos='334,260' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B7' show='1' pos='1,-122'/>
+<SYMBOL id='5' pos='358,252' part='6' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
-<SYMBOL id='4' pos='454,258' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U1' show='1' pos='1,-119.6'/>
-<FIELD type='0' description='Name' value='EP3C Q240 B8' show='1' pos='1,-122'/>
+<SYMBOL id='5' pos='472,254' part='7' rotate='0' can_scale='0' show_power='0' scale_x='1' scale_y='1'><FIELD type='0' description='Ref' value='U?' show='1' pos='1,-127.6'/>
+<FIELD type='0' description='Name' value='EP3C-Q240' show='1' pos='1,-130'/>
 <FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
-<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-117.2'/>
+<FIELD type='1' description='Package' value='240-PQFP' show='0' pos='1,-125.2'/>
 </SYMBOL>
 </TinyCAD>
 <TinyCAD><NAME>ADC</NAME>
@@ -1890,15 +2011,6 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
-<FONT id='0'><HEIGHT>-13</HEIGHT>
-<WIDTH>6</WIDTH>
-<WEIGHT>400</WEIGHT>
-<ITALIC>0</ITALIC>
-<UNDERLINE>0</UNDERLINE>
-<STRIKEOUT>0</STRIKEOUT>
-<CHARSET>0</CHARSET>
-<FACENAME>Arial</FACENAME>
-</FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
 <WEIGHT>400</WEIGHT>
@@ -1909,6 +2021,15 @@ download a copy.-->
 <FACENAME>Arial</FACENAME>
 </FONT>
 <FONT id='3'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
+<FONT id='4'><HEIGHT>-13</HEIGHT>
 <WIDTH>6</WIDTH>
 <WEIGHT>400</WEIGHT>
 <ITALIC>0</ITALIC>
@@ -2013,7 +2134,7 @@ download a copy.-->
 <PIN pos='16,158' which='0' elec='0' direction='3' part='0' number='26' show='3' length='30' number_pos='0' centre_name='0'>NC</PIN>
 <PIN pos='80,8' which='0' elec='0' direction='1' part='0' number='28' show='3' length='30' number_pos='0' centre_name='0'>DRVDD</PIN>
 <PIN pos='76,8' which='0' elec='0' direction='1' part='0' number='37' show='3' length='30' number_pos='0' centre_name='0'>DRVDD</PIN>
-<TEXT pos='58,84' direction='3' font='3' color='000000'>AD9251</TEXT>
+<TEXT pos='58,84' direction='3' font='4' color='000000'>AD9251</TEXT>
 </TinyCAD>
 </SYMBOLDEF>
 <OPTIONS><GRID>1</GRID>
@@ -2052,7 +2173,7 @@ download a copy.-->
 <BUSSLASH pos='264,170' direction='0'/>
 <BUSSLASH pos='264,174' direction='0'/>
 <BUSSLASH pos='264,178' direction='0'/>
-<BUSNAME pos='268,114' direction='3' font='0' color='208000'>RXADC</BUSNAME>
+<BUSNAME pos='268,114' direction='3' font='3' color='208000'>RXADC</BUSNAME>
 <WIRE a='236,122' b='260,122'/>
 <WIRE a='236,126' b='260,126'/>
 <WIRE a='236,130' b='260,130'/>
@@ -2069,22 +2190,22 @@ download a copy.-->
 <WIRE a='236,174' b='260,174'/>
 <WIRE a='236,178' b='260,178'/>
 <WIRE a='236,182' b='260,182'/>
-<LABEL pos='256,178' direction='2' font='0' color='208000' style='0'>RXADC_D0</LABEL>
-<LABEL pos='256,174' direction='2' font='0' color='208000' style='0'>RXADC_D1</LABEL>
-<LABEL pos='256,170' direction='2' font='0' color='208000' style='0'>RXADC_D2</LABEL>
-<LABEL pos='256,166' direction='2' font='0' color='208000' style='0'>RXADC_D3</LABEL>
-<LABEL pos='256,162' direction='2' font='0' color='208000' style='0'>RXADC_D4</LABEL>
-<LABEL pos='256,158' direction='2' font='0' color='208000' style='0'>RXADC_D5</LABEL>
-<LABEL pos='256,154' direction='2' font='0' color='208000' style='0'>RXADC_D6</LABEL>
-<LABEL pos='256,150' direction='2' font='0' color='208000' style='0'>RXADC_D7</LABEL>
-<LABEL pos='256,146' direction='2' font='0' color='208000' style='0'>RXADC_D8</LABEL>
-<LABEL pos='256,142' direction='2' font='0' color='208000' style='0'>RXADC_D9</LABEL>
-<LABEL pos='256,138' direction='2' font='0' color='208000' style='0'>RXADC_D10</LABEL>
-<LABEL pos='256,134' direction='2' font='0' color='208000' style='0'>RXADC_D11</LABEL>
-<LABEL pos='256,130' direction='2' font='0' color='208000' style='0'>RXADC_D12</LABEL>
-<LABEL pos='256,126' direction='2' font='0' color='208000' style='0'>RXADC_D13</LABEL>
-<LABEL pos='256,122' direction='2' font='0' color='208000' style='0'>RXADC_OR</LABEL>
-<LABEL pos='256,182' direction='2' font='0' color='208000' style='0'>RXADC_CO</LABEL>
+<LABEL pos='256,178' direction='2' font='3' color='208000' style='0'>RXADC_D0</LABEL>
+<LABEL pos='256,174' direction='2' font='3' color='208000' style='0'>RXADC_D1</LABEL>
+<LABEL pos='256,170' direction='2' font='3' color='208000' style='0'>RXADC_D2</LABEL>
+<LABEL pos='256,166' direction='2' font='3' color='208000' style='0'>RXADC_D3</LABEL>
+<LABEL pos='256,162' direction='2' font='3' color='208000' style='0'>RXADC_D4</LABEL>
+<LABEL pos='256,158' direction='2' font='3' color='208000' style='0'>RXADC_D5</LABEL>
+<LABEL pos='256,154' direction='2' font='3' color='208000' style='0'>RXADC_D6</LABEL>
+<LABEL pos='256,150' direction='2' font='3' color='208000' style='0'>RXADC_D7</LABEL>
+<LABEL pos='256,146' direction='2' font='3' color='208000' style='0'>RXADC_D8</LABEL>
+<LABEL pos='256,142' direction='2' font='3' color='208000' style='0'>RXADC_D9</LABEL>
+<LABEL pos='256,138' direction='2' font='3' color='208000' style='0'>RXADC_D10</LABEL>
+<LABEL pos='256,134' direction='2' font='3' color='208000' style='0'>RXADC_D11</LABEL>
+<LABEL pos='256,130' direction='2' font='3' color='208000' style='0'>RXADC_D12</LABEL>
+<LABEL pos='256,126' direction='2' font='3' color='208000' style='0'>RXADC_D13</LABEL>
+<LABEL pos='256,122' direction='2' font='3' color='208000' style='0'>RXADC_OR</LABEL>
+<LABEL pos='256,182' direction='2' font='3' color='208000' style='0'>RXADC_CO</LABEL>
 <NOCONNECT pos='236,190'/>
 <NOCONNECT pos='236,194'/>
 <NOCONNECT pos='236,198'/>
@@ -2107,16 +2228,16 @@ download a copy.-->
 <NOCONNECT pos='144,256'/>
 <POWER pos='190,272' which='4' direction='1'></POWER>
 <WIRE a='190,268' b='190,272'/>
-<LABEL pos='132,124' direction='3' font='0' color='208000' style='1'>VINA_P</LABEL>
-<LABEL pos='132,130' direction='3' font='0' color='208000' style='1'>VINA_N</LABEL>
-<LABEL pos='132,172' direction='3' font='0' color='208000' style='1'>VINB_P</LABEL>
-<LABEL pos='132,166' direction='3' font='0' color='208000' style='1'>VINB_N</LABEL>
+<LABEL pos='132,124' direction='3' font='3' color='208000' style='1'>VINA_P</LABEL>
+<LABEL pos='132,130' direction='3' font='3' color='208000' style='1'>VINA_N</LABEL>
+<LABEL pos='132,172' direction='3' font='3' color='208000' style='1'>VINB_P</LABEL>
+<LABEL pos='132,166' direction='3' font='3' color='208000' style='1'>VINB_N</LABEL>
 <WIRE a='132,124' b='144,124'/>
 <WIRE a='144,130' b='132,130'/>
 <WIRE a='132,166' b='144,166'/>
 <WIRE a='144,172' b='132,172'/>
-<LABEL pos='132,184' direction='3' font='0' color='208000' style='1'>RXADC_CLK_P</LABEL>
-<LABEL pos='132,188' direction='3' font='0' color='208000' style='1'>RXADC_CLK_N</LABEL>
+<LABEL pos='132,184' direction='3' font='3' color='208000' style='1'>RXADC_CLK_P</LABEL>
+<LABEL pos='132,188' direction='3' font='3' color='208000' style='1'>RXADC_CLK_N</LABEL>
 <WIRE a='132,184' b='144,184'/>
 <WIRE a='132,188' b='144,188'/>
 </TinyCAD>
@@ -2133,15 +2254,6 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
-<FONT id='0'><HEIGHT>-13</HEIGHT>
-<WIDTH>6</WIDTH>
-<WEIGHT>400</WEIGHT>
-<ITALIC>0</ITALIC>
-<UNDERLINE>0</UNDERLINE>
-<STRIKEOUT>0</STRIKEOUT>
-<CHARSET>0</CHARSET>
-<FACENAME>Arial</FACENAME>
-</FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
 <WEIGHT>400</WEIGHT>
@@ -2152,6 +2264,15 @@ download a copy.-->
 <FACENAME>Arial</FACENAME>
 </FONT>
 <FONT id='3'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
+<FONT id='4'><HEIGHT>-13</HEIGHT>
 <WIDTH>6</WIDTH>
 <WEIGHT>400</WEIGHT>
 <ITALIC>0</ITALIC>
@@ -2226,7 +2347,7 @@ download a copy.-->
 <PIN pos='34,126' which='0' elec='0' direction='3' part='0' number='17' show='3' length='30' number_pos='0' centre_name='0'>CVDD</PIN>
 <PIN pos='34,130' which='0' elec='0' direction='3' part='0' number='18' show='3' length='30' number_pos='0' centre_name='0'>CLKIN</PIN>
 <PIN pos='34,134' which='0' elec='0' direction='3' part='0' number='19' show='3' length='30' number_pos='0' centre_name='0'>CVSS</PIN>
-<TEXT pos='72,84' direction='3' font='3' color='000000'>AD9717</TEXT>
+<TEXT pos='72,84' direction='3' font='4' color='000000'>AD9717</TEXT>
 <PIN pos='56,22' which='0' elec='0' direction='1' part='0' number='7' show='3' length='30' number_pos='0' centre_name='0'>DVDD</PIN>
 <PIN pos='60,22' which='0' elec='0' direction='1' part='0' number='5' show='3' length='30' number_pos='0' centre_name='0'>DVDDIO</PIN>
 <PIN pos='96,22' which='0' elec='0' direction='1' part='0' number='26' show='3' length='30' number_pos='0' centre_name='0'>AVDD</PIN>
@@ -2327,7 +2448,7 @@ download a copy.-->
 <WIRE a='142,200' b='142,204'/>
 <BUS a='50,78' b='66,78'/>
 <BUS a='66,78' b='66,134'/>
-<BUSNAME pos='50,78' direction='3' font='0' color='208000'>TXDAC</BUSNAME>
+<BUSNAME pos='50,78' direction='3' font='3' color='208000'>TXDAC</BUSNAME>
 <BUSSLASH pos='70,82' direction='1'/>
 <BUSSLASH pos='70,86' direction='1'/>
 <BUSSLASH pos='70,90' direction='1'/>
@@ -2358,22 +2479,22 @@ download a copy.-->
 <WIRE a='70,130' b='98,130'/>
 <WIRE a='70,134' b='98,134'/>
 <WIRE a='70,138' b='98,138'/>
-<LABEL pos='74,134' direction='3' font='0' color='208000' style='0'>TXDAC_D0</LABEL>
-<LABEL pos='74,130' direction='3' font='0' color='208000' style='0'>TXDAC_D1</LABEL>
-<LABEL pos='74,126' direction='3' font='0' color='208000' style='0'>TXDAC_D2</LABEL>
-<LABEL pos='74,122' direction='3' font='0' color='208000' style='0'>TXDAC_D3</LABEL>
-<LABEL pos='74,118' direction='3' font='0' color='208000' style='0'>TXDAC_D4</LABEL>
-<LABEL pos='74,114' direction='3' font='0' color='208000' style='0'>TXDAC_D5</LABEL>
-<LABEL pos='74,110' direction='3' font='0' color='208000' style='0'>TXDAC_D6</LABEL>
-<LABEL pos='74,106' direction='3' font='0' color='208000' style='0'>TXDAC_D7</LABEL>
-<LABEL pos='74,102' direction='3' font='0' color='208000' style='0'>TXDAC_D8</LABEL>
-<LABEL pos='74,98' direction='3' font='0' color='208000' style='0'>TXDAC_D9</LABEL>
-<LABEL pos='74,94' direction='3' font='0' color='208000' style='0'>TXDAC_D10</LABEL>
-<LABEL pos='74,90' direction='3' font='0' color='208000' style='0'>TXDAC_D11</LABEL>
-<LABEL pos='74,86' direction='3' font='0' color='208000' style='0'>TXDAC_D12</LABEL>
-<LABEL pos='74,82' direction='3' font='0' color='208000' style='0'>TXDAC_D13</LABEL>
-<LABEL pos='74,138' direction='3' font='0' color='208000' style='0'>TXDAC_CLK</LABEL>
-<LABEL pos='78,178' direction='3' font='0' color='208000' style='1'>TXDAC_CLK</LABEL>
+<LABEL pos='74,134' direction='3' font='3' color='208000' style='0'>TXDAC_D0</LABEL>
+<LABEL pos='74,130' direction='3' font='3' color='208000' style='0'>TXDAC_D1</LABEL>
+<LABEL pos='74,126' direction='3' font='3' color='208000' style='0'>TXDAC_D2</LABEL>
+<LABEL pos='74,122' direction='3' font='3' color='208000' style='0'>TXDAC_D3</LABEL>
+<LABEL pos='74,118' direction='3' font='3' color='208000' style='0'>TXDAC_D4</LABEL>
+<LABEL pos='74,114' direction='3' font='3' color='208000' style='0'>TXDAC_D5</LABEL>
+<LABEL pos='74,110' direction='3' font='3' color='208000' style='0'>TXDAC_D6</LABEL>
+<LABEL pos='74,106' direction='3' font='3' color='208000' style='0'>TXDAC_D7</LABEL>
+<LABEL pos='74,102' direction='3' font='3' color='208000' style='0'>TXDAC_D8</LABEL>
+<LABEL pos='74,98' direction='3' font='3' color='208000' style='0'>TXDAC_D9</LABEL>
+<LABEL pos='74,94' direction='3' font='3' color='208000' style='0'>TXDAC_D10</LABEL>
+<LABEL pos='74,90' direction='3' font='3' color='208000' style='0'>TXDAC_D11</LABEL>
+<LABEL pos='74,86' direction='3' font='3' color='208000' style='0'>TXDAC_D12</LABEL>
+<LABEL pos='74,82' direction='3' font='3' color='208000' style='0'>TXDAC_D13</LABEL>
+<LABEL pos='74,138' direction='3' font='3' color='208000' style='0'>TXDAC_CLK</LABEL>
+<LABEL pos='78,178' direction='3' font='3' color='208000' style='1'>TXDAC_CLK</LABEL>
 <WIRE a='78,178' b='98,178'/>
 <WIRE a='184,102' b='268,102'/>
 <WIRE a='184,114' b='228,114'/>
@@ -2427,15 +2548,6 @@ download a copy.-->
 <DATE></DATE>
 <GRID spacing='100' snap='1'/>
 </DETAILS>
-<FONT id='0'><HEIGHT>-13</HEIGHT>
-<WIDTH>6</WIDTH>
-<WEIGHT>400</WEIGHT>
-<ITALIC>0</ITALIC>
-<UNDERLINE>0</UNDERLINE>
-<STRIKEOUT>0</STRIKEOUT>
-<CHARSET>0</CHARSET>
-<FACENAME>Arial</FACENAME>
-</FONT>
 <FONT id='1'><HEIGHT>-10</HEIGHT>
 <WIDTH>0</WIDTH>
 <WEIGHT>400</WEIGHT>
@@ -2446,6 +2558,15 @@ download a copy.-->
 <FACENAME>Arial</FACENAME>
 </FONT>
 <FONT id='3'><HEIGHT>-13</HEIGHT>
+<WIDTH>6</WIDTH>
+<WEIGHT>400</WEIGHT>
+<ITALIC>0</ITALIC>
+<UNDERLINE>0</UNDERLINE>
+<STRIKEOUT>0</STRIKEOUT>
+<CHARSET>0</CHARSET>
+<FACENAME>Arial</FACENAME>
+</FONT>
+<FONT id='4'><HEIGHT>-13</HEIGHT>
 <WIDTH>6</WIDTH>
 <WEIGHT>400</WEIGHT>
 <ITALIC>0</ITALIC>
@@ -2675,8 +2796,8 @@ download a copy.-->
 <FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0,0'/>
 <FIELD type='1' description='Package' value='PMC71436-2164' show='0' pos='1,-121.2'/>
 </SYMBOL>
-<TEXT pos='190,116' direction='3' font='3' color='000000'>RX Connector</TEXT>
-<TEXT pos='314,116' direction='3' font='3' color='000000'>TX Connector</TEXT>
+<TEXT pos='190,116' direction='3' font='4' color='000000'>RX Connector</TEXT>
+<TEXT pos='314,116' direction='3' font='4' color='000000'>TX Connector</TEXT>
 <WIRE a='188,124' b='186,124'/>
 <WIRE a='186,124' b='186,112'/>
 <WIRE a='186,112' b='336,112'/>
@@ -2686,23 +2807,23 @@ download a copy.-->
 <WIRE a='188,136' b='176,136'/>
 <WIRE a='176,136' b='176,140'/>
 <WIRE a='176,140' b='188,140'/>
-<LABEL pos='176,144' direction='3' font='3' color='208000' style='1'>CLOCK_DB_P</LABEL>
-<LABEL pos='176,148' direction='3' font='3' color='208000' style='1'>CLOCK_DB_N</LABEL>
+<LABEL pos='176,144' direction='3' font='4' color='208000' style='1'>CLOCK_DB_P</LABEL>
+<LABEL pos='176,148' direction='3' font='4' color='208000' style='1'>CLOCK_DB_N</LABEL>
 <WIRE a='176,144' b='188,144'/>
 <WIRE a='176,148' b='188,148'/>
-<LABEL pos='176,152' direction='3' font='3' color='208000' style='1'>SCL</LABEL>
-<LABEL pos='176,156' direction='3' font='3' color='208000' style='3'>SDA</LABEL>
-<LABEL pos='176,180' direction='3' font='3' color='208000' style='1'>SCLK</LABEL>
-<LABEL pos='176,184' direction='3' font='3' color='208000' style='2'>SDO</LABEL>
-<LABEL pos='176,188' direction='3' font='3' color='208000' style='1'>SDI</LABEL>
-<LABEL pos='176,192' direction='3' font='3' color='208000' style='2'>SEN_RX</LABEL>
-<LABEL pos='176,220' direction='3' font='3' color='208000' style='1'>AUX_DAC_D</LABEL>
-<LABEL pos='176,224' direction='3' font='3' color='208000' style='1'>AUX_DAC_A</LABEL>
-<LABEL pos='176,228' direction='3' font='3' color='208000' style='1'>AUX_DAC_B</LABEL>
-<LABEL pos='176,232' direction='3' font='3' color='208000' style='1'>AUX_DAC_C</LABEL>
-<LABEL pos='176,236' direction='3' font='3' color='208000' style='1'>AUX_ADC_REF</LABEL>
-<LABEL pos='176,240' direction='3' font='3' color='208000' style='2'>AUX_ADC_A</LABEL>
-<LABEL pos='176,244' direction='3' font='3' color='208000' style='2'>AUX_ADC_B</LABEL>
+<LABEL pos='176,152' direction='3' font='4' color='208000' style='1'>SCL</LABEL>
+<LABEL pos='176,156' direction='3' font='4' color='208000' style='3'>SDA</LABEL>
+<LABEL pos='176,180' direction='3' font='4' color='208000' style='1'>SCLK</LABEL>
+<LABEL pos='176,184' direction='3' font='4' color='208000' style='2'>SDO</LABEL>
+<LABEL pos='176,188' direction='3' font='4' color='208000' style='1'>SDI</LABEL>
+<LABEL pos='176,192' direction='3' font='4' color='208000' style='2'>SEN_RX</LABEL>
+<LABEL pos='176,220' direction='3' font='4' color='208000' style='1'>AUX_DAC_D</LABEL>
+<LABEL pos='176,224' direction='3' font='4' color='208000' style='1'>AUX_DAC_A</LABEL>
+<LABEL pos='176,228' direction='3' font='4' color='208000' style='1'>AUX_DAC_B</LABEL>
+<LABEL pos='176,232' direction='3' font='4' color='208000' style='1'>AUX_DAC_C</LABEL>
+<LABEL pos='176,236' direction='3' font='4' color='208000' style='1'>AUX_ADC_REF</LABEL>
+<LABEL pos='176,240' direction='3' font='4' color='208000' style='2'>AUX_ADC_A</LABEL>
+<LABEL pos='176,244' direction='3' font='4' color='208000' style='2'>AUX_ADC_B</LABEL>
 <WIRE a='176,220' b='188,220'/>
 <WIRE a='176,224' b='188,224'/>
 <WIRE a='176,228' b='188,228'/>
@@ -2723,11 +2844,11 @@ download a copy.-->
 <POWER pos='260,258' which='4' direction='1'></POWER>
 <WIRE a='184,254' b='184,248'/>
 <WIRE a='184,248' b='188,248'/>
-<LABEL pos='220,244' direction='2' font='3' color='208000' style='2'>VINA_P</LABEL>
-<LABEL pos='220,240' direction='2' font='3' color='208000' style='2'>VINA_N</LABEL>
-<LABEL pos='220,232' direction='2' font='3' color='208000' style='1'>VREF</LABEL>
-<LABEL pos='220,224' direction='2' font='3' color='208000' style='2'>VINB_N</LABEL>
-<LABEL pos='220,220' direction='2' font='3' color='208000' style='2'>VINB_P</LABEL>
+<LABEL pos='220,244' direction='2' font='4' color='208000' style='2'>VINA_P</LABEL>
+<LABEL pos='220,240' direction='2' font='4' color='208000' style='2'>VINA_N</LABEL>
+<LABEL pos='220,232' direction='2' font='4' color='208000' style='1'>VREF</LABEL>
+<LABEL pos='220,224' direction='2' font='4' color='208000' style='2'>VINB_N</LABEL>
+<LABEL pos='220,220' direction='2' font='4' color='208000' style='2'>VINB_P</LABEL>
 <WIRE a='220,220' b='208,220'/>
 <WIRE a='220,224' b='208,224'/>
 <WIRE a='220,232' b='208,232'/>
@@ -2755,7 +2876,7 @@ download a copy.-->
 <WIRE a='216,212' b='208,212'/>
 <POWER pos='216,208' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='216,208'/>
-<LABEL pos='176,176' direction='3' font='3' color='208000' style='1'>RESET_CODEC</LABEL>
+<LABEL pos='176,176' direction='3' font='4' color='208000' style='1'>RESET_CODEC</LABEL>
 <POWER pos='158,164' which='0' direction='2'>3.3V</POWER>
 <WIRE a='158,164' b='188,164'/>
 <WIRE a='176,176' b='188,176'/>
@@ -2772,8 +2893,8 @@ download a copy.-->
 <WIRE a='180,212' b='188,212'/>
 <POWER pos='180,208' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='180,208'/>
-<LABEL pos='176,168' direction='3' font='3' color='208000' style='1'>RS232_TXD</LABEL>
-<LABEL pos='176,172' direction='3' font='3' color='208000' style='2'>RS232_RXD</LABEL>
+<LABEL pos='176,168' direction='3' font='4' color='208000' style='1'>RS232_TXD</LABEL>
+<LABEL pos='176,172' direction='3' font='4' color='208000' style='2'>RS232_RXD</LABEL>
 <WIRE a='176,168' b='188,168'/>
 <WIRE a='176,172' b='188,172'/>
 <JUNCTION pos='148,216'/>
@@ -2808,17 +2929,17 @@ download a copy.-->
 <JUNCTION pos='340,128'/>
 <POWER pos='344,136' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='344,136'/>
-<LABEL pos='344,144' direction='2' font='3' color='208000' style='1'>CLOCK_DB_P</LABEL>
-<LABEL pos='344,148' direction='2' font='3' color='208000' style='1'>CLOCK_DB_N</LABEL>
-<LABEL pos='344,152' direction='2' font='3' color='208000' style='1'>SCL</LABEL>
-<LABEL pos='344,156' direction='2' font='3' color='208000' style='3'>SDA</LABEL>
-<LABEL pos='344,180' direction='2' font='3' color='208000' style='1'>SCLK</LABEL>
-<LABEL pos='344,176' direction='2' font='3' color='208000' style='1'>RESET_CODEC</LABEL>
-<LABEL pos='344,168' direction='2' font='3' color='208000' style='1'>RS232_TXD</LABEL>
-<LABEL pos='344,172' direction='2' font='3' color='208000' style='2'>RS232_RXD</LABEL>
-<LABEL pos='344,184' direction='2' font='3' color='208000' style='2'>SDO</LABEL>
-<LABEL pos='344,188' direction='2' font='3' color='208000' style='1'>SDI</LABEL>
-<LABEL pos='344,192' direction='2' font='3' color='208000' style='2'>SEN_RX</LABEL>
+<LABEL pos='344,144' direction='2' font='4' color='208000' style='1'>CLOCK_DB_P</LABEL>
+<LABEL pos='344,148' direction='2' font='4' color='208000' style='1'>CLOCK_DB_N</LABEL>
+<LABEL pos='344,152' direction='2' font='4' color='208000' style='1'>SCL</LABEL>
+<LABEL pos='344,156' direction='2' font='4' color='208000' style='3'>SDA</LABEL>
+<LABEL pos='344,180' direction='2' font='4' color='208000' style='1'>SCLK</LABEL>
+<LABEL pos='344,176' direction='2' font='4' color='208000' style='1'>RESET_CODEC</LABEL>
+<LABEL pos='344,168' direction='2' font='4' color='208000' style='1'>RS232_TXD</LABEL>
+<LABEL pos='344,172' direction='2' font='4' color='208000' style='2'>RS232_RXD</LABEL>
+<LABEL pos='344,184' direction='2' font='4' color='208000' style='2'>SDO</LABEL>
+<LABEL pos='344,188' direction='2' font='4' color='208000' style='1'>SDI</LABEL>
+<LABEL pos='344,192' direction='2' font='4' color='208000' style='2'>SEN_RX</LABEL>
 <WIRE a='332,144' b='344,144'/>
 <WIRE a='332,148' b='344,148'/>
 <WIRE a='332,152' b='344,152'/>
@@ -2843,13 +2964,13 @@ download a copy.-->
 <JUNCTION pos='304,208'/>
 <POWER pos='342,208' which='0' direction='0'>3.3V</POWER>
 <JUNCTION pos='342,208'/>
-<LABEL pos='344,220' direction='2' font='3' color='208000' style='1'>AUX_DAC_D</LABEL>
-<LABEL pos='344,224' direction='2' font='3' color='208000' style='1'>AUX_DAC_A</LABEL>
-<LABEL pos='344,228' direction='2' font='3' color='208000' style='1'>AUX_DAC_B</LABEL>
-<LABEL pos='344,232' direction='2' font='3' color='208000' style='1'>AUX_DAC_C</LABEL>
-<LABEL pos='344,236' direction='2' font='3' color='208000' style='1'>AUX_ADC_REF</LABEL>
-<LABEL pos='344,240' direction='2' font='3' color='208000' style='2'>AUX_ADC_A</LABEL>
-<LABEL pos='344,244' direction='2' font='3' color='208000' style='2'>AUX_ADC_B</LABEL>
+<LABEL pos='344,220' direction='2' font='4' color='208000' style='1'>AUX_DAC_D</LABEL>
+<LABEL pos='344,224' direction='2' font='4' color='208000' style='1'>AUX_DAC_A</LABEL>
+<LABEL pos='344,228' direction='2' font='4' color='208000' style='1'>AUX_DAC_B</LABEL>
+<LABEL pos='344,232' direction='2' font='4' color='208000' style='1'>AUX_DAC_C</LABEL>
+<LABEL pos='344,236' direction='2' font='4' color='208000' style='1'>AUX_ADC_REF</LABEL>
+<LABEL pos='344,240' direction='2' font='4' color='208000' style='2'>AUX_ADC_A</LABEL>
+<LABEL pos='344,244' direction='2' font='4' color='208000' style='2'>AUX_ADC_B</LABEL>
 <WIRE a='332,248' b='336,248'/>
 <WIRE a='336,248' b='336,254'/>
 <WIRE a='332,244' b='344,244'/>
@@ -2875,21 +2996,21 @@ download a copy.-->
 <WIRE a='148,196' b='148,216'/>
 <JUNCTION pos='148,196'/>
 <WIRE a='148,160' b='148,196'/>
-<LABEL pos='300,232' direction='3' font='3' color='208000' style='1'>REFIO</LABEL>
-<LABEL pos='300,244' direction='3' font='3' color='208000' style='1'>IOUTA_N</LABEL>
-<LABEL pos='300,240' direction='3' font='3' color='208000' style='1'>IOUTA_P</LABEL>
-<LABEL pos='300,224' direction='3' font='3' color='208000' style='1'>IOUTB_P</LABEL>
-<LABEL pos='300,220' direction='3' font='3' color='208000' style='1'>IOUTB_N</LABEL>
+<LABEL pos='300,232' direction='3' font='4' color='208000' style='1'>REFIO</LABEL>
+<LABEL pos='300,244' direction='3' font='4' color='208000' style='1'>IOUTA_N</LABEL>
+<LABEL pos='300,240' direction='3' font='4' color='208000' style='1'>IOUTA_P</LABEL>
+<LABEL pos='300,224' direction='3' font='4' color='208000' style='1'>IOUTB_P</LABEL>
+<LABEL pos='300,220' direction='3' font='4' color='208000' style='1'>IOUTB_N</LABEL>
 <WIRE a='300,220' b='312,220'/>
 <WIRE a='300,224' b='312,224'/>
 <WIRE a='300,232' b='312,232'/>
 <WIRE a='300,240' b='312,240'/>
 <WIRE a='300,244' b='312,244'/>
-<TEXT pos='344,164' direction='3' font='3' color='000000'>TX I2C Address</TEXT>
-<TEXT pos='156,164' direction='3' font='3' color='000000'>RX I2C Address</TEXT>
+<TEXT pos='344,164' direction='3' font='4' color='000000'>TX I2C Address</TEXT>
+<TEXT pos='156,164' direction='3' font='4' color='000000'>RX I2C Address</TEXT>
 <BUS a='274,128' b='286,128'/>
 <BUS a='286,128' b='286,188'/>
-<BUSNAME pos='274,128' direction='3' font='0' color='208000'>TX_IO</BUSNAME>
+<BUSNAME pos='274,128' direction='3' font='3' color='208000'>TX_IO</BUSNAME>
 <BUSSLASH pos='290,136' direction='1'/>
 <BUSSLASH pos='290,140' direction='1'/>
 <BUSSLASH pos='290,144' direction='1'/>
@@ -2936,25 +3057,25 @@ download a copy.-->
 <WIRE a='290,184' b='312,184'/>
 <WIRE a='290,188' b='312,188'/>
 <WIRE a='290,192' b='312,192'/>
-<LABEL pos='294,192' direction='3' font='3' color='208000' style='0'>TX_IO_0</LABEL>
-<LABEL pos='294,188' direction='3' font='3' color='208000' style='0'>TX_IO_1</LABEL>
-<LABEL pos='294,184' direction='3' font='3' color='208000' style='0'>TX_IO_2</LABEL>
-<LABEL pos='294,180' direction='3' font='3' color='208000' style='0'>TX_IO_3</LABEL>
-<LABEL pos='294,176' direction='3' font='3' color='208000' style='0'>TX_IO_4</LABEL>
-<LABEL pos='294,172' direction='3' font='3' color='208000' style='0'>TX_IO_5</LABEL>
-<LABEL pos='294,168' direction='3' font='3' color='208000' style='0'>TX_IO_6</LABEL>
-<LABEL pos='294,164' direction='3' font='3' color='208000' style='0'>TX_IO_7</LABEL>
-<LABEL pos='294,160' direction='3' font='3' color='208000' style='0'>TX_IO_8</LABEL>
-<LABEL pos='294,156' direction='3' font='3' color='208000' style='0'>TX_IO_9</LABEL>
-<LABEL pos='294,152' direction='3' font='3' color='208000' style='0'>TX_IO_10</LABEL>
-<LABEL pos='294,148' direction='3' font='3' color='208000' style='0'>TX_IO_11</LABEL>
-<LABEL pos='294,144' direction='3' font='3' color='208000' style='0'>TX_IO_12</LABEL>
-<LABEL pos='294,140' direction='3' font='3' color='208000' style='0'>TX_IO_13</LABEL>
-<LABEL pos='294,136' direction='3' font='3' color='208000' style='0'>TX_IO_14</LABEL>
-<LABEL pos='294,132' direction='3' font='3' color='208000' style='0'>TX_IO_15</LABEL>
+<LABEL pos='294,192' direction='3' font='4' color='208000' style='0'>TX_IO_0</LABEL>
+<LABEL pos='294,188' direction='3' font='4' color='208000' style='0'>TX_IO_1</LABEL>
+<LABEL pos='294,184' direction='3' font='4' color='208000' style='0'>TX_IO_2</LABEL>
+<LABEL pos='294,180' direction='3' font='4' color='208000' style='0'>TX_IO_3</LABEL>
+<LABEL pos='294,176' direction='3' font='4' color='208000' style='0'>TX_IO_4</LABEL>
+<LABEL pos='294,172' direction='3' font='4' color='208000' style='0'>TX_IO_5</LABEL>
+<LABEL pos='294,168' direction='3' font='4' color='208000' style='0'>TX_IO_6</LABEL>
+<LABEL pos='294,164' direction='3' font='4' color='208000' style='0'>TX_IO_7</LABEL>
+<LABEL pos='294,160' direction='3' font='4' color='208000' style='0'>TX_IO_8</LABEL>
+<LABEL pos='294,156' direction='3' font='4' color='208000' style='0'>TX_IO_9</LABEL>
+<LABEL pos='294,152' direction='3' font='4' color='208000' style='0'>TX_IO_10</LABEL>
+<LABEL pos='294,148' direction='3' font='4' color='208000' style='0'>TX_IO_11</LABEL>
+<LABEL pos='294,144' direction='3' font='4' color='208000' style='0'>TX_IO_12</LABEL>
+<LABEL pos='294,140' direction='3' font='4' color='208000' style='0'>TX_IO_13</LABEL>
+<LABEL pos='294,136' direction='3' font='4' color='208000' style='0'>TX_IO_14</LABEL>
+<LABEL pos='294,132' direction='3' font='4' color='208000' style='0'>TX_IO_15</LABEL>
 <BUS a='246,128' b='234,128'/>
 <BUS a='234,128' b='234,188'/>
-<BUSNAME pos='234,128' direction='3' font='0' color='208000'>RX_IO</BUSNAME>
+<BUSNAME pos='234,128' direction='3' font='3' color='208000'>RX_IO</BUSNAME>
 <BUSSLASH pos='234,128' direction='0'/>
 <BUSSLASH pos='234,132' direction='0'/>
 <BUSSLASH pos='234,136' direction='0'/>
@@ -2987,21 +3108,21 @@ download a copy.-->
 <WIRE a='208,140' b='230,140'/>
 <WIRE a='208,136' b='230,136'/>
 <WIRE a='208,132' b='230,132'/>
-<LABEL pos='226,192' direction='2' font='3' color='208000' style='0'>RX_IO_0</LABEL>
-<LABEL pos='226,188' direction='2' font='3' color='208000' style='0'>RX_IO_1</LABEL>
-<LABEL pos='226,184' direction='2' font='3' color='208000' style='0'>RX_IO_2</LABEL>
-<LABEL pos='226,180' direction='2' font='3' color='208000' style='0'>RX_IO_3</LABEL>
-<LABEL pos='226,176' direction='2' font='3' color='208000' style='0'>RX_IO_4</LABEL>
-<LABEL pos='226,172' direction='2' font='3' color='208000' style='0'>RX_IO_5</LABEL>
-<LABEL pos='226,168' direction='2' font='3' color='208000' style='0'>RX_IO_6</LABEL>
-<LABEL pos='226,164' direction='2' font='3' color='208000' style='0'>RX_IO_7</LABEL>
-<LABEL pos='226,160' direction='2' font='3' color='208000' style='0'>RX_IO_8</LABEL>
-<LABEL pos='226,156' direction='2' font='3' color='208000' style='0'>RX_IO_9</LABEL>
-<LABEL pos='226,152' direction='2' font='3' color='208000' style='0'>RX_IO_10</LABEL>
-<LABEL pos='226,148' direction='2' font='3' color='208000' style='0'>RX_IO_11</LABEL>
-<LABEL pos='226,144' direction='2' font='3' color='208000' style='0'>RX_IO_12</LABEL>
-<LABEL pos='226,140' direction='2' font='3' color='208000' style='0'>RX_IO_13</LABEL>
-<LABEL pos='226,136' direction='2' font='3' color='208000' style='0'>RX_IO_14</LABEL>
-<LABEL pos='226,132' direction='2' font='3' color='208000' style='0'>RX_IO_15</LABEL>
+<LABEL pos='226,192' direction='2' font='4' color='208000' style='0'>RX_IO_0</LABEL>
+<LABEL pos='226,188' direction='2' font='4' color='208000' style='0'>RX_IO_1</LABEL>
+<LABEL pos='226,184' direction='2' font='4' color='208000' style='0'>RX_IO_2</LABEL>
+<LABEL pos='226,180' direction='2' font='4' color='208000' style='0'>RX_IO_3</LABEL>
+<LABEL pos='226,176' direction='2' font='4' color='208000' style='0'>RX_IO_4</LABEL>
+<LABEL pos='226,172' direction='2' font='4' color='208000' style='0'>RX_IO_5</LABEL>
+<LABEL pos='226,168' direction='2' font='4' color='208000' style='0'>RX_IO_6</LABEL>
+<LABEL pos='226,164' direction='2' font='4' color='208000' style='0'>RX_IO_7</LABEL>
+<LABEL pos='226,160' direction='2' font='4' color='208000' style='0'>RX_IO_8</LABEL>
+<LABEL pos='226,156' direction='2' font='4' color='208000' style='0'>RX_IO_9</LABEL>
+<LABEL pos='226,152' direction='2' font='4' color='208000' style='0'>RX_IO_10</LABEL>
+<LABEL pos='226,148' direction='2' font='4' color='208000' style='0'>RX_IO_11</LABEL>
+<LABEL pos='226,144' direction='2' font='4' color='208000' style='0'>RX_IO_12</LABEL>
+<LABEL pos='226,140' direction='2' font='4' color='208000' style='0'>RX_IO_13</LABEL>
+<LABEL pos='226,136' direction='2' font='4' color='208000' style='0'>RX_IO_14</LABEL>
+<LABEL pos='226,132' direction='2' font='4' color='208000' style='0'>RX_IO_15</LABEL>
 </TinyCAD>
 </TinyCADSheets>
